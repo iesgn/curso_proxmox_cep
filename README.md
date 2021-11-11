@@ -35,6 +35,7 @@ Curso sobre Proxmox VE para el CEP.
 
     * Trabajar con imágenes qcow2 ya existentes
     * Configuración de máquinas virtuales con cloud-init
+    * Cortafuegos en Proxmox VE
     
 
 10. Introducción al trabajo con un cluster Proxmox VE
