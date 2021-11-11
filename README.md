@@ -35,5 +35,13 @@ Curso sobre Proxmox VE para el CEP.
 
     * Trabajar con imágenes qcow2 ya existentes
     * Configuración de máquinas virtuales con cloud-init
+    
 
 10. Introducción al trabajo con un cluster Proxmox VE
+
+Las tareas (desde módulo 3 hasta la 6) pueden ser la puesta en marcha de un escenario:
+
+* Módulo 3: Se instala una máquina linux (en el pool local-pve).
+* Módulo 4: Se crea un nuevo pool de almacenamiento para que las máquinas puedan utilizar imagenes qcow2 y se crea una red interna.
+* Módulo 5: A partir de la máquina que instalamos en el módulo 3 se crea una plantilla desde la que se van a crear dos nuevas máquinas: router y cliente. Una se puede crear sobre local-pve, y otra sobre el pool creada en el módulo anterior. La máquina router estará conecta a la red pública y a la red privada, la máquina cliente a la red interna. Se configura la máquina router para que haga de enrutador, y de esta manera la máquina cliente tendrá acceso a internet. Todas las configuraciones de red con configuración estática.
+* Módulo 6: Se crea un contenedor conectado a la red interna donde se configura un servidor DHCP, por lo que podemos cambiar la configuración de red del cliente para que se configure de forma dinámica.
