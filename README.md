@@ -42,16 +42,16 @@ Curso sobre Proxmox VE para el CEP.
     * Convirtiendo máquinas virtuales en plantillas
     * Snapshots de máquinas virtuales
     * Copias de seguridad de máquinas virtuales
-        * Ejercicio: Clonación de máquinas virtuales
-        * Ejercicio: Creación de una nueva máquina virtual a partir de una plantilla
-        * Ejercicio: Snapshot de máquinas virtuales
-        * Ejercicio: Copia de seguridad de una máquina virtual
+        * Actividad: Clonación de máquinas virtuales
+        * Actividad: Creación de una nueva máquina virtual a partir de una plantilla
+        * Actividad: Snapshot de máquinas virtuales
+        * Actividad: Copia de seguridad de una máquina virtual
 
 6. Trabajando con Linux Containers
     * Gestionando plantillas de contenedores
     * Creación de contenedores Linux
     * Gestión de contenedores Linux
-        * Ejercicio: Creación de un contenedor linux
+        * Actividad: Creación de un contenedor linux
 
 7. Gestionando Proxmox VE desde la línea de comandos
 
