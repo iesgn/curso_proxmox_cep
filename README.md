@@ -22,6 +22,7 @@ Curso sobre Proxmox VE para el CEP.
 
 3. Instalación de máquinas virtuales
     * Creación de máquinas virtuales Linux
+    * Gestión de máquinas virtuales
     * Modificación de las características de las máquinas creadas
     * Creación de máquinas virtuales Windows
         * Actividad: Creación de una máquina virtual Linux
