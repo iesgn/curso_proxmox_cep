@@ -46,6 +46,7 @@ Curso sobre Proxmox VE para el CEP.
         * Actividad: Creación de una nueva máquina virtual a partir de una plantilla
         * Actividad: Snapshot de máquinas virtuales
         * Actividad: Copia de seguridad de una máquina virtual
+    * https://www.nicholasjoerger.com/blog/proxmox-ubuntu-server-18-04-golden-image
 
 6. Trabajando con Linux Containers
     * Gestionando plantillas de contenedores
