@@ -18,14 +18,39 @@ Curso sobre Proxmox VE para el CEP.
     * Otras opciones de instalación
     * Acceso a Proxmox VE
     * Vista general de Proxmox VE
+        * Actividad: Instalación y acceso a ProxmoxVE
 
 3. Instalación de máquinas virtuales
+    * Creación de máquinas virtuales Linux
+    * Modificación de las características de las máquinas creadas
+    * Creación de máquinas virtuales Windows
+        * Actividad: Creación de una máquina virtual Linux
+        * Actividad: Creación de una máquina virtual Windows
 
 4. Gestionando el almacenamiento y las redes virtuales
+    * Introducción al almacenamiento en Proxmox VE
+    * Creación de un pool de almacenamiento para trabajar con imágenes de discos
+    * Introducción a la redes virtuales en Proxmox VE
+    * Creación de una red interna
+        * Actividad: Creación de un pool de almacenamiento para trabajar con imágenes de discos
+        * Actividad: creación de un red interna
+        * Actividad: Añadir nuevos discos a una máquina virtual
 
 5. Trabajo con plantillas y copias de seguridad
+    * Clonación de máquinas virtuales
+    * Convirtiendo máquinas virtuales en plantillas
+    * Snapshots de máquinas virtuales
+    * Copias de seguridad de máquinas virtuales
+        * Ejercicio: Clonación de máquinas virtuales
+        * Ejercicio: Creación de una nueva máquina virtual a partir de una plantilla
+        * Ejercicio: Snapshot de máquinas virtuales
+        * Ejercicio: Copia de seguridad de una máquina virtual
 
 6. Trabajando con Linux Containers
+    * Gestionando plantillas de contenedores
+    * Creación de contenedores Linux
+    * Gestión de contenedores Linux
+        * Ejercicio: Creación de un contenedor linux
 
 7. Gestionando Proxmox VE desde la línea de comandos
 
