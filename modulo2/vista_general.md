@@ -41,7 +41,7 @@ Cada una de las características de los objetos y sus distintas configuraciones 
 
 ![central](img/central.png)
 
-En la parte central de la interfaz de usuario podremos visualizar distintos aspectos del recurso seleccionado.
+En la parte central de la interfaz de usuario podremos visualizar distintos aspectos del recurso o característica seleccionada.
 
 ## Panel de Log
 
