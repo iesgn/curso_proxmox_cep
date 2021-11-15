@@ -57,6 +57,9 @@ Curso sobre Proxmox VE para el CEP.
 7. Gestionando Proxmox VE desde la línea de comandos
 
 8. Gestión de usuarios en Proxmox VE
+    * Usuarios y Grupos
+    * Pools de recursos
+    * Permisos
 
 9. Aspectos avanzados
 
