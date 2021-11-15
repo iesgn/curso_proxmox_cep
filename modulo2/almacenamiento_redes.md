@@ -4,7 +4,7 @@ Cuando instalamos Proxmox VE tenemos a nuestra disposición algunos recursos ya 
 
 ## Almacenamiento
 
-![almacenamiento](almacenamiento.png)
+![almacenamiento](img/almacenamiento.png)
 
 Por defecto tenemos creados dos objetos de almacenamiento:
 
@@ -31,7 +31,7 @@ Hay muchos tipos de objetos de almacenamiento, su creación y configuración lo 
 
 ## Redes virtuales
 
-![redes](redes.png)
+![redes](img/redes.png)
 
 Por defecto, al instalar Proxmox VE, tenemos configurada una red pública:
 
