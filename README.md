@@ -18,6 +18,7 @@ Curso sobre Proxmox VE para el CEP.
     * Otras opciones de instalación
     * Acceso a Proxmox VE
     * Vista general de Proxmox VE
+    * Almacenamiento y redes disponibles
         * Actividad: Instalación y acceso a ProxmoxVE
 
 3. Instalación de máquinas virtuales
