@@ -12,7 +12,7 @@ Y seguimos los siguientes pasos:
 
 Indicamos el nodo donde se va a crear la máquina, su ID y su nombre.
 
-![crearVM](img/create_vm2.png)
+![crearVM](img/create_vm_2.png)
 
 #. SO
 
