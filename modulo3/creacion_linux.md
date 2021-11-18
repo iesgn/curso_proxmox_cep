@@ -8,11 +8,11 @@ Elegimos la opción de crear una máquina virtual:
 
 Y seguimos los siguientes pasos:
 
-#. General
+1. General
 
-Indicamos el nodo donde se va a crear la máquina, su ID y su nombre.
+    Indicamos el nodo donde se va a crear la máquina, su ID y su nombre.
 
-![crearVM](img/create_vm_2.png)
+    ![crearVM](img/create_vm_2.png)
 
-#. SO
+2. SO
 
