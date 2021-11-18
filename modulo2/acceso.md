@@ -2,7 +2,7 @@
 
 Una vez instalado Proxmox VE en nuestro equipo, vamos a acceder a la GUI (Interfaz Gráfica de Usuario), para ello vamos a utilizar un navegador para acceder a la IP dcorrespondiente a la máquina donde hemos hecho la instalación, y que podemos ver al arrancar la máquina:
 
-![acceso](img/acceso.png)
+![acceso](img/acceso1.png)
 
 Accedemos a la URL que se nos indica y nos encontramos:
 
