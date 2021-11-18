@@ -16,8 +16,8 @@ Curso sobre Proxmox VE para el CEP.
     * Taller de laboratorio para probar Proxmox VE
     * Instalación de Proxmox VE
     * Otras opciones de instalación
-    * Acceso a Proxmox VE
-    * [Vista general de Proxmox VE](modulo2/vista_general.md)
+    * [Acceso a la GUI de Proxmox VE](modulo2/acceso.md)
+    * [Vista general de la GUI de Proxmox VE](modulo2/vista_general.md)
     * [Almacenamiento y redes disponibles](modulo2/almacenamiento_redes.md)
         * Actividad: Instalación y acceso a ProxmoxVE
 
