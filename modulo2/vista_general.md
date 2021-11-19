@@ -49,3 +49,8 @@ En la parte central de la interfaz de usuario podremos visualizar distintos aspe
 
 En la parte inferior podemos visualizar las tareas y los logs de las tareas que estamos realizando.
 
+---
+
+Para seguir profundizando:
+
+* [4. Graphical User Interface](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_gui)
