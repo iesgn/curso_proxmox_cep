@@ -33,3 +33,11 @@ Si elegimos una máquina virtual, nos aparece una panel lateral con más opcione
 * **Snapshot**: Nos permite crear un snapshot de la máquina para recuperar posteriormente su estado. Lo estudiaremos en un módulo posterior.
 * **Firewall**: Nos permite gestionar el cortafuego de la máquina virtual. Lo estudiaremos en un módulo posterior.
 * **Permisssions**: Nos permite especificar los distintos permisos que tienes los usuarios o grupos sobre la máquina. Lo estudiaremos en un módulo posterior.
+
+## Eliminar una máquina virtual
+
+Para eliminar una máquina virtual tenemos que escoger la opción *Remove* del botón *More*:
+
+![gestion](img/gestion3.png)
+
+Para eliminarla se nos pedirá el identificador de la máquina virtual para la confirmación.

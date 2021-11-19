@@ -56,6 +56,6 @@ Se ha creado la máquina  virtual, la iniciamos:
 
 ![crearVM](img/create_vm_9.png)
 
-Y desde la *Consola* podemos ver el monito de la máquina para comenzar con la instalación:
+Y desde la *Consola* podemos ver el monitor de la máquina para comenzar con la instalación:
 
 ![crearVM](img/create_vm_10.png)
