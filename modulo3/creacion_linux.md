@@ -22,7 +22,7 @@ Elegimos la ISO que vamos a utilizar para realizar la instalación. La ISO la es
 
 ### Configuración del sistema
 
-Elegimos la tarjeta gráfica y el controlador SCSI, dejamos los valores por defecto.
+Elegimos la tarjeta gráfica y el controlador *VirtIO SCSI*, dejamos los valores por defecto.
 
 ![crearVM](img/create_vm_4.png)
 
@@ -46,7 +46,7 @@ Indicamos la cantidad de memoria que tendrá nuestra máquina virtual.
 
 ### Configuración de red
 
-En un principio nuestra máquina estará conectada al bridge externo `vmbr0` por lo que tomará una dirección IP del servidor DHCP de tu red local. No configuramos VLAN. El modelo de la tarjeta y la dirección MAC lo dejamos con las opciones predeterminada.
+En un principio nuestra máquina estará conectada al bridge externo `vmbr0` por lo que tomará una dirección IP del servidor DHCP de tu red local. No configuramos VLAN. El modelo de la tarjeta (*VirtIO*) y la dirección MAC lo dejamos con las opciones predeterminadas.
 
 ![crearVM](img/create_vm_8.png)
 
