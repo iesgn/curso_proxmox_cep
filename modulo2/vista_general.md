@@ -28,7 +28,8 @@ En esta zona encontramos los objetos disponibles. Los recursos lo podemos ver co
 
 Si nos fijamos en la **Server View** podemos clasificar los objetos que tenemos disponibles:
 
-* El objeto principal es el **Datacenter**, que representa el cluster Proxmox VE que estamos gestionando. Está formado por:
+El objeto principal es el **Datacenter**, que representa el cluster Proxmox VE que estamos gestionando. Está formado por:
+
 * **Nodos**: Representa a cada servidor que forma parte del cluster.
 * **Máquinas virtuales**.
 * **Contenedores Linux**.
