@@ -26,7 +26,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Dispositivos paravirtualizados](modulo3/paravirtualizados.md)
     * [Creación de máquinas virtuales Linux](modulo3/creacion_linux.md)
     * [Gestión de máquinas virtuales](modulo3/gestion.md)
-    * Modificación de las características de las máquinas creadas
+    * [Características y hardware de las máquinas virtuales](modulo3/caracteristicas.md)
     * [Creación de máquinas virtuales Windows](modulo3/creacion_windows.md)
         * Actividad: Creación de una máquina virtual Linux
         * Actividad: Creación de una máquina virtual Windows
