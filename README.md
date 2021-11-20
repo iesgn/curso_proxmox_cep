@@ -23,6 +23,7 @@ Curso sobre Proxmox VE para el CEP.
 
 3. Instalación de máquinas virtuales
     * [Gestión de imágenes ISO](modulo3/iso.md)
+    * [Dispositivos paravirtualizados](modulo3/paravirtualizados.md)
     * [Creación de máquinas virtuales Linux](modulo3/creacion_linux.md)
     * [Gestión de máquinas virtuales](modulo3/gestion.md)
     * Modificación de las características de las máquinas creadas

@@ -1,8 +1,6 @@
 # Creación de máquinas virtuales Windows
 
-En un apartado anterior hemos visto los pasos fundamentales para la creación de una máquina virtual Linux. Al seleccionar las características de la máquina hemos escogido controladores VirtIO (tanto para el disco duro como para la tarjeta de red), que son paravirtualizados por KVM (no emulados) y por lo tanto nos ofrecen mayor rendimiento (consulte [http://www.linux-kvm.org/page/Virtio](http://www.linux-kvm.org/page/Virtio)).
-
-Windows no tiene soporte nativo para dispositivos VirtIO. Por lo tanto a la hora de crear una máquina virtual Windows tendremos que añadir los drivers necesarios para que Windows identifique el disco duro.
+En un apartado anterior hemos visto los pasos fundamentales para la creación de una máquina virtual Linux. Para crear una máquina virtual con el sistema operativo se siguie los mismos pasos, pero tenemos que tener en cuenta que Windows no tiene soporte nativo para dispositivos VirtIO. Por lo tanto a la hora de crear una máquina virtual Windows tendremos que añadir los drivers necesarios para que Windows identifique el disco duro.
 
 Los drivers que vamos a usar son de código abierto y los proporciona Red Hat. Se nos ofrecen los drivers para distintas versiones de Windows. 
 
