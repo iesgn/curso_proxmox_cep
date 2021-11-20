@@ -50,5 +50,5 @@ Y ya podemos continuar con la instalación de Windows poruqe ya hemos detectado 
 
 ![create windows](img/create_win_7.png)
 
-
+Para más información: [Windows VirtIO Drivers](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers).
 
