@@ -22,8 +22,8 @@ Al ser tipo *Directory* esta información se guardará en un directorio del nodo
 
 Es un almacenamiento de tipo *LVM-Thin*, en él se podrán guardar:
 
-* Imágenes de discos para las máquinas virtuales
-* Imágenes de discos para contenedores Linux
+* Imágenes de discos para las máquinas virtuales.
+* Sistema de ficheros de los contenedores Linux.
 
 Cuando creemos una máquina virtual o un contenedor los ficheros de su disco se guardarán en un volumen lógico LVM de un grupo de volumenes de tipo *LVM-Thin*, en este caso el volumen lógico creado no ocupará todo el espacio desde el principio, ira creciendo según vayamos creando y modificando ficheros.
 
