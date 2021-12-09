@@ -32,13 +32,14 @@ Curso sobre Proxmox VE para el CEP.
         * Actividad: Creación de una máquina virtual Linux
         * Actividad: Creación de una máquina virtual Windows
 
-4. Gestionando el almacenamiento y las redes virtuales
-    * Introducción al almacenamiento en Proxmox VE
-    * Creación de un pool de almacenamiento para trabajar con imágenes de discos
-    * Introducción a la redes virtuales en Proxmox VE
-    * Creación de una red interna
+4. Gestionando el almacenamiento
+    * [Introducción al almacenamiento en Proxmox VE](modulo4/almacenamiento.md)
+    * Creación de un pool de almacenamiento tipo Directory
+    * Creación de un pool de almacenamiento tipo LVM??????
+    * Añadir nuevos discos a una máquina virtual
+    
         * Actividad: Creación de un pool de almacenamiento para trabajar con imágenes de discos
-        * Actividad: creación de un red interna
+        * Actividad: Creación de un red interna
         * Actividad: Añadir nuevos discos a una máquina virtual
 
 5. Trabajo con plantillas y copias de seguridad
@@ -52,27 +53,31 @@ Curso sobre Proxmox VE para el CEP.
         * Actividad: Copia de seguridad de una máquina virtual
     * https://www.nicholasjoerger.com/blog/proxmox-ubuntu-server-18-04-golden-image
 
-6. Trabajando con Linux Containers
+6. Gestionando redes virtuales
+    * Introducción a la redes virtuales en Proxmox VE
+    * Creación de una red interna
+
+7. Trabajando con Linux Containers
     * Gestionando plantillas de contenedores
     * Creación de contenedores Linux
     * Gestión de contenedores Linux
         * Actividad: Creación de un contenedor linux
 
-7. Gestionando Proxmox VE desde la línea de comandos
+8. Gestionando Proxmox VE desde la línea de comandos
 
-8. Gestión de usuarios en Proxmox VE
+9. Gestión de usuarios en Proxmox VE
     * Usuarios y Grupos
     * Pools de recursos
     * Permisos
 
-9. Aspectos avanzados
+10. Aspectos avanzados
 
     * Trabajar con imágenes qcow2 ya existentes
     * Configuración de máquinas virtuales con cloud-init
     * Cortafuegos en Proxmox VE
     
 
-10. Introducción al trabajo con un cluster Proxmox VE
+11. Introducción al trabajo con un cluster Proxmox VE
 
 Las tareas (desde módulo 3 hasta la 6) pueden ser la puesta en marcha de un escenario:
 
