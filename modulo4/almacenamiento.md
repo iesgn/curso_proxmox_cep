@@ -32,7 +32,7 @@ Según el tipo de almacenamientos que podemos configurar en nuestro cluster, ten
 |Nombre   |Tipo   |Compartido|Snapshots / P.L.|
 |---------|-------|:--------:|:-------------:|
 |ZFS (local)|Sist. Archivo|No|Si|
-|Directorio|Sist. Archivo|No|No (Si, con ficheros qcow2)|
+|Directory|Sist. Archivo|No|No (Si, con ficheros qcow2)|
 |BTRFS|Sist. Archivo|No|Si|
 |NFS|Sist. Archivo|Si|No (Si, con ficheros qcow2)|
 |CIFS|Sist. Archivo|Si|No (Si, con ficheros qcow2)|
@@ -58,6 +58,6 @@ En cada tipo de pool de almacenamiento se puede guardar información de distinto
 
 ## Conclusión
 
-En este tema vamos a profundizar en los tipos de almacenamientos más sencillos de gestionar: el tipo **Directorio** y el tipo **LVM**. Para profundizar en los distintos tipos de almacenamiento que podemos usar en Proxmox VE: [Proxmox VE Storage](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_storage).
+En este tema vamos a profundizar en los tipos de almacenamientos más sencillos de gestionar: el tipo **Directory** y el tipo **LVM**. Para profundizar en los distintos tipos de almacenamiento que podemos usar en Proxmox VE: [Proxmox VE Storage](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_storage).
 
 
