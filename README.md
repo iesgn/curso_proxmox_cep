@@ -39,7 +39,6 @@ Curso sobre Proxmox VE para el CEP.
     * [Añadir nuevos discos a una máquina virtual](modulo4/nuevo_almacenamiento.md)
     * [Gestión de los discos de una máquina virtual](modulo4/gestion_almacenamiento.md)
         * Actividad: Creación de un pool de almacenamiento para trabajar con imágenes de discos
-        * Actividad: Creación de un red interna
         * Actividad: Añadir nuevos discos a una máquina virtual
 
 5. Trabajo con plantillas y copias de seguridad
@@ -56,6 +55,7 @@ Curso sobre Proxmox VE para el CEP.
 6. Gestionando redes virtuales
     * Introducción a la redes virtuales en Proxmox VE
     * Creación de una red interna
+        * Actividad: Creación de un red interna
 
 7. Trabajando con Linux Containers
     * Gestionando plantillas de contenedores
