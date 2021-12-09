@@ -69,7 +69,7 @@ Durante el proceso de creación de la imagen, podremos elegir el pool de almacen
 
 ![storage_directory](img/storage_directory3.png)
 
-Hemos creado y configurado la máquina virtual con ID 101, si accedemos al no podemos ver donde se ha creado el fichero de imagen:
+Hemos creado y configurado la máquina virtual con ID 101, si accedemos al nodo podemos ver donde se ha creado el fichero de imagen:
 
 ```bash
 root@pve:/var/lib/images/images/101# ls
