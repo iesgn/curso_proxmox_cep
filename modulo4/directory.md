@@ -76,4 +76,5 @@ root@pve:/var/lib/images/images/101# ls
 vm-101-disk-0.qcow2
 ```
 
+**Nota: El pool de almacenamiento de tipo *Directory* que hemos creado se ha creado sobre el disco de la máquina donde tenemos instalados Proxmox VE, por lo tanto su capacidad será la que tiene este disco. En circunstancias reales, el pool de tipo *Directory* lo podríamos crear sobre un dispositivo de bloque (disco, raid,...) añadido al nodo Proxmox VE.**
 
