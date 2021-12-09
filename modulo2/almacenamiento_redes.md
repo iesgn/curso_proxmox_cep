@@ -12,9 +12,9 @@ Por defecto tenemos creados dos objetos de almacenamiento:
 
 Es una almacenamiento de tipo *Directory* y por defecto en este almacenamiento se podrán guardar:
 
-* Ficheros de copia de seguridad
-* Imágenes ISO
-* Plantillas de contenedores
+* Ficheros de copia de seguridad.
+* Imágenes ISO.
+* Plantillas de contenedores.
 
 Al ser tipo *Directory* esta información se guardará en un directorio del nodo, en concreto se guardará en `/var/lib/vz`.
 
