@@ -6,7 +6,7 @@ Cuando instalamos Proxmox VE tenemos a nuestra disposición algunos recursos ya 
 
 ![almacenamiento](img/almacenamiento.png)
 
-Por defecto tenemos creados dos objetos de almacenamiento:
+Por defecto tenemos creados dos pools de almacenamiento:
 
 ### local
 
