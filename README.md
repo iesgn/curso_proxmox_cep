@@ -36,7 +36,8 @@ Curso sobre Proxmox VE para el CEP.
     * [Introducción al almacenamiento en Proxmox VE](modulo4/almacenamiento.md)
     * [Creación de un pool de almacenamiento tipo Directory](modulo4/directory.md)
     * Creación de un pool de almacenamiento tipo LVM (???????)
-    * Añadir nuevos discos a una máquina virtual
+    * [Añadir nuevos discos a una máquina virtual](modulo4/nuevo_almacenamiento.md)
+    * Gestión de los discos de una máquina virtual
         * Actividad: Creación de un pool de almacenamiento para trabajar con imágenes de discos
         * Actividad: Creación de un red interna
         * Actividad: Añadir nuevos discos a una máquina virtual
