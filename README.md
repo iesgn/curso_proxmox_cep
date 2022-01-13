@@ -1,4 +1,4 @@
-# curso_Proxmox VE_cep
+# Curso PROXMOX VE
 Curso sobre Proxmox VE para el CEP.
 
 ## Contenidos
@@ -63,21 +63,23 @@ Curso sobre Proxmox VE para el CEP.
     * Gestión de contenedores Linux
         * Actividad: Creación de un contenedor linux
 
-8. Gestionando Proxmox VE desde la línea de comandos
-
-9. Gestión de usuarios en Proxmox VE
+8. Gestión de usuarios en Proxmox VE
     * Usuarios y Grupos
     * Pools de recursos
     * Permisos
 
-10. Aspectos avanzados
+9. Aspectos avanzados
 
     * Trabajar con imágenes qcow2 ya existentes
     * Configuración de máquinas virtuales con cloud-init
     * Cortafuegos en Proxmox VE
     
 
-11. Introducción al trabajo con un cluster Proxmox VE
+
+
+
+
+
 
 Las tareas (desde módulo 3 hasta la 6) pueden ser la puesta en marcha de un escenario:
 
