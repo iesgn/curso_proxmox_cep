@@ -46,7 +46,7 @@ En este curso vamos a montar un laboratorio para aprender los conceptos más imp
 
 * La instalación de un sólo nodo de Proxmox en una máquina virtual. El ámbito de este curo no nos va a permitir el estudio de un cluster con varios servidores Proxmox.
 * La máquina virtual donde vamos a instalar Proxmox la podemos crear en cualquier hypervisor: VirtualBox, VMWare, KVM, HyperV,...
-* Las características mínimas de esa máquina virtual serían 4 Gb de RAM y 40 Gb de disco duro. Evidentemente cuanto más recursos asignemos a esa máquina más máquinas virtuales y contenedores podremos crear en nuestro Proxmox.
+* Las características mínimas de esa máquina virtual serían **4 Gb de RAM y 40 Gb de disco duro**. Evidentemente cuanto más recursos asignemos a esa máquina más máquinas virtuales y contenedores podremos crear en nuestro Proxmox.
 * La máquina virtual debe tener una interfaz de red de tipo "bridge". es decir debe estar conectada a la misma red del anfitrión. Todas las máquinas virtuales y contenedores que creemos, por defecto, estarán conectados a la misma red.
 
 Evidentemente virtualizar dentro de una máquina virtual no es lo más adecuado, por lo que os animamos a intentar realizar el curso usando una máquina física para la instalación de Proxmox.
