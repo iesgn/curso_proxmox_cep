@@ -32,3 +32,21 @@ Utilizamos un servidor Proxmox VE conectado a la red de nuestro departamento. PP
 
 En este caso tendremos dos servidores: uno para la ejecución de recursos virtualizados (Proxmox) y otro que ofrece el almacenamiento. En este caso el disco duro del servidor Proxmox no necesita que tenga gran capacidad. En este esque ma se puede ofrecer almacenamiento NAS o SAN. Por último indicar que se suelen usar redes diferenciadas: la red de acceso a las máquinas (negra) y la red de almacenamiento (roja).
 
+### Instalación de un cluster Proxmox VE
+
+Para sacar toda su potencial a Proxmox necesitamos instalar un cluster de servidores. En este caso tendríamos varios servidores donde se virtulizarían nuestros recursos. En este esquema si sería necesario tener un sistema de almacenamiento compartido para que los datos de nuestros recursos virtualizados fueran compartidos entre los distintos nodos del cluster.
+
+![escenario3](img/escenario3.drawio.png)
+
+Es recomendable tener una red aislada que conecte los nodos del cluster para la gestión interna del mismo.
+
+## Instalación de Proxmox VE en este curso
+
+En este curso proponemos la construcción de un laboratorio para aprender los conceptos más importante de Proxmox VE. Por lo tanto os proponemos lo siguiente:
+
+* La instalación de un sólo nodo de Proxmox en una máquina virtual. El ámbito de este curo no nos va a permitir el estudio de un cluster con varios servidores de Proxmox.
+* La máquina virtual donde vamos a instalar Proxmox la podemos crear en cualquier hypervisor: VirtualBox, VMWare, KVM, HyperV,...
+* Las características mínimas de esa máquina virtual serían 4 Gb de RAM y 40 Gb de disco duro. Evidentemente cuanto más recursos asignemos a esa máquina más máquinas virtuales y contenedores podremos crear en nuestro Proxmox.
+* La máquina virtual debe tener una interfaz de red de tipo "bridge". es decir debe estar conectada a la misma red del anfitrión. Todas las máquinas virtuales y contenedores que creemos, por defecto, estarán conectados a la misma red.
+
+Evidentemente virtualizar dentro de una máquina virtual no es lo más adecuado, por lo que os animamos a intentar realizar el curso usando una máquina física para la instalación de Proxmox.
