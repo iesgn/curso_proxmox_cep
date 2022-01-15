@@ -12,8 +12,7 @@ Curso sobre Proxmox VE para el CEP.
     * ¿Qué nos ofrece Proxmox VE?
 
 2. Instalación Proxmox VE
-    * Escenario real para la instalación de Proxmox VE
-    * Taller de laboratorio para probar Proxmox VE
+    * Escenarios para la instalación de Proxmox VE
     * Instalación de Proxmox VE
     * Otras opciones de instalación
     * [Acceso a la GUI de Proxmox VE](modulo2/acceso.md)
