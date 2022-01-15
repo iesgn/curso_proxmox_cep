@@ -14,7 +14,6 @@ Curso sobre Proxmox VE para el CEP.
 2. Instalación Proxmox VE
     * [Escenarios para la instalación de Proxmox VE](modulo2/escenarios.md)
     * Instalación de Proxmox VE
-    * Otras opciones de instalación
     * [Acceso a la GUI de Proxmox VE](modulo2/acceso.md)
     * [Vista general de la GUI de Proxmox VE](modulo2/vista_general.md)
     * [Introducción al cluster Proxmox VE](modulo2/introduccion_cluster.md)
