@@ -8,23 +8,23 @@ Una vez que hemos preparado nuestra máquina donde vamos a hacer la instalación
 
 Comenzamos la instalación eligiendo la opción **Install Proxmox VE**.
 
-![instalación](img/iinstalacion1.png)
+![instalación](img/instalacion1.png)
 
 Selecciona el disco donde vamos a realizar la instalación. Por defecto el disco duro se va a formatear con el sistema de ficheros *ext4*:
 
-![instalación](img/iinstalacion2.png)
+![instalación](img/instalacion2.png)
 
 Configuramos país, la zona horario y la distribución de teclado:
 
-![instalación](img/iinstalacion3.png)
+![instalación](img/instalacion3.png)
 
 Configuramos la contraseña del usuario `root` del sistema, con el que vamos a administrar Proxmox. Además indicamos una dirección de correo para que Proxmox nos notifique distintas informaciones.
 
-![instalación](img/iinstalacion4.png)
+![instalación](img/instalacion4.png)
 
 Configuración de red: elegimos la interfaz de red que vamos a usar. Como hemos comentado la intefaz estará conectada a la misma red que el host (en mi caso la 192.168.100.0/24) por lo que como vemos la máquina ha tomado una IP por mi DHCP 192.168.100.94, sde indica la puerta de enlace y el servidor DNS. esta configuración también se podría poner de forma estática. También indicamos el nombre FQDN de la máquina.
 
-![instalación](img/iinstalacion5.png)
+![instalación](img/instalacion5.png)
 
 Nos aparece un resumen de los parámetros de instalación escogidos y pulsamos sobre **Install** para comenzar la instalación.
 
