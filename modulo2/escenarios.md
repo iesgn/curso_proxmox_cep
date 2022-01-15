@@ -42,7 +42,7 @@ Es recomendable tener una red aislada que conecte los nodos del cluster para la 
 
 ## Instalación de Proxmox VE en este curso
 
-En este curso proponemos la construcción de un laboratorio para aprender los conceptos más importante de Proxmox VE. Por lo tanto os proponemos lo siguiente:
+En este curso vamos a montar un laboratorio para aprender los conceptos más importante de Proxmox VE. Por lo tanto os proponemos lo siguiente:
 
 * La instalación de un sólo nodo de Proxmox en una máquina virtual. El ámbito de este curo no nos va a permitir el estudio de un cluster con varios servidores de Proxmox.
 * La máquina virtual donde vamos a instalar Proxmox la podemos crear en cualquier hypervisor: VirtualBox, VMWare, KVM, HyperV,...
