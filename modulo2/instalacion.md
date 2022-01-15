@@ -28,3 +28,6 @@ Configuración de red: elegimos la interfaz de red que vamos a usar. Como hemos 
 
 Nos aparece un resumen de los parámetros de instalación escogidos y pulsamos sobre **Install** para comenzar la instalación.
 
+Para profundizar en aspectos más concretos de la instalación de Porxmox:
+
+* [2. Installing Proxmox VE](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_installation)
