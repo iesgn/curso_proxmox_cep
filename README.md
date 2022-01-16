@@ -27,31 +27,32 @@ Curso sobre Proxmox VE para el CEP.
     * [Gestión de máquinas virtuales](modulo3/gestion.md)
     * [Características y hardware de las máquinas virtuales](modulo3/caracteristicas.md)
     * [Creación de máquinas virtuales Windows](modulo3/creacion_windows.md)
-        * Actividad: Creación de una máquina virtual Linux
-        * Actividad: Creación de una máquina virtual Windows
+        * Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)
+        * Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)
+        * Actividad 3.3: Creación de un escenario  de trabajo (1ª parte) (VOLUNTARIA)
 
 4. Gestionando el almacenamiento
     * [Introducción al almacenamiento en Proxmox VE](modulo4/almacenamiento.md)
     * [Creación de un pool de almacenamiento tipo Directory](modulo4/directory.md)
     * [Añadir nuevos discos a una máquina virtual](modulo4/nuevo_almacenamiento.md)
     * [Gestión de los discos de una máquina virtual](modulo4/gestion_almacenamiento.md)
-        * Actividad: Creación de un pool de almacenamiento para trabajar con imágenes de discos
+        * Actividad 4.1: Creación de un pool de almacenamiento para trabajar con imágenes de discos
         * Actividad: Añadir nuevos discos a una máquina virtual
 
-5. Clonación, instantáneas y copias de seguridad
-    * [Clonación de máquinas virtuales](modulo5/clonacion.md)
-    * [Convirtiendo máquinas virtuales en plantillas](modulo5/plantillas.md)
-    * [Snapshots de máquinas virtuales](modulo5/snapshot.md)
-    * [Copias de seguridad de máquinas virtuales](modulo5/backup.md)
+5. Gestionando redes virtuales
+    * Introducción a la redes virtuales en Proxmox VE
+    * Creación de una red interna
+        * Actividad: Creación de un red interna
+
+6. Clonación, instantáneas y copias de seguridad
+    * [Clonación de máquinas virtuales](modulo6/clonacion.md)
+    * [Convirtiendo máquinas virtuales en plantillas](modulo6/plantillas.md)
+    * [Snapshots de máquinas virtuales](modulo6/snapshot.md)
+    * [Copias de seguridad de máquinas virtuales](modulo6/backup.md)
         * Actividad: Clonación de máquinas virtuales
         * Actividad: Creación de una nueva máquina virtual a partir de una plantilla
         * Actividad: Snapshot de máquinas virtuales
         * Actividad: Copia de seguridad de una máquina virtual
-
-6. Gestionando redes virtuales
-    * Introducción a la redes virtuales en Proxmox VE
-    * Creación de una red interna
-        * Actividad: Creación de un red interna
 
 7. Trabajando con Linux Containers
     * Gestionando plantillas de contenedores
