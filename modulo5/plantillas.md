@@ -27,5 +27,9 @@ La clonación ligera nos permite crear nuevas máquinas virtuales de forma muy r
 
 Como en el apartado anterior, las dos máquinas son iguales por lo que tendremos que modificar alguna configuración de la nueva máquina: por ejemplo, el hostname, la configuración de red si es necesario, …
 
+Por ultimo, indicar que podemos cambiar las características hardware de una plantilla (por ejemplo el usa de RAM). De esta forma las nuevas máquinas creadas a partir de ella tendrán las mismas características que hemos modificado::
+
+![plantilla](img/plantilla5.png)
+
 
 
