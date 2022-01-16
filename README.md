@@ -27,8 +27,8 @@ Curso sobre Proxmox VE para el CEP.
     * [Gestión de máquinas virtuales](modulo3/gestion.md)
     * [Características y hardware de las máquinas virtuales](modulo3/caracteristicas.md)
     * [Creación de máquinas virtuales Windows](modulo3/creacion_windows.md)
-        * Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)
-        * Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)
+        * [Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)](modulo3/actividad1.md)
+        * [Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)]((modulo3/actividad2.md))
         * Actividad 3.3: Creación de un escenario  de trabajo (1ª parte) (VOLUNTARIA)
 
 4. Gestionando el almacenamiento
@@ -82,3 +82,4 @@ Las tareas VOLUNTARIAS nos van a permitir la construcción de un escenario de tr
 * Módulo 3: Presentación de las tareas voluntarias. Se instala una máquina linux debian (en el pool local-pve).
 * Módulo 6: A partir de la máquina que instalamos en el módulo 3 se crea una plantilla desde la que se van a crear dos nuevas máquinas: router y cliente. Una se puede crear sobre local-pve, y otra sobre el pool creada en el módulo anterior. La máquina router estará conecta a la red pública y a la red privada, la máquina cliente a la red interna. Se configura la máquina router para que haga de enrutador, y de esta manera la máquina cliente tendrá acceso a internet. Todas las configuraciones de red con configuración estática.
 * Módulo 7: Se crea un contenedor conectado a la red interna donde se configura un servidor DHCP, por lo que podemos cambiar la configuración de red del cliente para que se configure de forma dinámica.
+for
