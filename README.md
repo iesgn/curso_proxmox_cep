@@ -50,7 +50,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Convirtiendo máquinas virtuales en plantillas](modulo6/plantillas.md)
     * [Snapshots de máquinas virtuales](modulo6/snapshot.md)
     * [Copias de seguridad de máquinas virtuales](modulo6/backup.md)
-        * Actividad 6.1: Clonación, instantáneas y copias de seguridad
+        * [Actividad 6.1: Clonación, instantáneas y copias de seguridad](modulo6/actividad1.md)
         * Actividad 6.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)
 
 7. Trabajando con Linux Containers
