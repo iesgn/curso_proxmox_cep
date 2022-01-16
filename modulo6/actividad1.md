@@ -40,7 +40,7 @@ Para superar la tarea deberás entregar un documento con los siguientes pantalla
 3. Un pantallazo donde se vea la modificación del fichero.
 4. Un pantallazo donde se muestre la información del fichero después de recuperar el estado de la máquina con el snapshot creado.
 
-### tarea 5: Backup
+### Tarea 4: Backup
 
 1. Crea una copia de seguridad de una máquina
 2. Muestra la lista de copias de seguridad realizadas.
