@@ -29,7 +29,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Creación de máquinas virtuales Windows](modulo3/creacion_windows.md)
         * [Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)](modulo3/actividad1.md)
         * [Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)](modulo3/actividad2.md)
-        * Actividad 3.3: Creación de un escenario  de trabajo (1ª parte) (VOLUNTARIA)
+        * [Actividad 3.3: Creación de un escenario  de trabajo (1ª parte) (VOLUNTARIA)](modulo3/actividad3.md)
 
 4. Gestionando el almacenamiento
     * [Introducción al almacenamiento en Proxmox VE](modulo4/almacenamiento.md)
