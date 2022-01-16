@@ -38,7 +38,7 @@ Curso sobre Proxmox VE para el CEP.
         * Actividad: Creación de un pool de almacenamiento para trabajar con imágenes de discos
         * Actividad: Añadir nuevos discos a una máquina virtual
 
-5. Trabajo con plantillas y copias de seguridad
+5. Clonación, instantáneas y copias de seguridad
     * [Clonación de máquinas virtuales](modulo5/clonacion.md)
     * [Convirtiendo máquinas virtuales en plantillas](modulo5/plantillas.md)
     * [Snapshots de máquinas virtuales](modulo5/snapshot.md)
@@ -47,7 +47,6 @@ Curso sobre Proxmox VE para el CEP.
         * Actividad: Creación de una nueva máquina virtual a partir de una plantilla
         * Actividad: Snapshot de máquinas virtuales
         * Actividad: Copia de seguridad de una máquina virtual
-    * https://www.nicholasjoerger.com/blog/proxmox-ubuntu-server-18-04-golden-image
 
 6. Gestionando redes virtuales
     * Introducción a la redes virtuales en Proxmox VE
