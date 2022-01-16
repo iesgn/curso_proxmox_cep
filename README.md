@@ -39,7 +39,7 @@ Curso sobre Proxmox VE para el CEP.
         * Actividad: Añadir nuevos discos a una máquina virtual
 
 5. Trabajo con plantillas y copias de seguridad
-    * Clonación de máquinas virtuales
+    * [Clonación de máquinas virtuales](modulo5/clonacion.md)
     * Convirtiendo máquinas virtuales en plantillas
     * Snapshots de máquinas virtuales
     * Copias de seguridad de máquinas virtuales
