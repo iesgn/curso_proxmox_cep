@@ -41,7 +41,7 @@ Curso sobre Proxmox VE para el CEP.
 5. Trabajo con plantillas y copias de seguridad
     * [Clonación de máquinas virtuales](modulo5/clonacion.md)
     * [Convirtiendo máquinas virtuales en plantillas](modulo5/plantillas.md)
-    * Snapshots de máquinas virtuales
+    * [Snapshots de máquinas virtuales](modulo5/snapshot.md)
     * Copias de seguridad de máquinas virtuales
         * Actividad: Clonación de máquinas virtuales
         * Actividad: Creación de una nueva máquina virtual a partir de una plantilla
