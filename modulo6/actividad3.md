@@ -80,17 +80,12 @@ Ahora podemos comprobar que el `cliente` tiene acceso al exterior:
     64 bytes from 1.1.1.1: icmp_seq=1 ttl=56 time=9.05 ms
     ```
 
-
-
-
-
-
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
-1. Un pantallazo donde se vea el apartado **Hardware** de la máquina `router`.
-2. Un pantallazo donde se vea el apartado **Hardware** de la máquina `cliente`.
-3. Un pantallazo donde se vea el acceso a la máquina virtual `router`.
-4. Un pantallazo donde se vea el acceso a la máquina virtual `cliente`.
+1. Un pantallazo donde se vea la ejecución del comando `ip a` en la máquina `router`.
+2. Un pantallazo donde se vea la ejecución del comando `ip a` en la máquina `cliente`.
+3. Un pantallazo donde se vea la ejecución del comando `ip r` en la máquina `cliente`.
+4. Un pantallazo donde se vea la ejecución del comando `ping 1.1.1.1` en la máquina `cliente`.
 
 ## RECURSOS
 
