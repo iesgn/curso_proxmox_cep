@@ -51,14 +51,15 @@ Curso sobre Proxmox VE para el CEP.
     * [Snapshots de máquinas virtuales](modulo6/snapshot.md)
     * [Copias de seguridad de máquinas virtuales](modulo6/backup.md)
         * [Actividad 6.1: Clonación, instantáneas y copias de seguridad](modulo6/actividad1.md)
-        * Actividad 6.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)
+        * [Actividad 6.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)](modulo6/actividad2.md)
+        * [Actividad 6.3: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)](modulo6/actividad3.md)
 
 7. Trabajando con Linux Containers
     * Gestionando plantillas de contenedores
     * Creación de contenedores Linux
     * Gestión de contenedores Linux
         * Actividad 7.1: Creación de un contenedor linux (OBLIGATORIA)
-        * Actividad 7.2: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)
+        * Actividad 7.2: Creación de un escenario  de trabajo (4ª parte) (VOLUNTARIA)
 
 8. Gestión de usuarios en Proxmox VE
     * Usuarios y Grupos
