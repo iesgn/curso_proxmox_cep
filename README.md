@@ -71,16 +71,3 @@ Curso sobre Proxmox VE para el CEP.
 
     * Trabajar con imágenes qcow2 ya existentes
     * Configuración de máquinas virtuales con cloud-init
-
-    
-
-
-
-
-
-Las tareas VOLUNTARIAS nos van a permitir la construcción de un escenario de trabajo:
-
-* Módulo 3: Presentación de las tareas voluntarias. Se instala una máquina linux debian (en el pool local-pve).
-* Módulo 6: A partir de la máquina que instalamos en el módulo 3 se crea una plantilla desde la que se van a crear dos nuevas máquinas: router y cliente. Una se puede crear sobre local-pve, y otra sobre el pool creada en el módulo anterior. La máquina router estará conecta a la red pública y a la red privada, la máquina cliente a la red interna. Se configura la máquina router para que haga de enrutador, y de esta manera la máquina cliente tendrá acceso a internet. Todas las configuraciones de red con configuración estática.
-* Módulo 7: Se crea un contenedor conectado a la red interna donde se configura un servidor DHCP, por lo que podemos cambiar la configuración de red del cliente para que se configure de forma dinámica.
-for
