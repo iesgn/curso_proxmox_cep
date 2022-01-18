@@ -21,10 +21,10 @@ El escenario que vamos a montar nos permitirá montar una sería de máquinas y 
 * La máquina virtual **cliente**, será la máquina que utilicemos en la red interna para probar si funcionan los servicios que vamos a ofrecer.
 * El contenedor **servicios** estará conectado también a la red interna y ofrecerá el servicio y DHCP y DNS a la máquina **cliente**.
 
-En esta primera tarea simplemente vamos a crear una nueva máquina virtual con el el sistema Operativo Debian 11 Bullseye. Para ello realiza los siguientes pasos:
+En esta primera tarea simplemente vamos a crear una nueva máquina virtual con el el sistema operativo Debian 11 Bullseye. Para ello realiza los siguientes pasos:
 
-1. Sube la imagen ISO de Debian 11 que puedes descargar en este [enlace](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso).
-2. Crea e instala una máquina virtual con el sistema Debian 11. No tiene que tener entorno gráfico, por lo tanto los recursos podrían ser 512 Mb de RAM y 5 Gb de disco duro. La máquina se debe llamar **debian-base**.
+1. Sube la imagen ISO de GNU/Linux Debian 11 que puedes descargar en este [enlace](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso).
+2. Crea e instala una máquina virtual con el sistema GNU/Linux Debian 11. No tiene que tener entorno gráfico, por lo tanto los recursos podrían ser 512 Mb de RAM y 5 Gb de disco duro. La máquina se debe llamar **debian-base**.
 3. Una vez instalada la máquina accede a ella desde un terminal de Proxmox VE.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
