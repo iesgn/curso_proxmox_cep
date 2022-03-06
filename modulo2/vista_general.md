@@ -15,7 +15,7 @@ un objeto en el árbol de recursos.
 
 A la derecha nos encontramos varios botones:
 
-* **Documentation / Help**: nos muestran la documentación de Proxomox VE.
+* **Documentation / Help**: nos muestran la documentación de Proxmox VE.
 * **Create VM**: Crea el asistente para crear una máquina virtual.
 * **Create CT**: Abra el asistente de creación de contenedores.
 * **Usuario** identificado en la sesión: Nos permite modificar la
