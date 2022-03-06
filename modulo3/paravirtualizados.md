@@ -1,11 +1,38 @@
 # Dispositivos paravirtualizados
 
-Al crear las máquina virtuales vamos a seleccionar los dispositivos que formaran parte de ella. Gran parte de los dispositivos están emulados (placa base, algunos controladores de red, controladores de disco duros IDE, SATA, SCSI, puerto serie,...), por lo que el rendimiento es menor.
+Al crear las máquina virtuales, además de las características básicas
+como la cantidad de RAM asignada, el espacio de almacenamiento o la
+CPU, se deben seleccionar los diferentes dispositivos que van a formar
+parte de ella: interfaz de red, controladores de disco duro, interfaz
+gráfica, etc. En un sistema de virtualización completa como QEMU/KVM
+todos los dispositivos están inicialmente emulados por software, de
+manera que la máquina virtual interactúa con un dispositivo como si lo
+hiciera con uno físico equivalente. De esta manera podemos encontrar
+una interfaz de red emulando a la clásica tarjeta de red Realtek 8139
+o una interfaz IDE para conectar con un disco duro virtual. Estos
+dispositivos emulados tienen la ventaja de que pueden utilizar los
+controladores de dispositivos de sus equivalentes físicos, por lo que
+se suelen utilizar dispositivos emulados muy comunes, que proporcionan
+compatibilidad con la mayoría de sistemas operativos y hacen muy
+sencilla la instalación de los mismos dentro de una máquina
+virtual. Sin embargo, tienen un inconveniente y es que cuando son
+dispositivos muy usados, tienen un rendimiento pobre, aumentan el
+consumo de recursos de la CPU y aumentan la latencia de E/S.
 
-Todos estos dispositivos se emulan con la ejecución de un  software cuyo comportamiento es equivalente a los dispositivos de hardware, y si el sistema operativo que se ejecuta en la máquina virtual tiene los controladores adecuados, utilizará los dispositivos como si se ejecutara en hardware real. Esto permite que Qemu ejecute sistemas operativos no modificados. 
-
-Sin embargo, esto tiene un costo de rendimiento, ya que ejecutar en software lo que estaba destinado a ejecutarse en hardware implica mucho trabajo adicional para la CPU del host.
-
-Para mitigar esto, Qemu puede presentar al sistema operativo invitado dispositivos paravirtualizados, con lo que aumentamos el rendimiento.
-
-Cuando escojamos la interfaz de comunicación de los discos duros y de las tarjetas de red de nuestra máquina virtual vamos a seleccionar controladores VirtIO. Estos dispositivos son paravirtualizados por KVM (no emulados) y por lo tanto nos ofrecen mayor rendimiento (consulte [http://www.linux-kvm.org/page/Virtio](http://www.linux-kvm.org/page/Virtio)).
+El proyecto KVM proporciona una alternativa al uso de dispositivos
+emulados, que se conocen como dispositivos paravirtualizados y se
+engloban bajo la denominación
+[virtIO](https://www.linux-kvm.org/page/Virtio). El nombre de
+dispositivos paravirtualizados hace referencia a la técnica que
+utilizan, más cercana a la paravirtualización y que proporciona un
+rendimiento muy cercano al real, por lo que es muy recomendable
+utilizar dispositivos virtio en los dispositivos de E/S que consumen
+más recursos, por ejemplo la red y el acceso a discos duros.
+El único inconveniente que tiene utilizar dispositivos virtio es que
+son específicos para KVM y no todos los sistemas operativos los
+reconocen por defecto. Evidentemente los sistemas linux sí reconocen
+los dispositivos virtio y en ese caso siempre es recomendable usarlos,
+pero otros sistemas operativos, como por ejemplo Windows, no incluyen
+inicialmente soporte virtio, si queremos usarlos en ese caso, será
+necesario instalar los controladores de dispositivos durante la
+instalación del sistema operativo de la máquina virtual.
