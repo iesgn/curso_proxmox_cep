@@ -5,7 +5,7 @@ ejecutar las máquinas virtuales, se va administrar el
 almacenamiento, ... Evidentemente, al hacer la primera instalación el
 cluster solo tiene un servidor.
 
-Por lo tanto la estructura de nuestro cluster Proxmox VE esta formada
+Por lo tanto, la estructura de nuestro cluster Proxmox VE está formada
 por:
 
 * *Datacenter*: Que representa el cluster. El Datacenter está formado
@@ -25,7 +25,7 @@ opciones del cluster en el panel lateral, veamos algunas de ellas:
   cluster y el uso de recursos.
 * **Cluster**: Proporciona la funcionalidad y la información
   necesarias para crear o unirse a un cluster. Con un solo nodo
-  todavía no tenenos la funcionalidad de cluster, la estudiaremos
+  todavía no tenemos la funcionalidad de cluster, la estudiaremos
   posteriormente.
 * **Options**: Configuración general del cluster.
 * **Storage**: Nos permite gestionar el almacenamiento del cluster.
@@ -34,7 +34,7 @@ opciones del cluster en el panel lateral, veamos algunas de ellas:
 * **Replication**: Cuando tenemos más de dos nodos podemos administrar
   tareas de replicación de máquinas y contenedores en este apartado.
 * **Permissions**: Podemos administrar usuarios, grupos, permisos,
-  reoles, ... a nivel del cluster.
+  roles, ... a nivel del cluster.
 * **HA**: Si tenemos más de un nodo podemos administrar los recursos
   que van a estar en alta disponibilidad.
 * ...
@@ -42,7 +42,7 @@ opciones del cluster en el panel lateral, veamos algunas de ellas:
 ## Nodos
 
 Al elegir un determinado nodo del cluster, en la barra lateral nos
-aprecen las opciiones propias de ese nodo, veamos algunas de ellas:
+aparecen las opciones propias de ese nodo, veamos algunas de ellas:
 
 ![node](img/node.png)
 
