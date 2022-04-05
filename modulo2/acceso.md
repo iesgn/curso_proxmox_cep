@@ -12,7 +12,7 @@ nos indica y nos encontramos:
 
 ![acceso](img/acceso2.png)
 
-Estamos accediendo con HTTPS y el certificado que está utilizando esta
+Estamos accediendo con HTTPS y el certificado que está utilizando está
 firmado por una Autoridad Certificadora en la que nuestro navegador no
 confía. Por lo tanto, y dependiendo del navegador, aceptaremos el
 certificado para acceder a la aplicación. **Nota: Posteriormente y en
