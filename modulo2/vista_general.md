@@ -21,7 +21,7 @@ A la derecha nos encontramos varios botones:
 * **Usuario** identificado en la sesión: Nos permite modificar la
   configuración del usuario que ha accedido.
 
-## Arbol de recursos
+## Árbol de recursos
 
 ![arbol](img/arbol.png)
 
