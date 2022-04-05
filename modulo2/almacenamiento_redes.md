@@ -11,7 +11,7 @@ Por defecto tenemos creados dos pools de almacenamiento:
 
 ### local
 
-Es una almacenamiento de tipo *Directory* y por defecto en este
+Es un almacenamiento de tipo *Directory* y por defecto en este
 almacenamiento se podrán guardar:
 
 * Ficheros de copia de seguridad.
@@ -29,7 +29,7 @@ Es un almacenamiento de tipo *LVM-Thin*, en él se podrán guardar:
 * Sistema de ficheros de los contenedores Linux.
 
 Cuando creemos una máquina virtual o un contenedor los ficheros de su
-disco se guardarán en un volumen lógico LVM de un grupo de volumenes
+disco se guardarán en un volumen lógico LVM de un grupo de volúmenes
 con aprovisionamiento ligero, por lo que el volumen lógico creado no
 ocupará todo el espacio desde el principio, ira creciendo según
 vayamos creando y modificando ficheros. Es un mecanismo muy eficaz y
