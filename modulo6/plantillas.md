@@ -19,7 +19,7 @@ Al elegir la opción de clonación a partir de la plantilla que hemos creado, no
 Donde indicamos el ID y nombre de la nueva máquina y podemos elegir los dos tipos de clonación que hemos estudiado:
 
 * **Clonación completa** (Full Clone): Sería exactamente como el proceso de clonación que hemos estudiado en la unidad anterior. El almacenamiento de la nueva máquina virtual es independiente al de la original. En este caso podremos escoger el pool de almacenamiento donde se va  a crear.
-* **Clonación ligera** (Linked clone): En este caso estaríamos creamdo el almacenamiento de la nueva máquina con aprovisionamiento ligero, por lo cual la imagen de la plantilla sería la imagen base de la nueva máquina que tendría un almacenamiento que iría creciendo conforme se fueran produciendo cambios en la máquina. Como consecuencia, si elegimos este tipo de clonación, al crear las nuevas máquinas no ocuparían espacio de almacenamiento.
+* **Clonación ligera** (Linked clone): En este caso estaríamos creando el almacenamiento de la nueva máquina con aprovisionamiento ligero, por lo cual la imagen de la plantilla sería la imagen base de la nueva máquina que tendría un almacenamiento que iría creciendo conforme se fueran produciendo cambios en la máquina. Como consecuencia, si elegimos este tipo de clonación, al crear las nuevas máquinas no ocuparían espacio de almacenamiento.
 
 La clonación ligera nos permite crear nuevas máquinas virtuales de forma muy rápida, ya que no hay que copiar todo el almacenamiento de la maquina original a la nueva.
 
