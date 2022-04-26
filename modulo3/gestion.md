@@ -1,12 +1,12 @@
 # Gestión de máquinas virtuales
 
-Tenemos varios opciones para gestionar nuestras máquinas virtuales:
+Tenemos varias opciones para gestionar nuestras máquinas virtuales:
 
 ## Botón derecho sobre la máquina virtual
 
 ![gestion](img/gestion.png)
 
-* **Start**: Inicamos la ejecución de una máquina virtual.
+* **Start**: Iniciamos la ejecución de una máquina virtual.
 * **Pause**: Pausa la ejecución de la máquina virtual. Podremos
   reanudar la ejecución con la opción **Resume**.
 * **Hibernate**: Se guarda el estado de la máquina en memoria y se
@@ -24,7 +24,7 @@ Tenemos varios opciones para gestionar nuestras máquinas virtuales:
 
 ## Panel lateral
 
-Si elegimos una máquina virtual, nos aparece una panel lateral con más
+Si elegimos una máquina virtual, nos aparece un panel lateral con más
 opciones sobre la máquina:
 
 ![gestion](img/gestion2.png)
@@ -34,7 +34,7 @@ opciones sobre la máquina:
 * **Hardware**: Nos permite ver y cambiar la configuración
   hardware. Lo estudiaremos en el siguiente apartado.
 * **Cloud-init**: Cloud-init nos permite hacer una configuración
-  automatica de la máquina. Lo estudiaremos en un módulo posterior.
+  automática de la máquina. Lo estudiaremos en un módulo posterior.
 * **Options**: Nos permite modificar opciones de la máquina
   virtual. Lo estudiaremos en el siguiente apartado.
 * **Task History**: Nos muestra el historial de tareas que se han
@@ -43,7 +43,7 @@ opciones sobre la máquina:
   línea de comandos.
 * **Backup**: Nos permite realizar una copia de seguridad. Lo
   estudiaremos en un módulo posterior.
-* **Replication** Nos permite gestionar las replicas de la máquina
+* **Replication** Nos permite gestionar las réplicas de la máquina
   entre distintos nodos del cluster de Proxmox VE. Lo estudiaremos en
   un módulo posterior.
 * **Snapshot**: Nos permite crear un snapshot de la máquina para
