@@ -50,7 +50,7 @@ Un zócalo (Socket) de CPU es una ranura física en la placa base de una
 PC donde puede conectar una CPU. Esta CPU puede contener uno o varios
 núcleos (Cores), que son unidades de procesamiento
 independientes. Podemos elegir el número de Sockets y Cores de la CPU
-de nuestra máquina. Además podemos emular distintos tipos de CPU, por
+de nuestra máquina. Además, podemos emular distintos tipos de CPU, por
 el momento elegimos la opción por defecto.
 
 ![crearVM](img/create_vm_6.png)
