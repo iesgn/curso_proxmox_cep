@@ -1,6 +1,6 @@
 # Dispositivos paravirtualizados
 
-Al crear las máquina virtuales, además de las características básicas
+Al crear las máquinas virtuales, además de las características básicas
 como la cantidad de RAM asignada, el espacio de almacenamiento o la
 CPU, se deben seleccionar los diferentes dispositivos que van a formar
 parte de ella: interfaz de red, controladores de disco duro, interfaz
@@ -27,7 +27,7 @@ dispositivos paravirtualizados hace referencia a la técnica que
 utilizan, más cercana a la paravirtualización y que proporciona un
 rendimiento muy cercano al real, por lo que es muy recomendable
 utilizar dispositivos virtio en los dispositivos de E/S que consumen
-más recursos, por ejemplo la red y el acceso a discos duros.
+más recursos, por ejemplo, la red y el acceso a discos duros.
 El único inconveniente que tiene utilizar dispositivos virtio es que
 son específicos para KVM y no todos los sistemas operativos los
 reconocen por defecto. Evidentemente los sistemas linux sí reconocen
