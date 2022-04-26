@@ -10,7 +10,7 @@ opción *ISO images* y subimos los ficheros que necesitemos:
 También tenemos la posibilidad de indicar una URL para descargar la
 ISO y de borrar una determinada ISO.
 
-Finalmente podremos ver las  lista de imágenes ISO que hemos subido a
+Finalmente podremos ver la  lista de imágenes ISO que hemos subido a
 nuestro Proxmox VE:
 
 ![iso](img/iso.png)
