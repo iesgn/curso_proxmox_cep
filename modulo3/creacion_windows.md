@@ -4,7 +4,7 @@ En un apartado anterior hemos visto los pasos fundamentales para la
 creación de una máquina virtual Linux. Para crear una máquina virtual
 con un sistema operativo tipo Windows se siguen los mismos pasos, pero
 tenemos que tener en cuenta que Windows no tiene soporte nativo para
-dispositivos VirtIO. Por lo tanto a la hora de crear una máquina
+dispositivos VirtIO. Por lo tanto, a la hora de crear una máquina
 virtual Windows tendremos que añadir los controladores de dispositivos
 (*drivers*) necesarios para que Windows identifique los dispositivos
 virtio que definamos en la máquina virtual.
@@ -29,7 +29,7 @@ Teniendo en cuenta los siguiente:
 * Al seleccionar el sistema operativo, elegimos como sistema operativo *Microsoft Windows* y la versión que vamos a instalar.
 * Configuramos la CPU y la RAM para tener recursos suficientes.
 
-Recuerda que escogemos como controlador de almacenamieto *VirtIO SCSI*:
+Recuerda que escogemos como controlador de almacenamiento *VirtIO SCSI*:
 
 ![create windows](img/create_win_2.png)
 
@@ -40,7 +40,7 @@ de los drivers VirtIO.
 
 ![create windows](img/create_win_3.png)
 
-Además nos tenemos que asegurar que en el orden de arranque el CDROM
+Además, nos tenemos que asegurar que en el orden de arranque el CDROM
 donde hemos montado la ISO de Windows (en mi caso ide2) este por
 delante que el CDROM con los drivers VirtIO.
 
@@ -56,7 +56,7 @@ escoger el disco duro donde vamos a realizar la instalación.
 
 Como vemos no se puede detectar el disco duro, ya que Windows no puede
 reconocer inicialmente el controlador VirtIO. Vamos a cargar los
-controlasores de dispositivo VirtIO que necesitamos del CDROM que
+controladores de dispositivo VirtIO que necesitamos del CDROM que
 hemos montado:
 
 Elegimos la opción *Cargar contr.*, le damos a *Examinar* y elegimos
