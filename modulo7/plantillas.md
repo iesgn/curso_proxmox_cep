@@ -6,11 +6,11 @@ En Proxmox necesitamos descargar las plantillas que vamos a usar para la creaci�
 
 ## Descargar plantillas en Proxmox
 
-Como indicamos en unidades anteriores en el pool de lamacenamiento **Local** podemos gaurdar, entre otras cosas, las **plantillas que usaremos para crear los contenedores.
+Como indicamos en unidades anteriores en el pool de almacenamiento **Local** podemos guardar, entre otras cosas, las **plantillas que usaremos para crear los contenedores.
 
-De esta forma, si accedemos al almacienamiento **Local**, y elegimos la opción **CT Templates** accedemos a la ventana que nos permite gestionar las plantillas.
+De esta forma, si accedemos al almacenamiento **Local**, y elegimos la opción **CT Templates** accedemos a la ventana que nos permite gestionar las plantillas.
 
-**Imágen de acceso a CT templates**
+**Imagen de acceso a CT templates**
 
 Tenemos tres formas de obtener plantillas:
 
@@ -20,15 +20,15 @@ Tenemos tres formas de obtener plantillas:
 
 En este curso vamos a usar esta tercera opción. Podemos elegir, por ejemplo, el template de *Ubuntu-22.04-standard* y descargarlo con el botón **Download**.
 
-**Imágen de lista de templates con ubuntu seleccionada**
+**Imagen de lista de templates con ubuntu seleccionada**
 
 Además tenemos un buscador que nos permite buscar por nombre:
 
-**Imágen de lista de templates buscando ubuntu**
+**Imagen de lista de templates buscando ubuntu**
 
 Una vez descargada podemos comprobar que tenemos la plantilla disponible:
 
-**Imágen de templates descargadas**
+**Imagen de templates descargadas**
 
 
 

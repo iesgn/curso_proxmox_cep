@@ -2,7 +2,7 @@
 
 Después de descargar las plantillas de contenedores con als que vamos a trabajar, estamos en disposición de crear un contenedor LXC. En este apartado vamos a explicar la creación de una contenedor LXC. Sólo indicaremos las opciones más básicas para su creación.
 
-Elegimos la opción de crar un contenedor LXC:
+Elegimos la opción de crear un contenedor LXC:
 
 **Imágen de crate LXC**
 
@@ -16,7 +16,7 @@ Indicamos el nodo donde se va a crear la máquina, su ID y su nombre. Además te
 
 ## Elegimos la plantilla 
 
-Elegimos la plntilla desde la que vamos a crear el contenedor entre las que hemos descargado anteriormente. La plantilla se escogerá del medio de almacenamiento *local*. 
+Elegimos la plantilla desde la que vamos a crear el contenedor entre las que hemos descargado anteriormente. La plantilla se escogerá del medio de almacenamiento *local*. 
 
 **Imagen 2 lxc**
 
@@ -40,7 +40,7 @@ Indicamos la cantidad de memoria que tendrá nuestra máquina virtual (en MiB no
 
 ## Configuración de red
 
-En un principio nuestra máquina estará conectada al bridge externo *vmbr0*  y la tarjeta de red se llamará *eth0*. Esta configuración se puede cambiar, y podríamos conectar nuestro contendor a una bridge software definido por nosotros. Además tendremos que decidir si la configuración de red será automática (DHCP) o manuel, indicando la dirección (con formato IPv4/CIDR) y la puerta de enlace.
+En un principio nuestra máquina estará conectada al bridge externo *vmbr0*  y la tarjeta de red se llamará *eth0*. Esta configuración se puede cambiar, y podríamos conectar nuestro contenedor a una bridge software definido por nosotros. Además tendremos que decidir si la configuración de red será automática (DHCP) o manual, indicando la dirección (con formato IPv4/CIDR) y la puerta de enlace.
 
 **Imagen 6 lxc**
 
@@ -52,7 +52,7 @@ En el último paso podemos configurar los servidores DNS que va a utilizar el co
 
 ## Utilización del contenedor
 
-Una vez que se ha creado el contenedor, podemos inciarlo y acceder a él por medio de la consola:
+Una vez que se ha creado el contenedor, podemos iniciarlo y acceder a él por medio de la consola:
 
 **Imagen inicio de contenedor**
 
