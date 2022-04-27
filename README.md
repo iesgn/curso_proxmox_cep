@@ -5,7 +5,7 @@ Curso sobre Proxmox VE para el CEP.
 
 1. Introducción a la virtualización con Proxmox VE
     * [¿Qué es la virtualización?](modulo1/virtualizacion.md)
-    * Tipos de virtualización
+    * [Tipos de virtualización](modulo1/tipos.md)
     * Introducción a KVM/Qemu
     * Introducción a LXC
     * ¿Qué es Proxmox VE?
