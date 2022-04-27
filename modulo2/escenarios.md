@@ -96,7 +96,7 @@ siguiente:
   Dependiendo de la cantidad de memoria RAM, espacio de disco duro y VCPU que asignemos a la máquina virtual donde vamos a instalar Proxmox VE, podremos virtualizar más o menos máquinas virtuales o contenedores:
 
   * Por ejemplo, desde el punto de vista de la RAM: si virtualizamos una máquina virtual sin entorno gráfico podemos asignarle 512Mb, si tiene entorno gráfico ya tendríamos que usar 1 o 2GB, si virtualizamos una máquina Windows al menos tendremos que asignar 2Gb de RAM.
-  * Desde el punto de vista del almacenamiento, no es tan importante: pero tenemos que pensar que hay que almacenar las ISO para la instalación de las máquinas, los templates usados para la creación de los contenedores y los discos duros de las máquinas virtuales. Este aspectos no es tan crítico, porque cómo veremos utilizaremos *aprovisionamiento ligero* que nos permite reducir el espacio ocupado por las máquinas virtuales.
+  * Desde el punto de vista del almacenamiento: Este factor no es tan importante, pero tenemos que pensar que hay que almacenar las ISO para la instalación de las máquinas, los templates usados para la creación de los contenedores, las copias de seguridad de las máquinas,... y los discos duros de las máquinas virtuales. Este aspectos no es tan crítico, porque cómo veremos utilizaremos *aprovisionamiento ligero* que nos permite reducir el espacio ocupado por las máquinas virtuales.
   * Al crear máquinas virtuales o contenedores podremos asignarle cores virtuales de CPU, por lo que aumentará el rendimiento si asignamos a nuestra máquina virtual suficientes núcleos de CPU.
 
   Por todo lo explicado a continuación la **configuración recomendada** para la máquina virtual sería:
