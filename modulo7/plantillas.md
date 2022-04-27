@@ -10,7 +10,7 @@ Como indicamos en unidades anteriores en el pool de almacenamiento **Local** pod
 
 De esta forma, si accedemos al almacenamiento **Local**, y elegimos la opción **CT Templates** accedemos a la ventana que nos permite gestionar las plantillas.
 
-**Imagen de acceso a CT templates**
+![img](img/template1.png)
 
 Tenemos tres formas de obtener plantillas:
 
@@ -20,15 +20,16 @@ Tenemos tres formas de obtener plantillas:
 
 En este curso vamos a usar esta tercera opción. Podemos elegir, por ejemplo, el template de *Ubuntu-22.04-standard* y descargarlo con el botón **Download**.
 
-**Imagen de lista de templates con ubuntu seleccionada**
+![img](img/template2.png)
 
 Además tenemos un buscador que nos permite buscar por nombre:
 
-**Imagen de lista de templates buscando ubuntu**
+![img](img/template3.png)
 
-Una vez descargada podemos comprobar que tenemos la plantilla disponible:
+Una vez descargada: 
 
-**Imagen de templates descargadas**
+![img](img/template4.png)
 
+Podemos comprobar que tenemos la plantilla disponible:
 
-
+![img](img/template5.png)
