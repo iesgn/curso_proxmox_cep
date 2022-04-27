@@ -26,6 +26,6 @@ La versión actual de Proxmox VE nos permite gestionar los siguientes recursos v
 
 Un sistema de virtualización como Proxmox VE puede ser muy adecuado para la enseñanzas de las TIC en nuestros centros educativos.
 
-Por un lado nos beneficimos de todas las características que estudiamos sobre la virtualización y por otro lado podemos hacer que los recursos virtualziados que usan los alumnos no se esten ejecutando en su máquina física.
+Por un lado nos beneficiamos de todas las características que estudiamos sobre la virtualización y por otro lado podemos hacer que los recursos virtualizados que usan los alumnos no se esten ejecutando en su máquina física.
 
 Si una máquina física de un alumno se estropea podrá seguir usando los recursos virtualizados sin problemas, porque se están ejecutando en un servidor o en un clúster de servidores.
