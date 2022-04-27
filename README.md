@@ -67,8 +67,3 @@ Curso sobre Proxmox VE para el CEP.
     * Pools de recursos
     * Permisos
         * Actividad 8.1: Gestión de usuarios y grupos (OBLIGATORIA)
-
-9. Aspectos avanzados
-
-    * Trabajar con imágenes qcow2 ya existentes
-    * Configuración de máquinas virtuales con cloud-init

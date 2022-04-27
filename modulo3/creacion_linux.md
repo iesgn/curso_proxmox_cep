@@ -38,7 +38,7 @@ los valores por defecto.
 En este apartado seleccionamos la configuración del disco raíz de la
 máquina que vamos a crear. Los valores de BUS/Device y Cache la
 dejamos por defecto. Por ahora sólo podemos escoger un medio de
-almacenamiento para almacenar el disco: *local-pve*, es decir. el
+almacenamiento para almacenar el disco: *local-pve*, es decir, el
 disco de la máquina se guardará en un volumen lógico. También
 indicaremos el tamaño del disco.
 

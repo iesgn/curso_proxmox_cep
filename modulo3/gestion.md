@@ -34,7 +34,7 @@ opciones sobre la máquina:
 * **Hardware**: Nos permite ver y cambiar la configuración
   hardware. Lo estudiaremos en el siguiente apartado.
 * **Cloud-init**: Cloud-init nos permite hacer una configuración
-  automática de la máquina. Lo estudiaremos en un módulo posterior.
+  automática de la máquina. No lo vamos a estudiar en este curso.
 * **Options**: Nos permite modificar opciones de la máquina
   virtual. Lo estudiaremos en el siguiente apartado.
 * **Task History**: Nos muestra el historial de tareas que se han
