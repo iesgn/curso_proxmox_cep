@@ -14,11 +14,11 @@ El hipervisor simula un hardware suficiente para permitir que un sistema operati
 
 * **Virtualización por hardware**: En este caso usamos **hipervisores de tipo 1**, que controlan directamente el hardware físico del host ofreciéndolo directamente a la máquina virtual. Es imprescindible que la CPU del host tenga las extensiones de virtualización. Ejemplos: Xen, Kernel-based Virtual Machine (KVM), Microsoft Hyper-V, VMware ESXi,...
 
-![img](img/virt_hw.png)
+    ![img](img/virt_hw.png)
 
 * **Virtualización completa**: En este tipo se usan **hipervisores de tipo 2**. Este software se intala sobre el sistema oprativo del host, pero no controla directamente el hardware físico. Ofrecen menos rendimiento que la virtualización por hardware. Ejemplos: VMware Workstation, Parallels Desktop, VirtualBox, VMware Player, ...
 
-![img](img/virt_completa.png)
+    ![img](img/virt_completa.png)
 
 ## Virtualización parcial o paravirtualización
 
