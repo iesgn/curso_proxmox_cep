@@ -17,8 +17,9 @@ La versión actual de Proxmox VE nos permite gestionar los siguientes recursos v
 * Permite la creación de un clúster de servidores Proxmox.
 * si tenemos configurado un clúster de servidores Proxmox tendremos características de alta disponibilidad y de migraciones en vivo.
 * Permite el uso de muchos tipos de medios de almacenamiento.
-* Permite la configuración d la red que van a utilizar las máquinas virtuales y los contenedores.
+* Permite la configuración de la red que van a utilizar las máquinas virtuales y los contenedores.
 * Es un programa de código abierto.
+* Hay una gran comunidad de soporte y ayuda.
 * ...
 
 ## Proxmox VE en un centro educativo
