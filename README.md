@@ -55,8 +55,9 @@ Curso sobre Proxmox VE para el CEP.
         * [Actividad 6.3: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)](modulo6/actividad3.md)
 
 7. Trabajando con Linux Containers
-    * Gestionando plantillas de contenedores
-    * Creación de contenedores Linux
+    * [Proxmox y LXC](modulo7/introduccion.md)
+    * [Gestionando plantillas de contenedores](modulo7/plantillas.md)
+    * [Creación de contenedores Linux](modulo7/contenedores.md)
     * Gestión de contenedores Linux
         * Actividad 7.1: Creación de un contenedor linux (OBLIGATORIA)
         * Actividad 7.2: Creación de un escenario  de trabajo (4ª parte) (VOLUNTARIA)
