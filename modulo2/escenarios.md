@@ -120,7 +120,7 @@ participantes utilizarán una máquina virtual en su propio equipo.
 
 Consideramos que el hipervisor más común que podemos usar para la creación de la máquina virtual donde vamos a instalar Proxmox VE es VirtualBox. Por lo tanto siguiendo estas [instrucciones](https://pve.proxmox.com/wiki/Proxmox_VE_inside_VirtualBox) tenemos que tener en cuenta los siguientes aspectos:
 
-* Hay que habilitar la virtualización anidada: Para ello: **Sistema - Procesador - Habilitar**:
+* Hay que habilitar la virtualización anidada: Para ello: **Sistema - Procesador**:
 
 ![img](img/virtualbox1.png)
 
