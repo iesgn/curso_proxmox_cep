@@ -57,7 +57,7 @@ opciones sobre la máquina:
 
 ## Eliminar una máquina virtual
 
-Para eliminar una máquina virtual tenemos que escoger la opción
+Para eliminar una máquina virtual tenemos que pararla, y escoger la opción
 *Remove* del botón *More*:
 
 ![gestion](img/gestion3.png)

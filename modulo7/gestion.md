@@ -4,7 +4,7 @@ Las opciones para gestionar los contenedores LXC son similares a las que estudia
 
 ## Botón derecho sobre el contenedor LXC
 
-**imagen botón derecho sobre lXC**
+![img](img/gestion1.png)
 
 * **Start**: Iniciamos la ejecución del contenedor LXC.
 * **Shutdown**: Se termina la ejecución del contenedor de forma
@@ -21,7 +21,7 @@ Las opciones para gestionar los contenedores LXC son similares a las que estudia
 
 Si elegimos un contenedor LXC, nos aparece un panel lateral con más opciones sobre el contenedor:
 
-**Imagen panel lateral**
+![img](img/gestion2.png)
 
 * **Sumary**: Resumen y monitorización del contenedor elegida.
 * **Console**: Nos permite acceder a una consola para trabajar con el contenedor.
@@ -42,9 +42,9 @@ Si elegimos un contenedor LXC, nos aparece un panel lateral con más opciones so
 
 ## Eliminar un contenedor LXC
 
-Para eliminar un contenedor LXC tenemos que escoger la opción
+Para eliminar un contenedor LXC tenemos tenemos que pararlo y escoger la opción
 *Remove* del botón *More*:
 
-**Imagen delete**
+![img](img/gestion3.png)
 
 Para eliminarla se nos pedirá el identificador del contenedor para la confirmación.
