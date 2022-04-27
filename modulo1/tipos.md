@@ -16,7 +16,7 @@ El hipervisor simula un hardware suficiente para permitir que un sistema operati
 
     ![img](img/virt_hw.png)
 
-* **Virtualización completa**: En este tipo se usan **hipervisores de tipo 2**. Este software se intala sobre el sistema oprativo del host, pero no controla directamente el hardware físico. Ofrecen menos rendimiento que la virtualización por hardware. Ejemplos: VMware Workstation, Parallels Desktop, VirtualBox, VMware Player, ...
+* **Virtualización completa**: En este tipo se usan **hipervisores de tipo 2**. Este software se instala sobre el sistema operativo del host, pero no controla directamente el hardware físico. Ofrecen menos rendimiento que la virtualización por hardware. Ejemplos: VMware Workstation, Parallels Desktop, VirtualBox, VMware Player, ...
 
     ![img](img/virt_completa.png)
 
