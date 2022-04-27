@@ -42,7 +42,7 @@ El uso de mecanismos de virtualización revolucionó las metodolías que hemos e
 * Podemos instalar diferentes sistemas operativos en una sóla máquina.
 * No es necesarios dispositivos físicos para la realización de muchas prácticas.
 * Se pueden usar máquinas virtuales para probar nuevas cosas, con la ventaja que si "rompemos" algo se eliminan y se vuelven a crear.
-
+* ...
 
 
 
