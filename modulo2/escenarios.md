@@ -86,17 +86,17 @@ En este curso vamos a montar un laboratorio para aprender los
 conceptos más importantes de Proxmox VE. Por lo tanto, os proponemos lo
 siguiente:
 
-* La instalación de un sólo nodo de Proxmox en una máquina virtual. El
+* La instalación de **un sólo nodo de Proxmox** en una máquina virtual. El
   ámbito de este curso no nos va a permitir el estudio de un clúster
   con varios servidores Proxmox.
 * La máquina virtual donde vamos a instalar Proxmox la podemos crear
-  en cualquier hypervisor: VirtualBox, VMWare, KVM, HyperV, ...
+  en cualquier hypervisor: **VirtualBox, VMWare, KVM, HyperV, ...**
 * **Características de la máquina virtual donde vamos a realizar la instalación**
   
   Dependiendo de la cantidad de memoria RAM, espacio de disco duro y VCPU que asignemos a la máquina virtual donde vamos a instalar Proxmox VE, podremos virtualizar más o menos máquinas virtuales o contenedores:
 
   * Por ejemplo, desde el punto de vista de la RAM: si virtualizamos una máquina virtual sin entorno gráfico podemos asignarle 512Mb, si tiene entorno gráfico ya tendríamos que usar 1 o 2GB, si virtualizamos una máquina Windows al menos tendremos que asignar 2Gb de RAM.
-  * Desde el punto de vista del almacenamiento, no es tan importante: pero tenemos que pensar que hay que almacenar las ISO para la instalación de las máquinas, los templates usados para la creación de los contenedores y los discos duros de las máquinas virtuales. Este aspectos no es tan crítico, porque cómo veremos utilizaremos *aprovisonamiento ligero* que nos permite reducir el espacio ocupado por las máquinas virtuales.
+  * Desde el punto de vista del almacenamiento, no es tan importante: pero tenemos que pensar que hay que almacenar las ISO para la instalación de las máquinas, los templates usados para la creación de los contenedores y los discos duros de las máquinas virtuales. Este aspectos no es tan crítico, porque cómo veremos utilizaremos *aprovisionamiento ligero* que nos permite reducir el espacio ocupado por las máquinas virtuales.
   * Al crear máquinas virtuales o contenedores podremos asignarle cores virtuales de CPU, por lo que aumentará el rendimiento si asignamos a nuestra máquina virtual suficientes núcleos de CPU.
 
   Por todo lo explicado a continuación la **configuración recomendada** para la máquina virtual sería:
@@ -106,8 +106,8 @@ siguiente:
     * **4 núcleos de CPU**
 
   Podemos asignar menos recursos, pero reduciremos las posibilidades de crear muchas máquinas virtuales y contenedores. Del mismo modo,cuantos más recursos asignemos a esa máquina más máquinas virtuales y contenedores podremos crear en nuestro Proxmox.
-* La máquina virtual debe tener una interfaz de red de tipo
-  "bridge"; es decir, debe estar conectada a la misma red del
+* La máquina virtual debe tener una **interfaz de red de tipo
+  "bridge"**; es decir, debe estar conectada a la misma red del
   anfitrión. Todas las máquinas virtuales y contenedores que creemos,
   por defecto, estarán conectados a la misma red.
 
