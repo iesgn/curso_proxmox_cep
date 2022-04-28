@@ -26,25 +26,25 @@ En la red interna a la que hemos conectado la red no existe ningún servidor DHC
 
 ![img](img/red11.png)
 
-La nueva interfaz se llama `ens19` y es la que tenemos que configurar para ello modificamos el fichero `/etc/network/interfaces` y añadimos el siguiente contenido:
+La nueva interfaz se llama `ens19` y es la que tenemos que configurar, para ello modificamos el fichero `/etc/network/interfaces` y añadimos el siguiente contenido:
 
 ![img](img/red12.png)
 
-Y para terminar la configuración levantamos la interfaz con `ifup` y comprobamos que ya hemos configurado la ip:
+Y para terminar la configuración levantamos la interfaz con `ifup` y comprobamos que ya tiene asignada la ip:
 
 ![img](img/red13.png)
 
 ## Crear una nueva máquina virtual conectada a la red interna
 
-La máquina *cliente* la vamos a crear conectada directamente al nuevo bridge. Para ello durante la configuración de la nueva máquina escogemos el nuevo bridge:
+La máquina *cliente* la vamos a crear conectada directamente al nuevo bridge. Para ello durante la configuración de la creación de la nueva máquina escogemos el nuevo bridge:
 
 ![img](img/red14.png)
 
-Una vez creada, comprobamos que esta maquina está conectada a **vmbr1**:
+Una vez creada, comprobamos que esta máquina está conectada a **vmbr1**:
 
 ![img](img/red15.png)
 
-De la misma forma que hemos configurado la ip en la máquina *router*, vamos a configurar la ip a esta máquina. Vamos a configurar la ip `10.0.0.2`:
+De la misma forma que hemos configurado la ip en la máquina *router*, vamos a configurar la ip de esta máquina. Vamos a configurar la ip `10.0.0.2`:
 
 ![img](img/red16.png)
 
@@ -54,4 +54,4 @@ Y comprobamos que hay conectividad con la otra máquina:
 
 ## Conclusiones
 
-La creación de diferentes Linux Bridge nos posibilita la construcción de escenarios complejos de red. Además tenemos que tener en cuenta que añadir o eliminar una interfaz se puede hacer en "caliente" sobre una máquina que este funcionando. Del mismo modo podemos modificar una interfaz de red ya existente para modificar el bridge al que está conectada.
+La creación de diferentes Linux Bridge nos posibilita la construcción de escenarios complejos de red. Además tenemos que tener en cuenta que añadir o eliminar una interfaz se puede hacer en "caliente" sobre una máquina que esté funcionando. Del mismo modo, podemos modificar una interfaz de red ya existente para cambiar el bridge al que está conectada.
