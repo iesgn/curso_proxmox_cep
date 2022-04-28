@@ -14,7 +14,7 @@ Para explicar este apartado vamos a construir el siguiente esquema de red:
 
 ## Añadir una nueva interfaz de red a una máquina
 
-La máquina *router* ya está funcionando y tiene una interfaz de red conectada a **vmbr0**. Podemos añadirle una interfaz de red desde el apartado **Hardware** de la máquina:
+La máquina *router* ya está funcionando y tiene una interfaz de red conectada a **vmbr0**. Podemos añadirle una nueva interfaz de red desde el apartado **Hardware** de la máquina:
 
 ![img](img/red9.png)
 
