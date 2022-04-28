@@ -57,8 +57,7 @@ Curso sobre Proxmox VE para el CEP.
 7. Introducción a las redes en Proxmox
     * [Gestionando redes en Proxmox VE](modulo7/introduccion.md)
     * [Configuración de la red del servidor Proxmox VE](modulo7/red_servidor.md)
-    * Configuración de red para las máquinas virtuales
-    * Creación de una red interna
+    * [Configuración de una red interna](modulo7/red_interna.md)
     * Cortafuegos en Proxmox VE
         * Actividad 5.1: Creación de un red interna (OBLIGATORIA)
 
