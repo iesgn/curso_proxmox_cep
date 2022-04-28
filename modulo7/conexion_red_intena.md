@@ -34,6 +34,17 @@ Y para terminar la configuración levantamos la interfaz con `ifup` y comprobamo
 
 ![img](img/red13.png)
 
+## Añadir una nueva interfaz de red a un contenedor
+
+En este caso, elegimos la opción **Network** del contenedor y podemos ver las interfaces que tiene configurada. Además podemos añadir nuevos interfaces:
+
+![img](img/red19.png)
+
+Podemos nombrar la nueva interfaz de red y el bridge al que se conectará, indicando directamente el direccionamiento estático:
+
+![img](img/red20.png)
+
+
 ## Crear una nueva máquina virtual conectada a la red interna
 
 La máquina *cliente* la vamos a crear conectada directamente al nuevo bridge. Para ello durante la configuración de la creación de la nueva máquina escogemos el nuevo bridge:
