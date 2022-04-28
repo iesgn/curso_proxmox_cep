@@ -42,25 +42,25 @@ Curso sobre Proxmox VE para el CEP.
     * [Convirtiendo máquinas virtuales en plantillas](modulo5/plantillas.md)
     * [Snapshots de máquinas virtuales](modulo5/snapshot.md)
     * [Copias de seguridad de máquinas virtuales](modulo5/backup.md)
-        * [Actividad 6.1: Clonación, instantáneas y copias de seguridad](modulo5/actividad1.md)
-        * [Actividad 6.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)](modulo5/actividad2.md)
-        * [Actividad 6.3: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)](modulo5/actividad3.md)
+        * [Actividad 5.1: Clonación, instantáneas y copias de seguridad](modulo5/actividad1.md)
+        * [Actividad 5.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)](modulo5/actividad2.md)
+        * [Actividad 5.3: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)](modulo5/actividad3.md)
 
 6. Trabajando con Linux Containers
     * [Proxmox y LXC](modulo6/introduccion.md)
     * [Gestionando plantillas de contenedores](modulo6/plantillas.md)
     * [Creación de contenedores Linux](modulo6/contenedor.md)
     * [Gestión de contenedores Linux](modulo6/gestion.md)
-        * Actividad 7.1: Creación de un contenedor linux (OBLIGATORIA)
-        * Actividad 7.2: Creación de un escenario  de trabajo (4ª parte) (VOLUNTARIA)
+        * Actividad 6.1: Creación de un contenedor linux (OBLIGATORIA)
+        * Actividad 6.2: Creación de un escenario  de trabajo (4ª parte) (VOLUNTARIA)
 
 7. Introducción a las redes en Proxmox
     * [Gestionando redes en Proxmox VE](modulo7/introduccion.md)
     * [Configuración de la red del servidor Proxmox VE](modulo7/red_servidor.md)
     * [Configuración de una red interna](modulo7/red_interna.md)
     * [Conexión de una máquina virtual a la red interna](modulo7/conexion_red_intena.md)
-    * Cortafuegos en Proxmox VE
-        * Actividad 5.1: Creación de un red interna (OBLIGATORIA)
+    * [Introducción al cortafuegos de Proxmox VE](modulo7/cortafuegos.md)
+        * Actividad 7.1: Creación de un red interna (OBLIGATORIA)
 
 8. Gestión de usuarios en Proxmox VE
     * Usuarios y Grupos
