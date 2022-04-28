@@ -7,7 +7,7 @@
 Vamos a instalar el sistema de virtualización Proxmox VE, para ello sigue los siguientes pasos:
 
 1. Descarga la imagen de ISO de Proxmox VE 7.
-2. Elige un hipervisor de máquinas virtuales y configura una máquina virtual con las características mínimas que se han explica en el tema (**4 Gb de RAM y 40 Gb de disco duro**). Recuerda que también puedes usar una máquina física para la realización del curso con recursos suficientes.
+2. Elige un hipervisor de máquinas virtuales y configura una máquina virtual con las características recomendadas que se han presentado en el contenido del tema. Recuerda que también puedes usar una máquina física para la realización del curso con recursos suficientes.
 3. Realiza la instalación como se ha explicado en el contenido del tema.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
