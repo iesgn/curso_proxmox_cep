@@ -1,35 +1,35 @@
-# Convirtiendo máquinas virtuales en plantillas
+# Gestionando plantillas de contenedores
 
-Otra manera de crear rápidamente nuevas máquinas virtuales es usar una plantilla para su creación. Si partimos de una máquina que ya tenemos configurada, la podemos convertir en una plantilla y a partir de ella crear nuevas máquinas.
+Los contenedores LXC se crean a partir de una **plantilla**. Un plantilla es el sistema de ficheros que va a utilizar el contenedor. Tendremos plantillas para las distintas distribuciones de Linux.
 
-Las plantilla son de solo lectura por lo que ya no podremos usar de nuevo la máquina original. Si utilizamos plantillas en lugar de máquinas clonadas, el proceso de obtención de la nueva máquina será mucho más rápido, ya que se podrá utilizar **aprovisionamiento ligero** (a este tipo de clonación se llama **clonación ligera**) para su creación, es decir, el almacenamiento de la máquina virtual estará vinculada a la plantilla de la que procede, y estaremos ahorrando espacio de almacenamiento.
+En Proxmox necesitamos descargar las plantillas que vamos a usar para la creación de LXC. Al crear un contenedor se clonara la plantilla para que el contenedor tenga su sistema de fichero. Este proceso se hace de manera muy rápida.
 
-Es necesario que la máquina virtual que vamos a convertir en una plantilla esté parada, y para convertirla en una plantilla:
+## Descargar plantillas en Proxmox
 
-![plantilla](img/plantilla1.png)
+Como indicamos en unidades anteriores en el pool de almacenamiento **Local** podemos guardar, entre otras cosas, las **plantillas que usaremos para crear los contenedores.
 
-Al convertir la máquina a una plantilla observamos que cambia el icono de identificación y que la única opción que nos permite es clonarla:
+De esta forma, si accedemos al almacenamiento **Local**, y elegimos la opción **CT Templates** accedemos a la ventana que nos permite gestionar las plantillas.
 
-![plantilla](img/plantilla2.png)
+![img](img/template1.png)
 
-Al elegir la opción de clonación a partir de la plantilla que hemos creado, nos aparece la siguiente ventana:
+Tenemos tres formas de obtener plantillas:
 
-![plantilla](img/plantilla3.png)
+* **Upload**: Podemos subir una plantilla que tengamos en nuestro ordenador local.
+* **Download from URL**: Podemos descargar una plantilla usando una URL.
+* **Templates**: Proxmox nos ofrece un repositorio con un conjunto de plantillas que podemos descargar.
 
-Donde indicamos el ID y nombre de la nueva máquina y podemos elegir los dos tipos de clonación que hemos estudiado:
+En este curso vamos a usar esta tercera opción. Podemos elegir, por ejemplo, el template de *Ubuntu-22.04-standard* y descargarlo con el botón **Download**.
 
-* **Clonación completa** (Full Clone): Sería exactamente como el proceso de clonación que hemos estudiado en la unidad anterior. El almacenamiento de la nueva máquina virtual es independiente al de la original. En este caso podremos escoger el pool de almacenamiento donde se va  a crear.
-* **Clonación ligera** (Linked clone): En este caso estaríamos creando el almacenamiento de la nueva máquina con aprovisionamiento ligero, por lo cual la imagen de la plantilla sería la imagen base de la nueva máquina que tendría un almacenamiento que iría creciendo conforme se fueran produciendo cambios en la máquina. Como consecuencia, si elegimos este tipo de clonación, al crear las nuevas máquinas no ocuparían espacio de almacenamiento.
+![img](img/template2.png)
 
-La clonación ligera nos permite crear nuevas máquinas virtuales de forma muy rápida, ya que no hay que copiar todo el almacenamiento de la maquina original a la nueva.
+Además tenemos un buscador que nos permite buscar por nombre:
 
-![plantilla](img/plantilla4.png)
+![img](img/template3.png)
 
-Como en el apartado anterior, las dos máquinas son iguales por lo que tendremos que modificar alguna configuración de la nueva máquina: por ejemplo, el hostname, la configuración de red si es necesario, …
+Una vez descargada: 
 
-Por ultimo, indicar que podemos cambiar las características hardware de una plantilla (por ejemplo el usa de RAM). De esta forma las nuevas máquinas creadas a partir de ella tendrán las mismas características que hemos modificado::
+![img](img/template4.png)
 
-![plantilla](img/plantilla5.png)
+Podemos comprobar que tenemos la plantilla disponible:
 
-
-
+![img](img/template5.png)

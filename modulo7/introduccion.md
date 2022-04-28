@@ -1,9 +1,13 @@
-# Proxmox y LXC
+# Gestionando redes en Proxmox VE
 
-Además de las máquinas virtuales, en Proxmox tenemos la posibilidad de crear y gestionar contenedores: **Linux Containers (LXC)**.
+Proxmox VE nos ofrece, de una manera muy sencilla, la gestión de las redes con las que va a trabajar. Esta gestión la podemos hacer en dos niveles:
 
-Los contenedores son una alternativa ligera a las máquinas totalmente virtualizadas (VM). Utilizan el núcleo del sistema anfitrión en el que se ejecutan, en lugar de emular un sistema operativo completo. 
+* Podemos configurar **la configuración de red del servidor Proxmox VE** para determinar el tipo de conexión que tendrá el servidor con el exterior.
+* Podemos configurar **la configuración de red que tendrán las máquinas virtuales y contenedores** que gestionemos en nuestro servidor Proxmox.
 
-Como ventaja, podemos indicar que los recursos para la ejecución de LXC son bajos. Pero tenemos también la limitación de que sólo podemos crear contenedores con distribuciones Linux. No es posible ejecutar otros sistemas operativos como, por ejemplo, FreeBSD o Microsoft Windows dentro de un contenedor.
+Antes de estudiar detenidamente cada una de estos niveles, vamos a introducir un concepto de redes con el que vamos a trabajar: un **puente o bridge/switch** es un dispositivo de interconexión de redes. En concreto, **Linux Bridge** es un software que tiene la misma funcionalidad que un bridge físico. 
 
-En esta unidad vamos a aprender a trabajar con LXC en Proxmox.
+Tenemos más opciones para implementar un bridge por software, pero la más fácil de usar y la que vamos a usar nosotros en Proxmox VE es **Linux Bridge**.
+
+
+

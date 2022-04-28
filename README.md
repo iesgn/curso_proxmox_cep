@@ -37,30 +37,30 @@ Curso sobre Proxmox VE para el CEP.
         * [Actividad 4.1: Creación de un pool de almacenamiento para trabajar con imágenes de discos (OBLIGATORIA)](modulo4/actividad1.md)
         * [Actividad 4.2: Añadir nuevos discos a una máquina virtual (OBLIGATORIA)](modulo4/actividad2.md)
 
-5. Introducción a las redes en Proxmox
-    * [Gestionando redes en Proxmox VE](modulo5/introduccion.md)
-    * [Configuración de la red del servidor Proxmox VE](modulo5/red_servidor.md)
+5. Clonación, instantáneas y copias de seguridad
+    * [Clonación de máquinas virtuales](modulo5/clonacion.md)
+    * [Convirtiendo máquinas virtuales en plantillas](modulo5/plantillas.md)
+    * [Snapshots de máquinas virtuales](modulo5/snapshot.md)
+    * [Copias de seguridad de máquinas virtuales](modulo5/backup.md)
+        * [Actividad 6.1: Clonación, instantáneas y copias de seguridad](modulo5/actividad1.md)
+        * [Actividad 6.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)](modulo5/actividad2.md)
+        * [Actividad 6.3: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)](modulo5/actividad3.md)
+
+6. Trabajando con Linux Containers
+    * [Proxmox y LXC](modulo6/introduccion.md)
+    * [Gestionando plantillas de contenedores](modulo6/plantillas.md)
+    * [Creación de contenedores Linux](modulo6/contenedor.md)
+    * [Gestión de contenedores Linux](modulo6/gestion.md)
+        * Actividad 7.1: Creación de un contenedor linux (OBLIGATORIA)
+        * Actividad 7.2: Creación de un escenario  de trabajo (4ª parte) (VOLUNTARIA)
+
+7. Introducción a las redes en Proxmox
+    * [Gestionando redes en Proxmox VE](modulo7/introduccion.md)
+    * [Configuración de la red del servidor Proxmox VE](modulo7/red_servidor.md)
     * Configuración de red para las máquinas virtuales
     * Creación de una red interna
     * Cortafuegos en Proxmox VE
         * Actividad 5.1: Creación de un red interna (OBLIGATORIA)
-
-6. Clonación, instantáneas y copias de seguridad
-    * [Clonación de máquinas virtuales](modulo6/clonacion.md)
-    * [Convirtiendo máquinas virtuales en plantillas](modulo6/plantillas.md)
-    * [Snapshots de máquinas virtuales](modulo6/snapshot.md)
-    * [Copias de seguridad de máquinas virtuales](modulo6/backup.md)
-        * [Actividad 6.1: Clonación, instantáneas y copias de seguridad](modulo6/actividad1.md)
-        * [Actividad 6.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)](modulo6/actividad2.md)
-        * [Actividad 6.3: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)](modulo6/actividad3.md)
-
-7. Trabajando con Linux Containers
-    * [Proxmox y LXC](modulo7/introduccion.md)
-    * [Gestionando plantillas de contenedores](modulo7/plantillas.md)
-    * [Creación de contenedores Linux](modulo7/contenedor.md)
-    * [Gestión de contenedores Linux](modulo7/gestion.md)
-        * Actividad 7.1: Creación de un contenedor linux (OBLIGATORIA)
-        * Actividad 7.2: Creación de un escenario  de trabajo (4ª parte) (VOLUNTARIA)
 
 8. Gestión de usuarios en Proxmox VE
     * Usuarios y Grupos
