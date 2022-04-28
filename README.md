@@ -52,15 +52,17 @@ Curso sobre Proxmox VE para el CEP.
     * [Creación de contenedores Linux](modulo6/contenedor.md)
     * [Gestión de contenedores Linux](modulo6/gestion.md)
         * Actividad 6.1: Creación de un contenedor linux (OBLIGATORIA)
-        * Actividad 6.2: Creación de un escenario  de trabajo (4ª parte) (VOLUNTARIA)
 
 7. Introducción a las redes en Proxmox
     * [Gestionando redes en Proxmox VE](modulo7/introduccion.md)
     * [Configuración de la red del servidor Proxmox VE](modulo7/red_servidor.md)
     * [Configuración de una red interna](modulo7/red_interna.md)
     * [Conexión de una máquina virtual a la red interna](modulo7/conexion_red_intena.md)
+    * [Conexión de un un contenedor LXC a la red interna](modulo7/conexion_red_intena2.md)
     * [Introducción al cortafuegos de Proxmox VE](modulo7/cortafuegos.md)
         * Actividad 7.1: Creación de un red interna (OBLIGATORIA)
+        * Actividad 7.2: Configuración de un router en Proxmox VE (OBLIGATORIA)
+        * Actividad 7.3: Trabajando con el cortafuegos (VOLUNTARIA)
 
 8. Gestión de usuarios en Proxmox VE
     * Usuarios y Grupos

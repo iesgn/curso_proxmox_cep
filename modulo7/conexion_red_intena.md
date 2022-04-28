@@ -34,16 +34,6 @@ Y para terminar la configuración levantamos la interfaz con `ifup` y comprobamo
 
 ![img](img/red13.png)
 
-## Añadir una nueva interfaz de red a un contenedor
-
-En este caso, elegimos la opción **Network** del contenedor y podemos ver las interfaces que tiene configurada. Además podemos añadir nuevos interfaces:
-
-![img](img/red19.png)
-
-Podemos nombrar la nueva interfaz de red y el bridge al que se conectará, indicando directamente el direccionamiento estático:
-
-![img](img/red20.png)
-
 
 ## Crear una nueva máquina virtual conectada a la red interna
 
@@ -62,12 +52,6 @@ De la misma forma que hemos configurado la ip en la máquina *router*, vamos a c
 Y comprobamos que hay conectividad con la otra máquina:
 
 ![img](img/red17.png)
-
-## Crear un contenedor conectado a una red interna
-
-En el caso de la creación de un contenedor LXC podemos configurar la interfaz de red conectada al nuevo bridge, indicando directamente el direccionamiento estático:
-
-![img](img/red18.png)
 
 ## Conclusiones
 
