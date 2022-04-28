@@ -18,7 +18,7 @@ La máquina *router* ya está funcionando y tiene una interfaz de red conectada 
 
 ![img](img/red9.png)
 
-Elegimos al bridge que va a estar conectada esta nueva interfaz y elegimos el modelo VirtIO:
+Elegimos al bridge al que va a estar conectada esta nueva interfaz y elegimos el modelo VirtIO:
 
 ![img](img/red10.png)
 
