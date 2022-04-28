@@ -22,7 +22,7 @@ Elegimos al bridge al que va a estar conectada esta nueva interfaz (recuerda ele
 
 ![img](img/red10.png)
 
-En la red interna a la que hemos conectado la red no existe ningún servidor DHCP por lo que tendremos que hacer una configuración manual del direccionamiento de esta interface. La manera de hacer esta configuración dependerá del sistema operativo de la máquina que estamos configurando. En mi caso es una distribución Debian y podemos comprobar que ya tenemos dos interfaces configuradas:
+En la red interna a la que hemos conectado la red no existe ningún servidor DHCP por lo que tendremos que hacer una configuración manual del direccionamiento de esta interfaz. La manera de hacer esta configuración dependerá del sistema operativo de la máquina que estamos configurando (nn mi caso es una distribución Debian). Podemos comprobar que ya tenemos dos interfaces configuradas:
 
 ![img](img/red11.png)
 
