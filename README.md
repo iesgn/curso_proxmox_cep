@@ -27,6 +27,8 @@ Curso sobre Proxmox VE para el CEP.
     * [Creación de máquinas virtuales Windows](modulo3/creacion_windows.md)
         * [Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)](modulo3/actividad1.md)
         * [Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)](modulo3/actividad2.md)
+        * Actividad 3.3: Instalación de servicios en una máquina virtual (VOLUNTARIA)
+        ...
         * [Actividad 3.3: Creación de un escenario  de trabajo (1ª parte) (VOLUNTARIA)](modulo3/actividad3.md)
 
 4. Gestionando el almacenamiento
@@ -36,13 +38,18 @@ Curso sobre Proxmox VE para el CEP.
     * [Gestión de los discos de una máquina virtual](modulo4/gestion_almacenamiento.md)
         * [Actividad 4.1: Creación de un pool de almacenamiento para trabajar con imágenes de discos (OBLIGATORIA)](modulo4/actividad1.md)
         * [Actividad 4.2: Añadir nuevos discos a una máquina virtual (OBLIGATORIA)](modulo4/actividad2.md)
+        * Actividad 4.3: ....
 
 5. Clonación, instantáneas y copias de seguridad
     * [Clonación de máquinas virtuales](modulo5/clonacion.md)
     * [Convirtiendo máquinas virtuales en plantillas](modulo5/plantillas.md)
     * [Snapshots de máquinas virtuales](modulo5/snapshot.md)
     * [Copias de seguridad de máquinas virtuales](modulo5/backup.md)
-        * [Actividad 5.1: Clonación, instantáneas y copias de seguridad](modulo5/actividad1.md)
+        * [Actividad 5.1: Clonación de máquinas virtuales (OBLIGATORIA)]()
+        * [Actividad 5.2: Trabajando con plantillas (OBLIGATORIA)]()
+        * [Actividad 5.3: Instantáneas de máquinas virtuales (OBLIGATORIA)]()
+        * [Actividad 5.4: Copias de seguridad de máquinas virtuales (OBLIGATORIA)]()
+         .......
         * [Actividad 5.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)](modulo5/actividad2.md)
         * [Actividad 5.3: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)](modulo5/actividad3.md)
 
@@ -51,7 +58,10 @@ Curso sobre Proxmox VE para el CEP.
     * [Gestionando plantillas de contenedores](modulo6/plantillas.md)
     * [Creación de contenedores Linux](modulo6/contenedor.md)
     * [Gestión de contenedores Linux](modulo6/gestion.md)
-        * Actividad 6.1: Creación de un contenedor linux (OBLIGATORIA)
+    * Añadir almacenamiento a un contenedor LXC
+        * Actividad 6.1: Creación de un contenedor LXC (OBLIGATORIA)
+        * Actividad 6.2: Añadir almacenamiento a un contenedor LXC (OBLIGATORIA) 
+        * Actividad 6.3:
 
 7. Introducción a las redes en Proxmox
     * [Gestionando redes en Proxmox VE](modulo7/introduccion.md)
@@ -69,3 +79,5 @@ Curso sobre Proxmox VE para el CEP.
     * Pools de recursos
     * Permisos
         * Actividad 8.1: Gestión de usuarios y grupos (OBLIGATORIA)
+        * Actividad 8.2: Trabajndo con pools de recursos (OBLIGATORIA)
+        * Actividad 8.3: Aislamiento de los usuarios (VOLUNTARIA)
