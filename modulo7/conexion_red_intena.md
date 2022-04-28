@@ -52,6 +52,12 @@ Y comprobamos que hay conectividad con la otra máquina:
 
 ![img](img/red17.png)
 
+## Crear un contenedor conectado a una red interna
+
+En el caso de la creación de un contenedor LXC podemos configurar la interfaz de red conectada al nuevo bridge, indicando directamente el direccionamiento estático:
+
+![img](img/red18.png)
+
 ## Conclusiones
 
 La creación de diferentes Linux Bridge nos posibilita la construcción de escenarios complejos de red. Además tenemos que tener en cuenta que añadir o eliminar una interfaz se puede hacer en "caliente" sobre una máquina que esté funcionando. Del mismo modo, podemos modificar una interfaz de red ya existente para cambiar el bridge al que está conectada.
