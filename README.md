@@ -37,10 +37,12 @@ Curso sobre Proxmox VE para el CEP.
         * [Actividad 4.1: Creación de un pool de almacenamiento para trabajar con imágenes de discos (OBLIGATORIA)](modulo4/actividad1.md)
         * [Actividad 4.2: Añadir nuevos discos a una máquina virtual (OBLIGATORIA)](modulo4/actividad2.md)
 
-5. Gestionando redes virtuales
-    * Introducción a la redes virtuales en Proxmox VE
-    * Cortafuegos en Proxmox VE
+5. Introducción a las redes en Proxmox
+    * [Gestionando redes en Proxmox VE](modulo5/introduccion.md)
+    * [Configuración de la red del servidor Proxmox VE](modulo5/red_servidor.md)
+    * Configuración de red para las máquinas virtuales
     * Creación de una red interna
+    * Cortafuegos en Proxmox VE
         * Actividad 5.1: Creación de un red interna (OBLIGATORIA)
 
 6. Clonación, instantáneas y copias de seguridad
