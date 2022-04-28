@@ -29,4 +29,4 @@ Y podemos comprobar que ha tomado una ip en el direccionamiento que reparte nues
 
 ![img](img/red5.png)
 
-Por lo que podemos acceder a ella desde cualquier equipo que este en esa red.
+Por lo que podemos acceder a ella desde cualquier equipo conectada a nuestra red local.
