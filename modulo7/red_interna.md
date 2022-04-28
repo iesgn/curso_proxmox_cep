@@ -17,7 +17,7 @@ Para crear un nuevo bridge tenemos que elegir la opción **System - Network - Cr
 En la creación del bridge tendremos que configurar los siguientes parámetros:
 
 * El **nombre** del bridge debe tener el formato de *vmbr* y un número. 
-* Aunque no es necesario, podríamos asignarle una **ip al bridge** (normalmente los switch tienen una IP que nos permite acceder a ellos para configurarlos).
+* Aunque no es necesario, podríamos asignarle una **ip al bridge** (normalmente los switch tienen una IP que nos permite acceder a ellos para configurarlo).
 * Si indicamos la **ip del Gateway** lo que estaríamos haciendo es conectar una interfaz virtual del servidor Proxmox a este bridge, por lo que desde el servidor Proxmox tendríamos conectividad con las máquinas conectadas a este bridge. en nuestro caso no la vamos a indicar.
 * Y finalmente es importante activar el **Autostart** para que el bridge se levante tras un reinicio.
 
