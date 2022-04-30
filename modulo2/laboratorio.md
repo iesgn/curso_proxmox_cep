@@ -8,8 +8,9 @@ siguiente:
   ámbito de este curso no nos va a permitir el estudio de un clúster
   con varios servidores Proxmox.
 * La máquina virtual donde vamos a instalar Proxmox la podemos crear
-  en cualquier hypervisor: **VirtualBox, VMWare, KVM, HyperV, ...**
-* **Características de la máquina virtual donde vamos a realizar la instalación**
+  en cualquier hypervisor: **VirtualBox, VMWare, KVM, HyperV, ...**. Aunque en este curso vamos a suponer que elegimos VirtualBox como hipervisor más utilizado.
+
+## Configuración de la máquina virtual donde realizaremos la instalación
   
   Dependiendo de la cantidad de memoria RAM, espacio de disco duro y VCPU que asignemos a la máquina virtual donde vamos a instalar Proxmox VE, podremos virtualizar más o menos máquinas virtuales o contenedores:
 
@@ -24,10 +25,9 @@ siguiente:
     * **4 núcleos de CPU**
 
   Podemos asignar menos recursos, pero reduciremos las posibilidades de crear muchas máquinas virtuales y contenedores. Del mismo modo,cuantos más recursos asignemos a esa máquina más máquinas virtuales y contenedores podremos crear en nuestro Proxmox.
-* La máquina virtual debe tener una **interfaz de red de tipo
-  "bridge"**; es decir, debe estar conectada a la misma red del
-  anfitrión. Todas las máquinas virtuales y contenedores que creemos,
-  por defecto, estarán conectados a la misma red.
+
+La máquina virtual debe tener una **interfaz de red de tipo "bridge"**; es decir, debe estar conectada a la misma red del
+  anfitrión. Todas las máquinas virtuales y contenedores que creemos, por defecto, estarán conectados a la misma red.
 
 Quien tenga la opción de utilizar una máquina física dedicada para
 Proxmox puede hacerlo allí, pero no podemos considerar esta opción
