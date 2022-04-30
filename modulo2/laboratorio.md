@@ -18,11 +18,11 @@ siguiente:
   * Desde el punto de vista del almacenamiento: Este factor no es tan importante, pero tenemos que pensar que hay que almacenar las ISO para la instalación de las máquinas, los templates usados para la creación de los contenedores, las copias de seguridad de las máquinas,... y los discos duros de las máquinas virtuales. Este aspectos no es tan crítico, porque cómo veremos utilizaremos *aprovisionamiento ligero* que nos permite reducir el espacio ocupado por las máquinas virtuales.
   * Al crear máquinas virtuales o contenedores podremos asignarle cores virtuales de CPU, por lo que aumentará el rendimiento si asignamos a nuestra máquina virtual suficientes núcleos de CPU.
 
-  Por todo lo explicado a continuación la **configuración recomendada** para la máquina virtual sería:
+Por todo lo explicado a continuación la **configuración recomendada** para la máquina virtual sería:
 
-    * **8 Gb de RAM**
-    * **100 Gb de disco duro**
-    * **4 núcleos de CPU**
+* **8 Gb de RAM**
+* **100 Gb de disco duro**
+* **4 núcleos de CPU**
 
   Podemos asignar menos recursos, pero reduciremos las posibilidades de crear muchas máquinas virtuales y contenedores. Del mismo modo,cuantos más recursos asignemos a esa máquina más máquinas virtuales y contenedores podremos crear en nuestro Proxmox.
 
