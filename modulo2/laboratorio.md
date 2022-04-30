@@ -36,7 +36,7 @@ participantes utilizarán una máquina virtual en su propio equipo.
 
 ## Configuración especifica de VirtualBox para la instalación de Proxmox
 
-Consideramos que el hipervisor más común que podemos usar para la creación de la máquina virtual donde vamos a instalar Proxmox VE es VirtualBox. Por lo tanto siguiendo estas [instrucciones](https://pve.proxmox.com/wiki/Proxmox_VE_inside_VirtualBox) tenemos que tener en cuenta los siguientes aspectos:
+Consideramos que el hipervisor más común que podemos usar para la creación de la máquina virtual donde vamos a instalar Proxmox VE es VirtualBox. Para esta configuración se ha usado la versión **6.1.34**, en versiones anteriores puede que no exista alguna configuración o se encuentre modificada. Por lo tanto siguiendo estas [instrucciones](https://pve.proxmox.com/wiki/Proxmox_VE_inside_VirtualBox) tenemos que tener en cuenta los siguientes aspectos:
 
 ### Configuraciones necesarias
 
