@@ -1,4 +1,4 @@
-# Preparando un laboratorio para probar Proxmox VE
+# Preparando un laboratorio para testear Proxmox VE
 
 En este curso vamos a montar un laboratorio para aprender los
 conceptos más importantes de Proxmox VE. Por lo tanto, os proponemos lo
