@@ -44,7 +44,7 @@ opciones sobre la máquina:
 * **Backup**: Nos permite realizar una copia de seguridad. Lo
   estudiaremos en un módulo posterior.
 * **Replication** Nos permite gestionar las réplicas de la máquina
-  entre distintos nodos del cluster de Proxmox VE. Lo estudiaremos en
+  entre distintos nodos del clúster de Proxmox VE. Lo estudiaremos en
   un módulo posterior.
 * **Snapshot**: Nos permite crear un snapshot de la máquina para
   recuperar posteriormente su estado. Lo estudiaremos en un módulo

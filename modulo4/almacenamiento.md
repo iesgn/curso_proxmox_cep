@@ -6,7 +6,7 @@ nuestras máquinas virtuales y contenedores, y de los discos
 adicionales en su caso.
 
 Según el tipo de almacenamientos que podemos configurar en nuestro
-cluster, tendremos distintas características:
+clúster, tendremos distintas características:
 
 1. **Tipos de almacenamiento**
 
@@ -24,12 +24,12 @@ Hay dos clases de almacenamiento que podemos configurar:
 
 Algunos de los **pools de almacenamientos** que podemos usar tienen la
 características de poder compartir la información entre distintos
-nodos de nuestro cluster Proxmox VE. En el caso que utilicemos estos
+nodos de nuestro clúster Proxmox VE. En el caso que utilicemos estos
 tipos de almacenamiento tendremos a nuestra disposición la
 funcionalidad de **migración en vivo** de máquinas virtuales y
 contenedores, ya que el contenido del disco estará compartido entre
-los distintos nodos del cluster. Si no tenemos esta característica, la
-migración de máquinas entre distintos nodos del cluster conllevará la
+los distintos nodos del clúster. Si no tenemos esta característica, la
+migración de máquinas entre distintos nodos del clúster conllevará la
 copia de la imagen del disco entre los nodos.
 
 3. **Snapshots**

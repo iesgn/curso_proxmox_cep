@@ -33,7 +33,7 @@ Si elegimos un contenedor LXC, nos aparece un panel lateral con más opciones so
   realizado sobre el contenedor.
 * **Backup**: Nos permite realizar una copia de seguridad del contenedor.
 * **Replication** Nos permite gestionar las réplicas del contenedor
-  entre distintos nodos del cluster de Proxmox VE. 
+  entre distintos nodos del clúster de Proxmox VE. 
 * **Snapshot**: Nos permite crear un snapshot del contenedor para
   recuperar posteriormente su estado. 
 * **Firewall**: Nos permite gestionar el cortafuego del contenedor.

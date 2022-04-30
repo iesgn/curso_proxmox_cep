@@ -1,6 +1,6 @@
 # Creación de un pool de almacenamiento tipo Directory
 
-El almacenamiento de tipo *Directory* nos posibilita guardar información en un nodo del cluster Proxmox VE. Por lo tanto no tenemos la funcionalidad de datos compartidos.
+El almacenamiento de tipo *Directory* nos posibilita guardar información en un nodo del clúster Proxmox VE. Por lo tanto no tenemos la funcionalidad de datos compartidos.
 
 ## Pool de almacenamiento configurado por defecto
 

@@ -33,12 +33,12 @@ Proxmox VE en nuestro centro educativo.
 
 ### Instalación de Proxmox VE en un solo nodo
 
-Realmente Proxmox VE nos permite la construcción de un cluster de
+Realmente Proxmox VE nos permite la construcción de un clúster de
 servidores para la virtualización de recursos. En un centro educativo
 puede ser una opción muy adecuada empezar a usar Proxmox con un solo
 servidor. No tendríamos las características avanzadas que nos ofrece
-el cluster (alta disponibilidad, migración de recursos, ...) pero
-siempre podemos escalar nuestra infraestructura y crear un cluster
+el clúster (alta disponibilidad, migración de recursos, ...) pero
+siempre podemos escalar nuestra infraestructura y crear un clúster
 posteriormente. Tendríamos dos posibilidades:
 
 **Un solo servidor Proxmox**
@@ -66,17 +66,17 @@ se suelen usar redes diferenciadas: la red de acceso a las máquinas
 almacenamiento no estarían disponibles de forma directa desde la red
 del departamento.
 
-### Instalación de un cluster Proxmox VE
+### Instalación de un clúster Proxmox VE
 
-Para sacar todo su potencial a Proxmox necesitamos instalar un cluster
+Para sacar todo su potencial a Proxmox necesitamos instalar un clúster
 de servidores. En este caso tendríamos varios servidores donde se
 virtulizarían nuestros recursos. En este esquema sí sería necesario
 tener un sistema de almacenamiento compartido para que los datos de
 nuestros recursos virtualizados fueran compartidos entre los distintos
-nodos del cluster.
+nodos del clúster.
 
 ![escenario3](img/escenario3.drawio.png)
 
 Es recomendable tener una red aislada (verde) que conecte los nodos
-del cluster para la gestión interna del mismo.
+del clúster para la gestión interna del mismo.
 

@@ -39,10 +39,10 @@ podemos ver con distintas vistas:
 Si nos fijamos en la **Server View** podemos clasificar los objetos
 que tenemos disponibles:
 
-El objeto principal es el **Datacenter**, que representa el cluster
+El objeto principal es el **Datacenter**, que representa el clúster
 Proxmox VE que estamos gestionando. Está formado por:
 
-* **Nodos**: Representa a cada servidor que forma parte del cluster.
+* **Nodos**: Representa a cada servidor que forma parte del clúster.
 * **Máquinas virtuales**.
 * **Contenedores Linux**.
 * **Almacenamiento**: Tenemos las distintas fuentes de almacenamiento

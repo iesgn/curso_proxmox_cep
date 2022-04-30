@@ -15,7 +15,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Instalación de Proxmox VE](modulo2/instalacion.md)
     * [Acceso a la GUI de Proxmox VE](modulo2/acceso.md)
     * [Vista general de la GUI de Proxmox VE](modulo2/vista_general.md)
-    * [Introducción al cluster Proxmox VE](modulo2/introduccion_cluster.md)
+    * [Introducción al clúster Proxmox VE](modulo2/introduccion_cluster.md)
     * [Almacenamiento y redes disponibles](modulo2/almacenamiento_redes.md)
         * [Actividad 2.1: Instalación y acceso a Proxmox VE (OBLIGATORIA)](modulo2/actividad1.md)
 
