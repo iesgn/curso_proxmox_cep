@@ -7,10 +7,10 @@ tenemos que tener en cuenta que Windows no tiene soporte nativo para
 dispositivos VirtIO. Por lo tanto, a la hora de crear una máquina
 virtual Windows tendremos que añadir los controladores de dispositivos
 (*drivers*) necesarios para que Windows identifique los dispositivos
-virtio que definamos en la máquina virtual.
+VirtIO que definamos en la máquina virtual.
 
 En este caso, el proyecto Fedora proporciona controladores de
-dispositivos de software libre para virtio en Windows.
+dispositivos de software libre para VirtIO en Windows.
 
 ### ISO de los controladores de dispositivo VirtIO para Windows
 
@@ -70,7 +70,7 @@ el disco duro:
 
 ![create windows](img/create_win_7.png)
 
-También podemos elegir virtio para la interfaz de red, ya que los
+También podemos elegir VirtIO para la interfaz de red, ya que los
 controladores de dispositivo VirtIO que hemos instalado también
 incluyen el soporte para la red.
 
