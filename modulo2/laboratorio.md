@@ -24,7 +24,7 @@ Por todo lo explicado a continuación la **configuración recomendada** para la 
 * **100 Gb de disco duro**
 * **4 núcleos de CPU**
 
-  Podemos asignar menos recursos, pero reduciremos las posibilidades de crear muchas máquinas virtuales y contenedores. Del mismo modo,cuantos más recursos asignemos a esa máquina más máquinas virtuales y contenedores podremos crear en nuestro Proxmox.
+Podemos asignar menos recursos, pero reduciremos las posibilidades de crear muchas máquinas virtuales y contenedores. Del mismo modo,cuantos más recursos asignemos a esa máquina más máquinas virtuales y contenedores podremos crear en nuestro Proxmox.
 
 La máquina virtual debe tener una **interfaz de red de tipo "bridge"**; es decir, debe estar conectada a la misma red del
   anfitrión. Todas las máquinas virtuales y contenedores que creemos, por defecto, estarán conectados a la misma red.
