@@ -11,6 +11,7 @@ Curso sobre Proxmox VE para el CEP.
     
 2. Instalación de Proxmox VE
     * [Escenarios para la instalación de Proxmox VE](modulo2/escenarios.md)
+    * [Preparando un laboratorio para probar Proxmox VE]
     * [Instalación de Proxmox VE](modulo2/instalacion.md)
     * [Acceso a la GUI de Proxmox VE](modulo2/acceso.md)
     * [Vista general de la GUI de Proxmox VE](modulo2/vista_general.md)
@@ -25,6 +26,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Gestión de máquinas virtuales](modulo3/gestion.md)
     * [Características y hardware de las máquinas virtuales](modulo3/caracteristicas.md)
     * [Creación de máquinas virtuales Windows](modulo3/creacion_windows.md)
+    * Instalación de Guest Agent en las máquinas virtuales
         * [Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)](modulo3/actividad1.md)
         * [Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)](modulo3/actividad2.md)
         * Actividad 3.3: Instalación de servicios en una máquina virtual (VOLUNTARIA)
