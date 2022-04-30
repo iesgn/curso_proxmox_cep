@@ -41,7 +41,7 @@ de los drivers VirtIO.
 ![create windows](img/create_win_3.png)
 
 Además, nos tenemos que asegurar que en el orden de arranque el CDROM
-donde hemos montado la ISO de Windows (en mi caso ide2) este por
+donde hemos montado la ISO de Windows (en mi caso ide2) esté por
 delante que el CDROM con los drivers VirtIO.
 
 ![create windows](img/create_win_4.png)
