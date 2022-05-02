@@ -10,7 +10,7 @@ Para hacer uso de este programa debemos activarlo en la configuración de la má
 
 ## Instalación de Qemu-guest-agent
 
-Normalmente las máquinas Linux que creamos en Proxmox detectan que se están ejecutando en este entorno y durante la instalación instala este servicio (Por ejemplo en las máquinas Debian 11 se realiza la instalación automáticamente). Si n o se realiza la instalación de forma automática podemos instalar el paquete, por ejemplo en Debian/Ubuntu:
+Normalmente las máquinas Linux que creamos en Proxmox detectan que se están ejecutando en este entorno y durante la instalación se instala este servicio (por ejemplo en las máquinas Debian 11 se realiza la instalación automáticamente). Si no se realiza la instalación de forma automática podemos instalar el paquete, por ejemplo en Debian/Ubuntu:
 
     apt install qemu-guest-agent
 
