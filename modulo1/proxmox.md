@@ -15,7 +15,7 @@ La versión actual de Proxmox VE nos permite gestionar los siguientes recursos v
 * Ofrece herramientas de línea de comandos para la gestión de los recursos virtualizados.
 * Ofrece una API REST que nos permite la gestión de los recursos virtualizados desde un programa diseñado por nosotros.
 * Permite la creación de un clúster de servidores Proxmox.
-* si tenemos configurado un clúster de servidores Proxmox tendremos características de alta disponibilidad y de migraciones en vivo.
+* Si tenemos configurado un clúster de servidores Proxmox tendremos características de alta disponibilidad y de migraciones en vivo.
 * Permite el uso de muchos tipos de medios de almacenamiento.
 * Permite la configuración de la red que van a utilizar las máquinas virtuales y los contenedores.
 * Es un programa de código abierto.
@@ -24,8 +24,11 @@ La versión actual de Proxmox VE nos permite gestionar los siguientes recursos v
 
 ## Proxmox VE en un centro educativo
 
-Un sistema de virtualización como Proxmox VE puede ser muy adecuado para la enseñanzas de las TIC en nuestros centros educativos.
+Un sistema de virtualización como Proxmox VE puede ser muy adecuado para la enseñanzas de las TIC en nuestros centros educativos:
 
-Por un lado nos beneficiamos de todas las características que estudiamos sobre la virtualización y por otro lado podemos hacer que los recursos virtualizados que usan los alumnos no se estén ejecutando en sus máquinas físicas.
-
-Si una máquina física de un alumno se estropea podrá seguir usando los recursos virtualizados sin problemas, porque se están ejecutando en un servidor o en un clúster de servidores.
+* Por un lado nos beneficiamos de todas las características que estudiamos sobre la virtualización.
+* Nos permite que los recursos virtualizados que usan los alumnos no se estén ejecutando en sus máquinas físicas.
+* No tenemos la limitación de recursos de las máquinas de los alumnos.
+* Si una máquina física de un alumno se estropea podrá seguir usando los recursos virtualizados sin problemas, porque se están ejecutando en un servidor o en un clúster de servidores.
+* Los profesores tenemos acceso a las máquinas de los alumnos (¡Para corregir viene muy bien!).
+* Los alumnos usan un sistema de virtualización ampliamente implantado en muchas empresas.
