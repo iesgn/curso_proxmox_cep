@@ -66,7 +66,7 @@ Como se ha indicado los privilegios no se asignan directamente, los **roles** so
 
 Podemos crear nuevos roles para asignar nuevos perfiles de usuarios.
 
-## ASignación de permisos
+## Asignación de permisos
 
 Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina viretual/contenedoir, pool de almacenamiento, grupo de recursos,...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
 
