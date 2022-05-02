@@ -77,8 +77,12 @@ Curso sobre Proxmox VE para el CEP.
         * Actividad 7.3: Trabajando con el cortafuegos (VOLUNTARIA)
 
 8. Gestión de usuarios en Proxmox VE
-    * Usuarios y Grupos
-    * Pools de recursos
+    * [Introducción a la gestión de usuarios](modulo8/introduccion.md)
+    * [Gestión de Usuarios y Grupos](modulo8/usuarios.md)
+    * Gestión de Pools de Recursos
+    * Gestión de permisos
+    * 
+
     * Permisos
         * Actividad 8.1: Gestión de usuarios y grupos (OBLIGATORIA)
         * Actividad 8.2: Trabajndo con pools de recursos (OBLIGATORIA)
