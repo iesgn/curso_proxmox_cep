@@ -82,7 +82,7 @@ Una vez que hemos creado la máquina windows nos damos cuenta de que no tenemos 
 
     ![create windows](img/create_win_8.png)
 
-2. Y escogemos la carpeta del CDROM donde hemos montado los drivers VirtIO: `NetKVM` - carpeta con el nombre de tu versión de windows, - `amd64`:
+2. Y escogemos la carpeta del CDROM donde hemos montado los drivers VirtIO: `NetKVM\<carpeta con el nombre de tu versión de windows>\amd64`:
 
     ![create windows](img/create_win_9.png)
 
