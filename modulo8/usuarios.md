@@ -2,7 +2,7 @@
 
 ## Creación de Grupos
 
-Para crear un grupo solamente es necesario indicar su nombre y opcionalmante un comentario:
+Para crear un grupo solamente es necesario indicar su nombre y opcionalmente un comentario:
 
 ![usuarios](img/usuario3.png)
 

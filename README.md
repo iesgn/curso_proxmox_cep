@@ -79,7 +79,7 @@ Curso sobre Proxmox VE para el CEP.
 8. Gestión de usuarios en Proxmox VE
     * [Introducción a la gestión de usuarios](modulo8/introduccion.md)
     * [Gestión de Usuarios y Grupos](modulo8/usuarios.md)
-    * Gestión de Pools de Recursos
+    * [Gestión de Pools de Recursos](modulo8/pools.md)
     * Gestión de permisos
     * 
 
