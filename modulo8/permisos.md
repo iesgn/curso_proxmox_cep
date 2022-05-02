@@ -55,7 +55,8 @@ Como se ha indicado los privilegios no se asignan directamente, los **roles** so
 * `PVEAuditor`: sólo tiene acceso de lectura.
 * `PVEDatastoreAdmin`: crea y asigna el espacio y las plantillas de las copias de seguridad.
 * `PVEDatastoreUser`: asigna el espacio de copia de seguridad y ve el almacenamiento.
-* `PVEPoolAdmin`: asigna pools.
+* `PVEPoolAdmin`: asigna pools de recursos.
+* `PVEPoolUser`: ver u utllizar pools de recursos.
 * `PVESysAdmin`: ACLs de usuario, auditoría, consola del sistema y registros del sistema.
 * `PVETemplateUser`: ver y clonar plantillas.
 * `PVEUserAdmin`: gestionar usuarios.
