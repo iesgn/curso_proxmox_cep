@@ -12,7 +12,7 @@ Los grupos se pueden editar (para cambiar el nombre o el comentario) y eliminar.
 
 Al crear un usuario tenemos que escoger la fuente de autentificación (en este ejemplo vamos a escoger *Proxmox VE Authentication Server*):
 
-![usuarios](img/usuario3.png)
+![usuarios](img/usuario4.png)
 
 Ademas del nombre de usuario y la contraseña, podremos indicar la siguiiente información:
 
