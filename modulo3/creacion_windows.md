@@ -12,7 +12,7 @@ VirtIO que definamos en la máquina virtual.
 En este caso, el proyecto Fedora proporciona controladores de
 dispositivos de software libre para VirtIO en Windows.
 
-### ISO de los controladores de dispositivo VirtIO para Windows
+## ISO de los controladores de dispositivo VirtIO para Windows
 
 Podemos bajar la última versión de los drivers VirtIO para Windows en
 el siguiente
@@ -21,7 +21,7 @@ y subir la ISO a Proxmox VE.
 
 ![create windows](img/create_win_1.png)
 
-### Creamos la nueva máquina virtual Windows
+## Creamos la nueva máquina virtual Windows
 
 Teniendo en cuenta los siguiente:
 
@@ -33,7 +33,7 @@ Recuerda que escogemos como controlador de almacenamiento *VirtIO SCSI*:
 
 ![create windows](img/create_win_2.png)
 
-### Añadimos un CDROM con los drivers VirtIO
+## Añadimos un CDROM con los drivers VirtIO
 
 Antes de iniciar la máquina, le añadimos un CD-ROM con la imagen ISO
 de los drivers VirtIO.
@@ -46,7 +46,7 @@ delante que el CDROM con los drivers VirtIO.
 
 ![create windows](img/create_win_4.png)
 
-### Comenzamos la instalación
+## Comenzamos la instalación
 
 Iniciamos la máquina, accedemos a la consola y comenzamos la
 instalación, hasta que llegamos a la pantalla donde tenemos que
@@ -70,9 +70,25 @@ el disco duro:
 
 ![create windows](img/create_win_7.png)
 
+## Configuración de la red
+
 También podemos elegir VirtIO para la interfaz de red, ya que los
 controladores de dispositivo VirtIO que hemos instalado también
 incluyen el soporte para la red.
+
+Una vez que hemos creado la máquina windows nos damos cuenta de que no tenemos conexión de red, debido a que Windows no tiene los drivers para el controlador VirtIO, para instalarlo:
+
+1. Actualizamos el controlador del dispositivo **Controladora Ethernet** en el **Administrador de dispositivos**:
+
+    ![create windows](img/create_win_8.png)
+
+2. Y escogemos la carpeta del CDROM donde hemos montado los drivers VirtIO: `NetKVM` - carpeta con el nombre de tu versión de windows, - `amd64`:
+
+    ![create windows](img/create_win_9.png)
+
+
+
+
 
 Para más información: [Windows VirtIO
 Drivers](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers).
