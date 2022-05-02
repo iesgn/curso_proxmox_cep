@@ -1,4 +1,4 @@
-# Ejemplo 2: Aislar a usuarios
+# Ejemplo 2: Aislamiento de usuarios
 
 En el ejemplo anterior todos los usuarios trabajaban sobre los mismos recursos. En algunos escenarios sería deseable que cada usuario pudiera gestionar sus recursos. Esta idea vendría muy bien en la utilización de Proxmox VE en un centro educativo: cada alumno podría gestionar sus recursos y no podría interferir en los recursos de un compañero. 
 
