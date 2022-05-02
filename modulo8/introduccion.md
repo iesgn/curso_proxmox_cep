@@ -24,5 +24,5 @@ Para gestionar usuarios, grupos, permisos, elegimos la opción **Permissions** e
 * *Groups*: Gestión de los grupos de usuarios.
 * *Pools*: Gestión de los **Grupos de Recursos** o **Pools de recursos**. Un grupo de recursos es un conjunto de máquinas virtuales, contenedores y pools de almacenamiento. Profundizaremos en este concepto en los próximos capítulos.
 * *Roles*: Gestiona los **Roles**: Los Roles son **conjuntos de permisos**. También lo estudiaremos más adelante.
-* *Authentification*: Nos permiote gestionar las fuentes de autentificación disponibles.
+* *Authentification*: Nos permite gestionar las fuentes de autentificación disponibles.
 
