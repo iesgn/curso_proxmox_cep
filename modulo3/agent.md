@@ -18,7 +18,7 @@ Para el sistema operativo Windows, desde el CDROM donde hemos montado los driver
 
 1. Vamos al **Administrador de Dispositivos** (**Device Manager**).
 2. Buscamos **"PCI Simple Communications Controller"**
-3. Botón derecho-> Actualizar Controlador (Update Driver) -> Seleccionar la iso montada en `DRIVE:\vioserial\<carpeta con el nombre de tu versión de windows>/amd64`.
+3. Botón derecho-> Actualizar Controlador (Update Driver) -> Seleccionar la iso montada en `DRIVE:\vioserial\<carpeta con el nombre de tu versión de windows>\amd64`.
 
 ![agent](img/agent1.png)
 
