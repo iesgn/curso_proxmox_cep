@@ -8,7 +8,7 @@ Para crear un un pool de recursos solamente es necesario indicar su nombre y opc
 
 ![usuarios](img/usuario5.png)
 
-Un pool se pueden editar (para cambiar el nombre o el comentario) y eliminar (un pool sólo se puede eliminar cuando no tiene ningún recurso asignado).
+Un pool se pueden editar (para cambiar el comentario) y eliminar (un pool sólo se puede eliminar cuando no tiene ningún recurso asignado).
 
 ## Asignación de recursos a un pool
 

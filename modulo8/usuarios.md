@@ -6,7 +6,7 @@ Para crear un grupo solamente es necesario indicar su nombre y opcionalmente un 
 
 ![usuarios](img/usuario3.png)
 
-Los grupos se pueden editar (para cambiar el nombre o el comentario) y eliminar.
+Los grupos se pueden editar (para cambiar el comentario) y eliminar.
 
 ## Creación y gestión de Usuarios
 
