@@ -25,7 +25,7 @@ Si elegimos un contenedor LXC, nos aparece un panel lateral con más opciones so
 
 * **Sumary**: Resumen y monitorización del contenedor elegida.
 * **Console**: Nos permite acceder a una consola para trabajar con el contenedor.
-* **Resources**: Nos permite ver y cambiar la configuración de CPU y memoria.
+* **Resources**: Nos permite ver y cambiar la configuración de CPU, memoria, puntos de montaje,....
 * **Networks**: Nos permite gestionar las interfaces de red del contenedor.
 * **DNS**: Nos permite configurar los servidores DNS que va a utilizar el contenedor.
 * **Options**: Nos permite modificar opciones del contenedor.
