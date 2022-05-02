@@ -42,6 +42,6 @@ Y por último asignamos los permisos:
 
 ![usuarios](img/usuario24.png)
 
-3. Si acceder el usuario `profesor1` podrá gestionar todas las máquinas de todos los usuarios:
+3. Si accede el usuario `profesor1` podrá gestionar todas las máquinas de todos los usuarios:
 
 ![usuarios](img/usuario25.png)
