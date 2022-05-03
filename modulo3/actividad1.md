@@ -9,7 +9,7 @@ En esta actividad vamos a crear nuestra primera máquina virtual. Para ello:
 1. Sube una imagen ISO de tu distribución preferida de Linux.
 2. Crea una nueva máquina virtual en Proxmox, e instala el sistema operativo a partir de la imagen ISO que has subido anteriormente. Al configurar los recursos de la máquina ten en cuenta los recursos que tiene tu host, para una máquina linux sin entorno gráfico serían suficientes 512 MiB de RAM.
 3. Configura la máquina virtual creada para que se inicie de forma automática al arrancar Proxmox VE.
-4. Una vez instalada la máquina accede a ella desde un terminal de Proxmox VE.
+4. Una vez instalada la máquina accede a ella desde una consola de Proxmox VE.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
