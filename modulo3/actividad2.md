@@ -8,16 +8,18 @@ En esta actividad vamos a crear una máquina virtual con el sistema operativo Wi
 
 1. Sube una imagen ISO de Windows 10.
 2. Sube la imagen ISO de los drivers VirtIO.
-3. Crea una nueva máquina virtual en Proxmox, con la configuración que hemos indicado en el contenido del módulo.
+3. Crea una nueva máquina virtual en Proxmox, con la configuración que hemos indicado en el contenido del módulo (no olvides coger el tipo de disco duro y la interfaz de red como VirtIO).
 4. Añade a la máquina un CDROM con los drivers VirtIO y configura la máquina para que arranque de forma adecuada con el instalador de Windows.
 5. Instala de forma adecuada los drivers VirtIO para detectar el disco duro durante la instalación y terminar la instalación de la máquina.
 6. Una vez instalada la máquina accede a ella desde un terminal de Proxmox VE.
+7. Configura de forma adecuada los drivers de la tarjeta de red para que tenga la máquina tenga acceso a internet.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
 1. Un pantallazo donde se vea el apartado **Hardware** de la máquina que has creado.
 2. Un pantallazo donde se vea el apartado **Options** de la máquina para comprobar el orden de arranque configurado.
-3. Un pantallazo donde se vea el acceso a la máquina virtual una vez instalada.
+3. Un pantallazo donde se vea el acceso a la máquina virtual una vez instalada usando la consola de Proxmox VE.
+4. Un pantallazo donde se compruebe que la máquina tiene acceso a internet.
 
 
 ## RECURSOS
