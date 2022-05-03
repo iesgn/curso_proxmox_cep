@@ -7,6 +7,7 @@ Cuando usamos la clonación vamos a crear una nueva máquina virtual independien
 Vamos a partir de que tenemos una máquina ya creada, para crear una exactamente igual a la primera realizamos la clonación:
 
 ![clonación](img/clonacion1.png)
+
 En la siguiente pantalla de clonación:
 
 ![clonación](img/clonacion2.png)
@@ -15,6 +16,6 @@ Elegimos el ID, el nombre de la nueva máquina y el pool de almacenamiento donde
 
 ![clonación](img/clonacion3.png "clonación")
 
-Las dos máquinas son iguales por lo que tendremos que modificar alguna configuración de la nueva máquina: por ejemplo, el hostname, la configuración de red si es necesario, …
+Las dos máquinas son iguales por lo que tendremos que modificar alguna configuración de la nueva máquina: por ejemplo, el hostname, la configuración de red si es necesario, ...
 
 
