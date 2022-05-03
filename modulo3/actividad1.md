@@ -15,7 +15,7 @@ Para superar la actividad deberás entregar en un fichero comprimido los siguien
 
 1. Un pantallazo donde se vea el apartado **Hardware** de la máquina que has creado.
 2. Un pantallazo donde se vea el apartado **Options** de la máquina para comprobar si se ha configurado el arranque automático.
-3. Un pantallazo donde se vea el acceso a la máquina virtual una vez instalada.
+3. Un pantallazo donde se vea el acceso a la máquina virtual una vez instalada usando la consola de Proxmox VE.
 
 
 ## RECURSOS
