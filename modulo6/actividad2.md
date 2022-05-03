@@ -4,7 +4,7 @@
 
 ## TEXTO DE LA ACTIVIDAD
 
-En esta actividad vamos a seguir trabajando con el conteendor que creamos en la actividad anterior:
+En esta actividad vamos a seguir trabajando con el contenedor que creamos en la actividad anterior:
 
 1. Añade un volumen de 2Gb como punto de montaje en el contenedor, en el directorio `/srv`.
 
