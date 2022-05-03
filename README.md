@@ -7,7 +7,7 @@ Curso sobre Proxmox VE para el CEP.
     * [¿Qué es la virtualización?](modulo1/virtualizacion.md)
     * [Tipos de virtualización](modulo1/tipos.md)
     * [Introducción a Proxmox VE](modulo1/proxmox.md)
-        * Actividad 1.1: ¿Qué experiencia previa tenemos de virtualización?
+        * [Actividad 1.1: Foro: ¿Qué experiencia previa tienes sobre virtualización?](modulo1/actividad1.md)
     
 2. Instalación de Proxmox VE
     * [Escenarios para la instalación de Proxmox VE](modulo2/escenarios.md)
