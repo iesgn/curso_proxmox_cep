@@ -39,7 +39,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Gestión de los discos de una máquina virtual](modulo4/gestion_almacenamiento.md)
         * [Actividad 4.1: Creación de un pool de almacenamiento para trabajar con imágenes de discos (OBLIGATORIA)](modulo4/actividad1.md)
         * [Actividad 4.2: Añadir nuevos discos a una máquina virtual (OBLIGATORIA)](modulo4/actividad2.md)
-        * Actividad 4.3: ....
+        * [Actividad 4.3: Gestión de discos (VOLUNTARIA)](modulo4/actividad3.md)
 
 5. Clonación, instantáneas y copias de seguridad
     * [Clonación de máquinas virtuales](modulo5/clonacion.md)
