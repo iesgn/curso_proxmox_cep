@@ -79,6 +79,5 @@ Curso sobre Proxmox VE para el CEP.
     * [Gestión de Permisos](modulo8/permisos.md)
     * [Ejemplo 1: Especificar tipos de usuarios](modulo8/ejemplo1.md)
     * [Ejemplo 2: Aislamiento de usuarios](modulo8/ejemplo2.md)
-        * Actividad 8.1: Gestión de usuarios y grupos (OBLIGATORIA)
-        * Actividad 8.2: Trabajando con pools de recursos (OBLIGATORIA)
-        * Actividad 8.3: Aislamiento de usuarios (VOLUNTARIA)
+        * [Actividad 8.1: Gestión de usuarios (OBLIGATORIA)](modulo8/actividad1.md)
+       
