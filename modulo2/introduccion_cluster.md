@@ -25,8 +25,7 @@ opciones del clúster en el panel lateral, veamos algunas de ellas:
   clúster y el uso de recursos.
 * **Clúster**: Proporciona la funcionalidad y la información
   necesarias para crear o unirse a un clúster. Con un solo nodo
-  todavía no tenemos la funcionalidad de clúster, la estudiaremos
-  posteriormente.
+  todavía no tenemos la funcionalidad de clúster. No vamos a estudiarla en este curso.
 * **Options**: Configuración general del clúster.
 * **Storage**: Nos permite gestionar el almacenamiento del clúster.
 * **Backup**: Nos proporciona la posibilidad de crear copias de
@@ -49,7 +48,7 @@ aparecen las opciones propias de ese nodo, veamos algunas de ellas:
 * **Search**: Para realizar búsquedas en el nodo.
 * **Summary**: Ofrece una breve descripción general del nodo y el uso de recursos en él.
 * **Notes**: Podemos escribir comentarios usando Markdown.
-* **Shell**: nos permite acceder a la shell del nodo.
+* **Shell**: Nos permite acceder a la shell del nodo.
 * **System**: Configura varios aspectos del nodo: red, DNS, certificados, resolución estática, logs, ...
 * **Updates**: Nos permite gestionar los repositorios de paquetes y hacer actualizaciones del nodo.
 * **Firewall**: Podemos configurar el cortafuego del nodo.
