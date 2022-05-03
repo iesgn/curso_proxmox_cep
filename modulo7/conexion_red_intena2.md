@@ -1,6 +1,6 @@
-# Conexión de un un contenedor LXC a la red interna
+# Conexión de un contenedor LXC a la red interna
 
-De forma similar al estudiado en el punto anterior, podríamos conectar un contenedor LXC a una red interna.
+De forma similar a lo estudiado en el punto anterior, podríamos conectar un contenedor LXC a una red interna.
 
 ## Añadir una nueva interfaz de red a un contenedor
 

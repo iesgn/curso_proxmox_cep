@@ -1,6 +1,6 @@
 # Conexión de una máquina virtual a la red interna
 
-Una vez tenemos nuestro bridge **vmbr1** tenemos dos posibilidades:
+Una vez tenemos creado nuestro bridge **vmbr1**, tenemos dos posibilidades:
 
 * Conectarle una máquina que ya está funcionando. Es decir, añadir una interfaz de red a una máquina ya existente.
 * Crear una nueva máquina conectada a este bridge.
@@ -18,7 +18,7 @@ La máquina *router* ya está funcionando y tiene una interfaz de red conectada 
 
 ![img](img/red9.png)
 
-Elegimos al bridge al que va a estar conectada esta nueva interfaz (recuerda elegir el driver VirtIO):
+Elegimos al bridge al que va a estar conectada esta nueva interfaz (recuerda elegir el **driver VirtIO**):
 
 ![img](img/red10.png)
 
@@ -55,4 +55,4 @@ Y comprobamos que hay conectividad con la otra máquina:
 
 ## Conclusiones
 
-La creación de diferentes Linux Bridge nos posibilita la construcción de escenarios complejos de red. Además tenemos que tener en cuenta que añadir o eliminar una interfaz se puede hacer en "caliente" sobre una máquina que esté funcionando. Del mismo modo, podemos modificar una interfaz de red ya existente para cambiar el bridge al que está conectada.
+La creación de diferentes Linux Bridge nos posibilita la construcción de escenarios complejos de red. Además tenemos que tener en cuenta que añadir o eliminar una interfaz de red se puede realizar en "caliente" sobre una máquina que esté funcionando. Del mismo modo, podemos modificar una interfaz de red ya existente para cambiar el bridge al que está conectada.

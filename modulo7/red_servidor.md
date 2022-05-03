@@ -15,13 +15,13 @@ El esquema que tenemos sería el siguiente:
 
 ![img](img/red2.png)
 
-En una instalación real de Proxmox el servidor puede tener más interfaces de red, podría existir un switch físico en la infraestructura y podríamos necesitar una configuración más avanzada usando por ejemplo **Bonding** (Link Aggregation) o **VLAN**. Proxmox VE nos permite configurar estas opciones avanzadas usando **Linux Bridge** o **Open vSwitch** (otra tecnología que nos permite trabajar con switch software). en este curso no se va a abordar el estudio de estas características avanzadas.
+En una instalación real de Proxmox el servidor puede tener más interfaces de red, podría existir un switch físico en la infraestructura y podríamos necesitar una configuración más avanzada usando por ejemplo **Bonding** (Link Aggregation) o **VLAN**. Proxmox VE nos permite configurar estas opciones avanzadas usando **Linux Bridge** o **Open vSwitch** (otra tecnología que nos permite trabajar con switch software). En este curso no se va a abordar el estudio de estas características avanzadas.
 
 ![img](img/red3.png)
 
 ## Conexión de las máquinas virtuales/contenedores al bridge vmbr0
 
-Como hemos indicado anteriormente, por defecto, las máquinas virtuales y contenedores que hemos creado en nuestro servidor se conecta al bridge **vmbr0** por lo tanto se configurarán de forma automática usando el servidor web de nuestra infraestructura, en nuestro caso el del router físico.
+Como hemos indicado anteriormente, por defecto, las máquinas virtuales y contenedores que hemos creado en nuestro servidor se conecta al bridge **vmbr0**, por lo tanto se configurarán de forma automática usando el servidor DHCP de nuestra infraestructura, en nuestro caso el del router físico.
 
 ![img](img/red4.png)
 
