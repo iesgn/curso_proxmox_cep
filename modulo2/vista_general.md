@@ -7,7 +7,7 @@ encontramos un panel de control que está dividido en cuatro partes:
 
 ![cabecera](img/header.png)
 
-En la parte superior izquierda, lo primero que ve es el logotipo de
+En la parte superior izquierda, lo primero que se ve es el logotipo de
 Proxmox. Junto a él se encuentra la versión actual de Proxmox VE. En
 la barra de búsqueda cercana puede buscar objetos específicos (VM,
 contenedores, nodos, ...). A veces, esto es más rápido que seleccionar
@@ -16,8 +16,8 @@ un objeto en el árbol de recursos.
 A la derecha nos encontramos varios botones:
 
 * **Documentation / Help**: nos muestran la documentación de Proxmox VE.
-* **Create VM**: Crea el asistente para crear una máquina virtual.
-* **Create CT**: Abra el asistente de creación de contenedores.
+* **Create VM**: Abre el asistente para crear una máquina virtual.
+* **Create CT**: Abre el asistente de creación de contenedores.
 * **Usuario** identificado en la sesión: Nos permite modificar la
   configuración del usuario que ha accedido.
 
@@ -28,13 +28,13 @@ A la derecha nos encontramos varios botones:
 En esta zona encontramos los objetos disponibles. Los recursos lo
 podemos ver con distintas vistas:
 
-* **Server View**: Muestra todos los objetos, agrupados por nodos. Es
+* **Server View**: Muestra todos los objetos, agrupados por nodos (servidores del clúster). Es
   la vista por defecto.
 * **Folder View**: Muestra todos los objetos, agrupados por tipo.
 * **Storage View**: Solo muestra los objetos de almacenamiento,
   agrupados por nodos.
 * **Pool View**: Muestre máquinas virtuales y contenedores, agrupados
-  por pools.
+  por pools de recursos.
 
 Si nos fijamos en la **Server View** podemos clasificar los objetos
 que tenemos disponibles:
