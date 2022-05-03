@@ -29,9 +29,8 @@ Curso sobre Proxmox VE para el CEP.
     * [Instalación de Qemu-guest-agent en las máquinas virtuales](modulo3/agent.md)
         * [Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)](modulo3/actividad1.md)
         * [Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)](modulo3/actividad2.md)
-        * Actividad 3.3: Instalación de servicios en una máquina virtual (VOLUNTARIA)
-        ...
-        * [Actividad 3.3: Creación de un escenario  de trabajo (1ª parte) (VOLUNTARIA)](modulo3/actividad3.md)
+        * [Actividad 3.3: Instalación de Qemu-guest-agent (VOLUNTARIA)](modulo3/actividad3.md)
+        * [Actividad 3.4: Instalación de servicios en una máquina virtual (VOLUNTARIA)](modulo3/actividad4.md)
 
 4. Gestionando el almacenamiento
     * [Introducción al almacenamiento en Proxmox VE](modulo4/almacenamiento.md)
