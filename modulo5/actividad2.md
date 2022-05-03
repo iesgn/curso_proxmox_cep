@@ -10,7 +10,8 @@
 Para superar la tarea deberás entregar un documento con los siguientes pantallazos:
 
 1. Un pantallazo donde se vea el apartado **Hardware** de la máquina original.
-2. Un pantallazo donde se vea el apartado **Hardware** de la máquina clonada.
+2. Un pantallazo donde se vea que has creado la plantilla.
+3. Un pantallazo donde se vea el apartado **Hardware** de la máquina clonada.
 
 ## RECURSOS
 

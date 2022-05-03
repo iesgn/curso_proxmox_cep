@@ -4,7 +4,7 @@
 
 ## TEXTO DE LA ACTIVIDAD
 
-1. Crea una copia de seguridad de una máquina
+1. Crea una copia de seguridad de una máquina.
 2. Muestra la lista de copias de seguridad realizadas.
 3. Crea una nueva máquina a partir de la copia de seguridad realizada.
 
