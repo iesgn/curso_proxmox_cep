@@ -12,7 +12,7 @@ Vamos a instalar el sistema de virtualización Proxmox VE, para ello sigue los s
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
-1. Si has utilizado una máquina virtual para la instalación, pantallazo donde se vean las características de la máquina que has creado. Si has escogido la opción de usar una máquina física, un documento donde expliques las características de la máquina que has usado.
+1. Si has utilizado una máquina virtual para la instalación, pantallazos donde se vean las características de la máquina que has creado. Si has escogido la opción de usar una máquina física, un documento donde expliques las características de la máquina que has usado.
 2. Un pantallazo donde se compruebe que se ha accedido a Proxmox VE desde un navegador web y se ha logueado con el usuario `root` de forma correcta.
 
 
