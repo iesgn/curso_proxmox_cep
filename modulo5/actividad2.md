@@ -1,22 +1,16 @@
 # ACTIVIDAD Nº 2
 
-## TÍTULO DE LA ACTIVIDAD: Creación de un escenario de trabajo (2ª parte)
+## TÍTULO DE LA ACTIVIDAD: Trabajando con plantillas
 
 ## TEXTO DE LA ACTIVIDAD
 
-En la segunda parte de nuestra actividad voluntaria vamos a crear las máquinas virtuales necesarias en nuestro escenario:
+1. Elige una máquina que tengas creada y conviértela a una plantilla.
+2. A partir de la plantilla crea una nueva máquina utilizando la clonación ligera.
 
-1. Crea una plantilla de la máquina `debian-base` creada en la primera parte de la actividad. A parir de esta plantilla vamos a crear las máquinas del escenario.
-2. Crea una nueva máquina virtual a partir de la plantilla (realiza un clonado ligero [*linked clone*]) que llamaremos `router`. 
-3. Crea una nueva máquina virtual a partir de la plantilla (realiza un clonado completo [*full clone*] sobre el pool de almacenamiento `imagenes-discos`) que llamaremos `cliente`. 
-3. Cambia el hostname de las máquinas: accede a la máquina como `root` y modifica el fichero `/etc/hostname`. Reinicia la máquina para que el nombre se modifique.
+Para superar la tarea deberás entregar un documento con los siguientes pantallazos:
 
-Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
-
-1. Un pantallazo donde se vea el apartado **Hardware** de la máquina `router`.
-2. Un pantallazo donde se vea el apartado **Hardware** de la máquina `cliente`.
-3. Un pantallazo donde se vea el acceso a la máquina virtual `router`.
-4. Un pantallazo donde se vea el acceso a la máquina virtual `cliente`.
+1. Un pantallazo donde se vea el apartado **Hardware** de la máquina original.
+2. Un pantallazo donde se vea el apartado **Hardware** de la máquina clonada.
 
 ## RECURSOS
 
@@ -24,7 +18,7 @@ Para superar la actividad deberás entregar en un fichero comprimido los siguien
 
 ## ¿ES OBLIGATORIO HACER ESTA ACTIVIDAD PARA SUPERAR EL CURSO? (S/N)
 
-No
+Sí
 
 ## ¿ES UNA ACTIVIDAD INDIVIDUAL O DE GRUPO?
 

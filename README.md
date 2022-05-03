@@ -46,13 +46,10 @@ Curso sobre Proxmox VE para el CEP.
     * [Convirtiendo máquinas virtuales en plantillas](modulo5/plantillas.md)
     * [Snapshots de máquinas virtuales](modulo5/snapshot.md)
     * [Copias de seguridad de máquinas virtuales](modulo5/backup.md)
-        * [Actividad 5.1: Clonación de máquinas virtuales (OBLIGATORIA)]()
-        * [Actividad 5.2: Trabajando con plantillas (OBLIGATORIA)]()
-        * [Actividad 5.3: Instantáneas de máquinas virtuales (OBLIGATORIA)]()
-        * [Actividad 5.4: Copias de seguridad de máquinas virtuales (OBLIGATORIA)]()
-         .......
-        * [Actividad 5.2: Creación de un escenario  de trabajo (2ª parte) (VOLUNTARIA)](modulo5/actividad2.md)
-        * [Actividad 5.3: Creación de un escenario  de trabajo (3ª parte) (VOLUNTARIA)](modulo5/actividad3.md)
+        * [Actividad 5.1: Clonación de máquinas virtuales (OBLIGATORIA)](modulo5/actividad1.md)
+        * [Actividad 5.2: Trabajando con plantillas (OBLIGATORIA)](modulo5/actividad2.md)
+        * [Actividad 5.3: Instantáneas de máquinas virtuales (OBLIGATORIA)](modulo5/actividad3.md)
+        * [Actividad 5.4: Copias de seguridad de máquinas virtuales (OBLIGATORIA)](modulo5/actividad4.md)
 
 6. Trabajando con Linux Containers
     * [Proxmox y LXC](modulo6/introduccion.md)
