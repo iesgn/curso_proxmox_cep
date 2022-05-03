@@ -7,8 +7,7 @@ hemos hecho la instalación, y que podemos ver al arrancar la máquina:
 
 ![acceso](img/acceso1.png)
 
-Aceptaremos excepcionalmente el certificado Accedemos a la URL que se
-nos indica y nos encontramos:
+Accedemos a la URL que se nos indica y nos encontramos:
 
 ![acceso](img/acceso2.png)
 
