@@ -67,9 +67,10 @@ Curso sobre Proxmox VE para el CEP.
     * [Conexión de una máquina virtual a la red interna](modulo7/conexion_red_intena.md)
     * [Conexión de un un contenedor LXC a la red interna](modulo7/conexion_red_intena2.md)
     * [Introducción al cortafuegos de Proxmox VE](modulo7/cortafuegos.md)
-        * Actividad 7.1: Creación de un red interna (OBLIGATORIA)
-        * Actividad 7.2: Configuración de un router en Proxmox VE (OBLIGATORIA)
-        * Actividad 7.3: Trabajando con el cortafuegos (VOLUNTARIA)
+        * [Actividad 7.1: Creación de un red interna (OBLIGATORIA)](modulo7/actividad1.md)
+        * [Actividad 7.2: Trabajando con el cortafuegos (OBLIGATORIA)](modulo7/actividad2.md)
+        * Actividad 7.3: Configuración de un router en Proxmox VE (VOLUNTARIA)
+        
 
 8. Gestión de usuarios en Proxmox VE
     * [Introducción a la gestión de usuarios](modulo8/introduccion.md)
