@@ -57,9 +57,8 @@ Curso sobre Proxmox VE para el CEP.
     * [Creación de contenedores Linux](modulo6/contenedor.md)
     * [Gestión de contenedores Linux](modulo6/gestion.md)
     * [Añadir almacenamiento a un contenedor LXC](modulo6/mount.md)
-        * Actividad 6.1: Creación de un contenedor LXC (OBLIGATORIA)
-        * Actividad 6.2: Añadir almacenamiento a un contenedor LXC (OBLIGATORIA) 
-        * Actividad 6.3:
+        * [Actividad 6.1: Creación de un contenedor LXC (OBLIGATORIA)](modulo6/actividad1.md)
+        * [Actividad 6.2: Añadir almacenamiento a un contenedor LXC (OBLIGATORIA)](modulo6/actividad2.md)
 
 7. Introducción a las redes en Proxmox
     * [Gestionando redes en Proxmox VE](modulo7/introduccion.md)
