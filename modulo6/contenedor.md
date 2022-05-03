@@ -1,6 +1,6 @@
 # Creación de contenedores Linux
 
-Después de descargar las plantillas de contenedores con als que vamos a trabajar, estamos en disposición de crear un contenedor LXC. En este apartado vamos a explicar la creación de una contenedor LXC. Sólo indicaremos las opciones más básicas para su creación.
+Después de descargar las plantillas de contenedores con las que vamos a trabajar, estamos en disposición de crear un contenedor LXC. En este apartado vamos a explicar la creación de una contenedor LXC. Sólo indicaremos las opciones más básicas para su creación.
 
 Elegimos la opción de crear un contenedor LXC:
 
@@ -10,7 +10,7 @@ Y seguimos los siguientes pasos:
 
 ## Identificar el contenedor LXC
 
-Indicamos el nodo donde se va a crear la máquina, su ID y su nombre. Además tendremos que indicar la contraseña de acceso para el usuario root del contenedor o indicar nuestra clave ssh pública para el acceso al contenedor.
+Indicamos el nodo donde se va a crear el contenedor, su ID y su nombre. Además tendremos que indicar la contraseña de acceso para el usuario `root` del contenedor o indicar nuestra clave ssh pública para el acceso al contenedor.
 
 ![img](img/lxc2.png)
 
@@ -46,7 +46,7 @@ En un principio nuestra máquina estará conectada al bridge externo *vmbr0*  y 
 
 ## Configuración DNS
 
-En el último paso podemos configurar los servidores DNS que va a utilizar el contenedor o dejarlo si rellenar, con lo que utilizará los DNS definido en el servidor Proxmox.
+En el último paso podemos configurar los servidores DNS que va a utilizar el contenedor o dejarlo sin rellenar, con lo que utilizará los DNS definido en el servidor Proxmox.
 
 ![img](img/lxc8.png)
 

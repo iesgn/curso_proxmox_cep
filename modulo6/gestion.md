@@ -12,10 +12,8 @@ Las opciones para gestionar los contenedores LXC son similares a las que estudia
 * **Stop**: Se termina inmediatamente la ejecución del contenedor.
 * **Reboot**: Reinicia la ejecución del contenedor.
 * **Clone**: Nos permite clonar el contenedor.
-* **Convert to template**: Nos permite crear una plantilla a partir de
-  el contenedor para crear nuevas máquinas. 
-* **Console**: Nos permite acceder a una consola para trabajar con la
-  máquina.
+* **Convert to template**: Nos permite crear una plantilla a partir del contenedor para crear nuevos contenedores. 
+* **Console**: Nos permite acceder a una consola para trabajar con el contenedor.
 
 ## Panel lateral
 
@@ -23,7 +21,7 @@ Si elegimos un contenedor LXC, nos aparece un panel lateral con más opciones so
 
 ![img](img/gestion2.png)
 
-* **Sumary**: Resumen y monitorización del contenedor elegida.
+* **Sumary**: Resumen y monitorización del contenedor elegido.
 * **Console**: Nos permite acceder a una consola para trabajar con el contenedor.
 * **Resources**: Nos permite ver y cambiar la configuración de CPU, memoria, puntos de montaje,....
 * **Networks**: Nos permite gestionar las interfaces de red del contenedor.
@@ -42,7 +40,7 @@ Si elegimos un contenedor LXC, nos aparece un panel lateral con más opciones so
 
 ## Eliminar un contenedor LXC
 
-Para eliminar un contenedor LXC tenemos tenemos que pararlo y escoger la opción
+Para eliminar un contenedor LXC tenemos que pararlo y escoger la opción
 *Remove* del botón *More*:
 
 ![img](img/gestion3.png)
