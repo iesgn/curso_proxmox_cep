@@ -69,7 +69,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Introducción al cortafuegos de Proxmox VE](modulo7/cortafuegos.md)
         * [Actividad 7.1: Creación de un red interna (OBLIGATORIA)](modulo7/actividad1.md)
         * [Actividad 7.2: Trabajando con el cortafuegos (OBLIGATORIA)](modulo7/actividad2.md)
-        * Actividad 7.3: Configuración de un router en Proxmox VE (VOLUNTARIA)
+        * [Actividad 7.3: Configuración de un router (VOLUNTARIA)](modulo7/actividad3.md)
         
 
 8. Gestión de usuarios en Proxmox VE
