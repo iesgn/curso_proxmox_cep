@@ -28,7 +28,7 @@ Al crear una máquina virtual o un contenedor podemos indicar al pool de recurso
 
 ![usuarios](img/usuario8.png)
 
-De la misma forma al clonar una máquina o contenedor, también podemos indicar eel pool al que va  a pertenecer:
+De la misma forma al clonar una máquina o contenedor, también podemos indicar eel pool al que va a pertenecer:
 
 ![usuarios](img/usuario9.png)
 

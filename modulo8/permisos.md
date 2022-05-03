@@ -15,7 +15,7 @@ Un **privilegio** es el derecho a realizar una acción específica. Para simplif
     * `Group.Allocate`: crear/modificar/eliminar grupos.
     * `Pool.Allocate`: crear/modificar/eliminar un pool.
     * `Pool.Audit`: ver un pool.
-    * `Realm.Allocate`: crear/modificar/eliminar fuentes de autenticación.
+    * `Realm.Allocate`: crear/modificar/eliminar fuentes de autentificación.
     * `Realm.AllocateUser`: asignar un usuario a un dominio.
     * `User.Modify`: crear/modificar/eliminar el acceso y los detalles del usuario.
 
@@ -56,7 +56,7 @@ Como se ha indicado los privilegios no se asignan directamente, los **roles** so
 * `PVEDatastoreAdmin`: crea y asigna el espacio y las plantillas de las copias de seguridad.
 * `PVEDatastoreUser`: asigna el espacio de copia de seguridad y ve el almacenamiento.
 * `PVEPoolAdmin`: asigna pools de recursos.
-* `PVEPoolUser`: ver u utllizar pools de recursos.
+* `PVEPoolUser`: ver o utilizar pools de recursos.
 * `PVESysAdmin`: ACLs de usuario, auditoría, consola del sistema y registros del sistema.
 * `PVETemplateUser`: ver y clonar plantillas.
 * `PVEUserAdmin`: gestionar usuarios.
@@ -69,11 +69,11 @@ Podemos crear nuevos roles para asignar nuevos perfiles de usuarios.
 
 ## Asignación de permisos
 
-Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina viretual/contenedoir, pool de almacenamiento, grupo de recursos,...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
+Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina virtual/contenedor, pool de almacenamiento, grupo de recursos,...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
 
 Ejemplo de rutas:
 
-* `/vms`: Indiica todas las máquinas virtuales
+* `/vms`: Indica todas las máquinas virtuales
 * `/vms/{vmid}`: Indica una máquina virtual con un id determinado.
 * `/storage/{storeid}`: Indica un pool de almacenamiento con un id determinado.
 * `/pool/{poolname}`: Indica un grupo de recursos con un nombre de terminado.
