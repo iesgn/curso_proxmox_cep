@@ -4,7 +4,7 @@
 
 ## TEXTO DE LA ACTIVIDAD
 
-En esta actividad vamos a trbajar con el cortafuegos de Proxmox:
+En esta actividad vamos a trabajar con el cortafuegos de Proxmox:
 
 1. Instala en la máquina `router` un servidor web.
 2. Activa el cortafuegos para la interfaz que está conectada a `vmbr0`.

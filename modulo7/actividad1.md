@@ -6,10 +6,10 @@
 
 En esta actividad vamos a configurar la red interna de nuestro escenario, para ello:
 
-1. Crea un bridge que llamaremos `vmbr100`.
+1. Crea un bridge que llamaremos `vmbr100`, confiiguralo con la ip `10.10.0.100/24`.
 2. Crea una nueva máquina virtual que se llamará `router` conectada al bridge principal `vmbr0` y al nuevo bridge que has creado. está máquina la puedes crear a partir de otra (con un clonado o usando una plantilla).
 3. Configura la nueva interfaz de la máquina virtual de forma estática con la dirección `10.10.0.1/24`.
-4. Crea un contenedor LXC, llamado `cliente`, conectado al nuevo bridge que has creado. En el proceso de creación configura su interfaz de forma estática con la ip `0.10.0.2/24`.
+4. Crea un contenedor LXC, llamado `cliente`, conectado al nuevo bridge que has creado. En el proceso de creación configura su interfaz de forma estática con la ip `10.10.0.2/24`.
 5. Ejecuta un ping desde la máquina virtual al contenedor para comprobar la conectividad.
 6. En la siguiente actividad vamos a seguir trabajando con estas máquinas.
 
