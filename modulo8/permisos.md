@@ -94,4 +94,10 @@ Y podemos ir viendo los permisos que estamos asignando:
 ![usuarios](img/usuario12.png)
 
 
+## Permisos y redes
 
+Como has podido comprobar no tenemos ningún conjunto de privilegios que nos permita especificar los permisos sobre las redes internas que hemos creado y sobre los bridge linux que se han creado.
+
+Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además también observamos que no podemos agrupar en un Pool de Recursos los Linux Bridge creados. Esto implica que cualquier usuario que acceda puede usar cualquier Linux Bridge creado.
+
+Aunque se están desarrollando en las versiones de desarrollo de Proxmox la posibilidad de que las redes sean otro recurso al que podemos asignar distintos permisos, en la versión actual no podemos asignar los bridge creados a usuarios concretos. Esto puede ser una limitación desde el punto de vista de la utilización de Proxmox con los alumnos, ya que no se podría asegurar que un alumno usa exclusivamente un bridge creado por el administrador.
