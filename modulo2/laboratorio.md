@@ -60,10 +60,10 @@ Estas configuraciones son recomendadas para aumentar el rendimiento de la máqui
 
 ![img](img/virtualbox4.png)
 
-* Usar dispositivos paravirtualizados, que ofrecen más rendimiento que otros modelos que están emulados. Escogeremos el modo **virtio-scsi**:
+* Usar dispositivos paravirtualizados, que ofrecen más rendimiento que otros modelos que están emulados. Escogeremos el modo **virtio-scsi** en la configuración del disco duro:
 
 ![img](img/virtualbox5.png)
 
-* Del mismo modo el tipo de la interfaz de red será **virtio-net**:
+* Del mismo modo, el tipo de la interfaz de red será **virtio-net**:
 
 ![img](img/virtualbox6.png)
