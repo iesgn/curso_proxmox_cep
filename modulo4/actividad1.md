@@ -6,8 +6,8 @@
 
 En esta actividad vamos a crear un pool de almacenamiento de tipo directory para trabajar con imágenes de discos, para ello sigue los siguientes puntos:
 
-1. Crea un nuevo pool de almacenamiento. Debe ser de tipo Directory. El directorio que se va a utilizar será `/var/lib/imagenes` y el nombre será `imagenes-discos`. en este pool se podrán guardar imágenes de discos y sistemas de archivo de contenedores.
-2. Crea una máquina virtual Linux que utilice dicho almacenamiento para guardar su datos del disco en un fichero QCOW2.
+1. Crea un nuevo pool de almacenamiento. Debe ser de tipo Directory. El directorio que se va a utilizar será `/var/lib/imagenes` y el nombre será `imagenes-discos`. En este pool se podrán guardar imágenes de discos y sistemas de archivo de contenedores.
+2. Crea una máquina virtual Linux que utilice dicho almacenamiento para guardar sus datos del disco en un fichero QCOW2.
 3. No elimines la máquina porque la vamos a utilizar en la próxima tarea.   
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:

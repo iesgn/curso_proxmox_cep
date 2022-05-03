@@ -8,17 +8,13 @@ En esta actividad vamos a añadir un nuevo disco a la máquina virtual creada en
 
 1. Añade un nuevo disco a la máquina virtual de tamaño 1Gb, creado en el pool de almacenamiento `imagenes-discos` como un fichero QCOW2.
 2. Accede a la máquina virtual y formatea el disco y móntalo en `/mnt` como se ha mostrado en el contenido del módulo.
-3. Redimensiona el disco a 2Gb.
-4. Accede a la máquina y redimensiona el sistema de ficheros como se ha mostrado en el contenido del módulo.
-5. Mueve el contenido del disco al pool `local-lvm`.
+3. en la siguiente tarea voluntaria seguiremos trabajando con esta máquina.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
-1.  Al finalizar el punto número 2, un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que hemos añadido un nuevo disco de 1Gb guardado en el pool `imagenes-discos`.
-2. Al finalizar el punto número 2, un pantallazo donde sea vea que el disco está montado en `/mnt`.
-3. Al finalizar el punto número 4, un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que hemos redimensionado el disco a 2Gb.
-4. Al finalizar el punto número 4, un pantallazo donde sea vea que el sistema de ficheros montado en `/mnt` se ha redimensionado también.
-5. Al finalizar el punto número 5, un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que el disco se ha movido de pool de almacenamiento.
+1. Un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que hemos añadido un nuevo disco de 1Gb guardado en el pool `imagenes-discos`.
+2. Un pantallazo donde sea vea que el disco está montado en `/mnt`.
+
 
 ## RECURSOS
 
