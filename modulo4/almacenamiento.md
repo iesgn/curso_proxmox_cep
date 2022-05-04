@@ -1,14 +1,11 @@
 # Introducción al almacenamiento en Proxmox VE
 
-Proxmox VE nos permite distintas fuentes de almacenamientos (**pools
-de almacenamiento**) para alojar el contenido de los discos de
-nuestras máquinas virtuales y contenedores, y de los discos
-adicionales en su caso.
+Proxmox VE nos permite distintas **fuentes de almacenamiento** para alojar el contenido de los discos de nuestras máquinas virtuales y contenedores, y de los discos adicionales en su caso.
 
-Según el tipo de almacenamientos que podemos configurar en nuestro
+Según el tipo de almacenamiento que podemos configurar en nuestro
 clúster, tendremos distintas características:
 
-1. **Tipos de almacenamiento**
+## Tipos de almacenamiento
 
 Hay dos clases de almacenamiento que podemos configurar:
 
@@ -20,9 +17,9 @@ Hay dos clases de almacenamiento que podemos configurar:
       completamente. En la máquina virtual aparecerá como un disco
       duro disponible para particionar, formatear, etc.
 
-2. **Almacenamiento compartido**
+## Almacenamiento compartido
 
-Algunos de los **pools de almacenamientos** que podemos usar tienen la
+Algunas de las **fuentes de almacenamiento** que podemos usar tienen la
 características de poder compartir la información entre distintos
 nodos de nuestro clúster Proxmox VE. En el caso que utilicemos estos
 tipos de almacenamiento tendremos a nuestra disposición la
@@ -32,24 +29,21 @@ los distintos nodos del clúster. Si no tenemos esta característica, la
 migración de máquinas entre distintos nodos del clúster conllevará la
 copia de la imagen del disco entre los nodos.
 
-3. **Snapshots**
+## Snapshots
 
-Algunos de los **pools de almacenamientos** que podemos usar tienen la
-característica de poder realizar instantáneas (*snapshots*). De esta
+Algunas de los **fuentes de almacenamiento** que podemos usar tienen la
+característica de poder realizar instantáneas (**snapshots**). De esta
 manera podremos guardar el estado de un disco en un determinado
 momento, y si es necesario podremos volver a ese estado a posteriori.
 
-4. **Aprovisionamiento ligero**
+## Aprovisionamiento ligero
 
-Todos los **pools de almacenamiento** que nos permiten la realización
+Todas los **fuentes de almacenamiento** que nos permiten la realización
 de instantáneas, también nos proporcionan la funcionalidad del
 **aprovisionamiento ligero**. Si utilizamos está característica la
 información guardada en el almacenamiento de una máquina virtual
 estará formada por una imagen base y sólo se guardará los cambios que
 se van produciendo en esa máquina.
-
-***¿Por qué?** No entiendo la relación entre la virtualización ligera
-y las instantáneas.
 
 Por ejemplo,  podemos crear una máquina virtual con un disco duro de
 32 GB y, después de instalar el sistema operativo invitado, el sistema
@@ -62,7 +56,7 @@ almacenamiento y sobre todo el almacenamieto realmente usado por las
 máquinas virtuales será el que se ocupe en Proxmox, no hay reserva
 previa de almacenamiento.
 
-## Resumen de los tipos de los pools de almacenamiento
+## Resumen de los tipos de las fuentes de almacenamiento
 
 |Nombre   |Tipo   |Compartido|Instantáneas / P.L.|
 |---------|-------|:--------:|:-------------:|
@@ -80,9 +74,9 @@ previa de almacenamiento.
 |Ceph/RBD|Disp. Bloque|Si|Si|
 |ZFS over iSCSI|Disp. Bloque|Si|Si|
 
-## ¿Qué podemos guardar en los distintos pools de almacenamiento?
+## ¿Qué podemos guardar en las distintas fuentes de almacenamiento?
 
-En cada tipo de pool de almacenamiento se puede guardar información de
+En cada tipo de fuente de almacenamiento se puede guardar información de
 distintos tipos:
 
 * **Disk image**: Imágenes de discos para las máquinas virtuales.
@@ -94,10 +88,10 @@ distintos tipos:
 
 ## Conclusión
 
-En este tema vamos a profundizar en los tipos de almacenamientos más
-sencillos de gestionar: el tipo **Directory** y el tipo **LVM**. Para
-profundizar en los distintos tipos de almacenamiento que podemos usar
-en Proxmox VE: [Proxmox VE
-Storage](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_storage).
+En este tema vamos a profundizar en los tipos de almacenamiento más
+sencillos de gestionar: el tipo **Directory** y el tipo **LVM**. 
+
+Para profundizar en los distintos tipos de almacenamiento que podemos usar
+en Proxmox VE: [Proxmox VE Storage](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_storage).
 
 

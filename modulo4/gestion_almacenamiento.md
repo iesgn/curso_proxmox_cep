@@ -61,13 +61,13 @@ Y comprobamos que hemos aumentado el tamaño del sistema de ficheros.
 
 ## Move disk
 
-Podemos copiar el contendio de cualquier disco a otro pool de almacenamiento disponible. durante esta copiase puede indicar si se elimina el disco origen, o si se deja como disco no usado.
+Podemos copiar el contendio de cualquier disco a otra fuente de almacenamiento disponible. durante esta copiase puede indicar si se elimina el disco origen, o si se deja como disco no usado.
 
 Nuestro disco adicional estaba guardado en un pool de tipo *Directory*, lo vamos a mover a un pool de tipo *Thin LVM*, por lo tanto la información guardada en un archivo de imagen qcow2, se va a guardar en un volumen LVM. El disco origen no lo vamos a borrar:
 
 ![gestion_disco](img/gestion_disco5.png)
 
-Comprobamos que ahora tenemos un disco guardado en el pool de almacenamiento **local-lvm** y un disco sin usar en el pool **local-images**.
+Comprobamos que ahora tenemos un disco guardado en la fuente de almacenamiento **local-lvm** y un disco sin usar en la fuente de almacenamiento **local-images**.
 
 ![gestion_disco](img/gestion_disco6.png)
 

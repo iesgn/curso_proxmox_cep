@@ -7,7 +7,7 @@ recursos ya creados.
 
 ![almacenamiento](img/almacenamiento.png)
 
-Por defecto tenemos creados dos pools de almacenamiento:
+Por defecto tenemos creadas dos fuentes de almacenamiento:
 
 ### local
 

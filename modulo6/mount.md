@@ -6,7 +6,7 @@ Para ello escogemos el contenedor y elegimos la opción **Resources** y añadimo
 
 ![mount](img/mount1.png)
 
-A continuación elegimos el pools de almacenamiento donde vamos a crear el volumen, su tamaño y el directorio donde se va a montar en el contenedor:
+A continuación elegimos la fuente de almacenamiento donde vamos a crear el volumen, su tamaño y el directorio donde se va a montar en el contenedor:
 
 ![mount](img/mount2.png)
 

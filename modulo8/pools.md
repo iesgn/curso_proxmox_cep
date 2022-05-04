@@ -1,6 +1,6 @@
 # Gestión de Pools de Recursos
 
-Un grupo (o pool) de recursos es un conjunto de máquinas virtuales, contenedores y pools de almacenamiento. La podemos usar simplemente para agrupar recursos o para asignarles permisos.
+Un grupo (o pool) de recursos es un conjunto de máquinas virtuales, contenedores y fuentes de almacenamiento. La podemos usar simplemente para agrupar recursos o para asignarles permisos.
 
 ## Creación de un Pool de Recursos
 
@@ -16,7 +16,7 @@ Para gestionar los Pools de recursos es aconsejable usar la vista de pools (*Poo
 
 ![usuarios](img/usuario6.png)
 
-Deberemos añadir los medios de almacenamientos que usan las máquinas virtuales o contenedores que van a formar parte del pool. 
+Deberemos añadir los medios de almacenamiento que usan las máquinas virtuales o contenedores que van a formar parte del pool. 
 
 En este ejemplo hemos incluido todos los medios de almacenamiento y una máquina virtual:
 

@@ -1,12 +1,12 @@
-# Creación de un pool de almacenamiento tipo Directory
+# Creación de una fuente de almacenamiento de tipo Directory
 
-El almacenamiento de tipo *Directory* nos posibilita guardar información en un nodo del clúster Proxmox VE. Por lo tanto no tenemos la funcionalidad de datos compartidos.
+El almacenamiento de tipo **Directory** nos posibilita guardar información en un nodo del clúster Proxmox VE. Por lo tanto no tenemos la funcionalidad de datos compartidos.
 
-## Pool de almacenamiento configurado por defecto
+## Fuente de almacenamiento configurado por defecto
 
 ![storage_local](img/storage_local.png)
 
-Como vimos anteriormente, al instalar Proxmox VE se nos crea un pool de almacenamiento de tipo *Directory* llamado **local**. La información guardada en este pool se guarda en el directorio `/var/lib/vz` y por defecto esta configurado para guardar en él lo siguiente:
+Como vimos anteriormente, al instalar Proxmox VE se nos crea una fuente de almacenamiento de tipo *Directory* llamado **local**. La información guardada en esta fuente se guarda en el directorio `/var/lib/vz` y por defecto esta configurado para guardar en él lo siguiente:
 
 * **ISO image**: Imágenes ISO.
 * **Container template**: Plantillas de contenedores.
@@ -36,14 +36,14 @@ root@pve:/var/lib/vz/template/iso# ls
 debian-11.1.0-amd64-netinst.iso  ubuntu-20.04.3-desktop-amd64.iso  virtio-win-0.1.208.iso  Win10_21H1_Spanish_x64.iso
 ```
 
-## Creación de un nuevo pool de almacenamiento de tipo Directory
+## Creación de una nueva fuente de almacenamiento de tipo Directory
 
-Podríamos modificar el pool de almacenamiento anterior y añadir dos nuevos tipos de informaciones que podría almacenar:
+Podríamos modificar la fuente de almacenamiento anterior y añadir dos nuevos tipos de informaciones que podría almacenar:
 
 * **Disk image**: Imágenes de discos para las máquinas virtuales.
 * **Containers**: Sistema de ficheros de los contenedores Linux.
 
-Sin embargo, vamos a aprender a crear otro pool de almacenamiento donde vamos a guardar las imágenes de disco de las máquinas virtuales y los datos del sistema de fichero de los contenedores.
+Sin embargo, vamos a aprender a crear otra fuente de almacenamiento donde vamos a guardar las imágenes de disco de las máquinas virtuales y los datos del sistema de fichero de los contenedores.
 
 Los discos de imágenes de las máquinas virtuales se pueden guardar en dos tipos de ficheros de imágenes:
 
@@ -51,7 +51,7 @@ Los discos de imágenes de las máquinas virtuales se pueden guardar en dos tipo
 * **qcow2**: El formato QEMU copy-on-write. Al crearse sólo se ocupa el espacio que se está ocupando con los datos, el fichero irá creciendo cuando escribamos en el él. Acepta snapshots y aprovisionamiento ligero. Es menos eficiente en cuanto al acceso. 
 * **vmdk**: Un formato de archivo abierto, creado por VMware.
 
-Para crear el nuevo pool, elegimos *Datacenter->Storage->Add->Directory*:
+Para crear la nueva fuente, elegimos *Datacenter->Storage->Add->Directory*:
 
 ![storage_directory](img/storage_directory.png)
 
@@ -61,11 +61,11 @@ Indicamos un nombre, el directorio y el contenido que vamos a guardar, en nuestr
 
 **Nota: El directorio `/var/lib/images` se crea automáticamente.**
 
-## Creación de una máquina virtual usando el nuevo pool de almacenamiento
+## Creación de una máquina virtual usando la nueva fuente de almacenamiento
 
-Ahora podemos crear máquinas virtuales cuyos discos virtuales se guarden en ficheros de imágenes que se guardarán en el pool de almacenamiento **local-images**.
+Ahora podemos crear máquinas virtuales cuyos discos virtuales se guarden en ficheros de imágenes que se guardarán en la fuente de almacenamiento **local-images**.
 
-Durante el proceso de creación de la imagen, podremos elegir el pool de almacenamiento donde vamos a guardar el disco, en nuestro caso elegimos el pool **local-images**, y el tipo de fichero de imagen, nosotros vamos a elegir qcow2:
+Durante el proceso de creación de la imagen, podremos elegir la fuente de almacenamiento donde vamos a guardar el disco, en nuestro caso elegimos la fuente **local-images**, y el tipo de fichero de imagen, nosotros vamos a elegir qcow2:
 
 ![storage_directory](img/storage_directory3.png)
 
@@ -76,5 +76,5 @@ root@pve:/var/lib/images/images/101# ls
 vm-101-disk-0.qcow2
 ```
 
-**Nota: El pool de almacenamiento de tipo *Directory* lo hemos creado sobre el disco de la máquina donde tenemos instalado Proxmox VE, por lo tanto su capacidad será la que tiene este disco. En circunstancias reales, el pool de tipo *Directory* lo podríamos crear sobre un dispositivo de bloque (disco, raid,...) añadido al nodo Proxmox VE.**
+**Nota: La fuente de almacenamiento de tipo *Directory* la hemos creado sobre el disco de la máquina donde tenemos instalado Proxmox VE, por lo tanto su capacidad será la que tiene este disco. En circunstancias reales, la fuente de tipo *Directory* la podríamos crear sobre un dispositivo de bloque (disco, raid,...) añadido al nodo Proxmox VE.**
 

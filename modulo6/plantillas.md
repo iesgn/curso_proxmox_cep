@@ -6,7 +6,7 @@ En Proxmox necesitamos descargar las plantillas que vamos a usar para la creaci√
 
 ## Descargar plantillas en Proxmox
 
-Como indicamos en unidades anteriores, en el pool de almacenamiento **Local** podemos guardar, entre otras cosas, las **plantillas** que usaremos para crear los contenedores.
+Como indicamos en unidades anteriores, en la fuente de almacenamiento **Local** podemos guardar, entre otras cosas, las **plantillas** que usaremos para crear los contenedores.
 
 De esta forma, si accedemos al almacenamiento **Local**, y elegimos la opci√≥n **CT Templates** accedemos a la ventana que nos permite gestionar las plantillas.
 

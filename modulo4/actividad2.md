@@ -6,7 +6,7 @@
 
 En esta actividad vamos a añadir un nuevo disco a la máquina virtual creada en la tarea anterior. Para ello sigue los siguientes pasos:
 
-1. Añade un nuevo disco a la máquina virtual de tamaño 1Gb, creado en el pool de almacenamiento `imagenes-discos` como un fichero QCOW2.
+1. Añade un nuevo disco a la máquina virtual de tamaño 1Gb, creada en la fuente de almacenamiento `imagenes-discos` como un fichero QCOW2.
 2. Accede a la máquina virtual y formatea el disco y móntalo en `/mnt` como se ha mostrado en el contenido del módulo.
 3. en la siguiente tarea voluntaria seguiremos trabajando con esta máquina.
 

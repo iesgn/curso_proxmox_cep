@@ -24,7 +24,7 @@ Hemos creado dos grupos de recursos para cada uno de los usuarios alumnos:
 
 ![usuarios](img/usuario20.png)
 
-Para que los usuarios puedan crear máquinas virtuales en sus grupos de recursos necesitarán que los pools de almacenamiento que tenemos definidos sean miembros del grupo de recurso. Por lo que para cada grupo de recursos le añadimos los pools de almacenamientos que queremos que usen los usuarios:
+Para que los usuarios puedan crear máquinas virtuales en sus grupos de recursos necesitarán que las fuentes de almacenamiento que tenemos definidas sean miembros del grupo de recurso. Por lo que para cada grupo de recursos le añadimos las fuentes de almacenamiento que queremos que usen los usuarios:
 
 ![usuarios](img/usuario21.png)
 

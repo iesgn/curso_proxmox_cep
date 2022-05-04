@@ -40,10 +40,10 @@ Un **privilegio** es el derecho a realizar una acción específica. Para simplif
 
 * Privilegios relacionados con el almacenamiento:
 
-    * `Datastore.Allocate`: crear/modificar/eliminar un pool de almacenamiento y eliminar volúmenes.
-    * `Datastore.AllocateSpace`: asignar espacio en un pool de almacenamiento.
+    * `Datastore.Allocate`: crear/modificar/eliminar una fuente de almacenamiento y eliminar volúmenes.
+    * `Datastore.AllocateSpace`: asignar espacio en una fuente de almacenamiento.
     * `Datastore.AllocateTemplate`: asignar/cargar plantillas e imágenes ISO.
-    * `Datastore.Audit`: ver/examinar un pool de almacenamiento.
+    * `Datastore.Audit`: ver/examinar una fuente de almacenamiento.
 
 ## Roles
 
@@ -69,13 +69,13 @@ Podemos crear nuevos roles para asignar nuevos perfiles de usuarios.
 
 ## Asignación de permisos
 
-Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina virtual/contenedor, pool de almacenamiento, grupo de recursos,...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
+Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina virtual/contenedor, fuente de almacenamiento, grupo de recursos,...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
 
 Ejemplo de rutas:
 
 * `/vms`: Indica todas las máquinas virtuales
 * `/vms/{vmid}`: Indica una máquina virtual con un id determinado.
-* `/storage/{storeid}`: Indica un pool de almacenamiento con un id determinado.
+* `/storage/{storeid}`: Indica una fuente de almacenamiento con un id determinado.
 * `/pool/{poolname}`: Indica un grupo de recursos con un nombre de terminado.
 * ...
 

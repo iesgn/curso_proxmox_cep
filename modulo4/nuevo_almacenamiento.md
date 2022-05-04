@@ -4,11 +4,11 @@ En el apartado *Hardware* de cualquier máquina virtual podemos añadirle nuevos
 
 ![new_disco](img/new_disco.png)
 
-Al añadir el nuevo disco, tendremos que elegir en que pool de almacenamiento se va a guardar su información y el tamaño del disco:
+Al añadir el nuevo disco, tendremos que elegir en qué fuente de almacenamiento se va a guardar su información y el tamaño del disco:
 
 ![new_disco](img/new_disco2.png)
 
-En nuestro caso, tenemos disponibles dos pools de almacenamiento:
+En nuestro caso, tenemos disponibles dos fuentes de almacenamiento:
 
 * **local-images**: De tipo *Directory*, la información del disco se guardará en un fichero de imagen.
 * **local-lvm**: De tipo `Thiin-LVM`, la información del disco se guardará en un volumen LVM.

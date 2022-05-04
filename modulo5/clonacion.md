@@ -12,7 +12,7 @@ En la siguiente pantalla de clonación:
 
 ![clonación](img/clonacion2.png)
 
-Elegimos el ID, el nombre de la nueva máquina y el pool de almacenamiento donde se va a producir la clonación (por defecto es el mismo que el de la máquina original). Una vez producida la clonación tendremos una nueva máquina virtual igual a la primera:
+Elegimos el ID, el nombre de la nueva máquina y la fuente de almacenamiento donde se va a producir la clonación (por defecto es el mismo que el de la máquina original). Una vez producida la clonación tendremos una nueva máquina virtual igual a la primera:
 
 ![clonación](img/clonacion3.png "clonación")
 

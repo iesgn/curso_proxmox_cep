@@ -4,7 +4,7 @@
 
 ## TEXTO DE LA ACTIVIDAD
 
-1. Elige una máquina que tengas creada y realiza una clonación para crear una nueva máquina. La clonación se debe hacer sobre el pool de almacenamiento distinto al que usaba la máquina original.
+1. Elige una máquina que tengas creada y realiza una clonación para crear una nueva máquina. La clonación se debe hacer sobre la fuente de almacenamiento distinto al que usaba la máquina original.
 
 Para superar la tarea deberás entregar un documento con los siguientes pantallazos:
 

@@ -14,7 +14,7 @@ Para superar la actividad deberás entregar en un fichero comprimido los siguien
 
 1. Un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que hemos redimensionado el disco a 2Gb.
 4. Un pantallazo donde sea vea que el sistema de ficheros montado en `/mnt` se ha redimensionado también.
-5. Un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que el disco se ha movido de pool de almacenamiento.
+5. Un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que el disco se ha movido de la fuente de almacenamiento.
 
 ## RECURSOS
 
