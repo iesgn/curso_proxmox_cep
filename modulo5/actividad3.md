@@ -1,6 +1,6 @@
 # ACTIVIDAD Nº 3
 
-## TÍTULO DE LA ACTIVIDAD: Instantáneas de máquinas virtuales
+## TÍTULO DE LA ACTIVIDAD: Snapshots de máquinas virtuales
 
 ## TEXTO DE LA ACTIVIDAD
 
