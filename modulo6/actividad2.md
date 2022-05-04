@@ -10,7 +10,7 @@ En esta actividad vamos a seguir trabajando con el contenedor que creamos en la 
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
-1. Un pantallazo donde se vea el apartado **Resources** del contenedor..
+1. Un pantallazo donde se vea el apartado **Resources** del contenedor.
 2. Un pantallazo donde se vea el punto de montaje en el contenedor como se muestra en el contenido del tema.
 
 
