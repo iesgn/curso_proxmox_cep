@@ -1,12 +1,12 @@
 # Creación de una fuente de almacenamiento de tipo Directory
 
-El almacenamiento de tipo **Directory** nos posibilita guardar información en un nodo del clúster Proxmox VE. Por lo tanto no tenemos la funcionalidad de datos compartidos.
+El almacenamiento de tipo **Directory** nos posibilita guardar información en un nodo del clúster Proxmox VE. Por lo tanto, no tenemos la funcionalidad de datos compartidos.
 
 ## Fuente de almacenamiento configurado por defecto
 
 ![storage_local](img/storage_local.png)
 
-Como vimos anteriormente, al instalar Proxmox VE se nos crea una fuente de almacenamiento de tipo *Directory* llamado **local**. La información guardada en esta fuente se guarda en el directorio `/var/lib/vz` y por defecto esta configurado para guardar en él lo siguiente:
+Como vimos anteriormente, al instalar Proxmox VE se nos crea una fuente de almacenamiento de tipo *Directory* llamado **local**. La información guardada en esta fuente se guarda en el directorio `/var/lib/vz` y por defecto está configurado para guardar en él lo siguiente:
 
 * **ISO image**: Imágenes ISO.
 * **Container template**: Plantillas de contenedores.
@@ -28,7 +28,7 @@ root@pve:/var/lib/vz# ls
 dump  images  template
 ```
 
-Por ejemplo las imágenes ISO se guardan en:
+Por ejemplo, las imágenes ISO se guardan en:
 
 ```bash
 root@pve:/var/lib/vz# cd template/iso/
@@ -55,7 +55,7 @@ Para crear la nueva fuente, elegimos *Datacenter->Storage->Add->Directory*:
 
 ![storage_directory](img/storage_directory.png)
 
-Indicamos un nombre, el directorio y el contenido que vamos a guardar, en nuestros caso: **Disk image** y **Containers**.
+Indicamos un nombre, el directorio y el contenido que vamos a guardar, en nuestro caso: **Disk image** y **Containers**.
 
 ![storage_directory](img/storage_directory2.png)
 
@@ -76,5 +76,5 @@ root@pve:/var/lib/images/images/101# ls
 vm-101-disk-0.qcow2
 ```
 
-**Nota: La fuente de almacenamiento de tipo *Directory* la hemos creado sobre el disco de la máquina donde tenemos instalado Proxmox VE, por lo tanto su capacidad será la que tiene este disco. En circunstancias reales, la fuente de tipo *Directory* la podríamos crear sobre un dispositivo de bloque (disco, raid,...) añadido al nodo Proxmox VE.**
+**Nota: La fuente de almacenamiento de tipo *Directory* la hemos creado sobre el disco de la máquina donde tenemos instalado Proxmox VE, por lo tanto,  su capacidad será la que tiene este disco. En circunstancias reales, la fuente de tipo *Directory* la podríamos crear sobre un dispositivo de bloque (disco, raid, ...) añadido al nodo Proxmox VE.**
 
