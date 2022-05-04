@@ -70,7 +70,7 @@ del departamento.
 
 Para sacar todo su potencial a Proxmox necesitamos instalar un clúster
 de servidores. En este caso tendríamos varios servidores donde se
-virtulizarían nuestros recursos. En este esquema sí sería necesario
+virtualizarían nuestros recursos. En este esquema sí sería necesario
 tener un sistema de almacenamiento compartido para que los datos de
 nuestros recursos virtualizados fueran compartidos entre los distintos
 nodos del clúster.
