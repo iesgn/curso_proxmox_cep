@@ -4,7 +4,7 @@
 
 ## TEXTO DE LA ACTIVIDAD
 
-En esta actividad vamos a terminar de configurar el escenario con el que estamos trabajando en este módulo. Puedes deshabilitar el cortafuegos de la actividad anterior para que no tengas ningún tipo de problemas. Vamos a configurar un router/nat en la máquina virtual `router` para que el contenedor `cliente` tenga acceso a internet:
+En esta actividad vamos a terminar de configurar el escenario con el que estamos trabajando en este módulo. **Puedes deshabilitar el cortafuegos de la actividad anterior para que no tengas ningún tipo de problema**. Vamos a configurar un router/nat en la máquina virtual `router` para que el contenedor `cliente` tenga acceso a internet:
 
 Si ejecutamos un `ip r` en el `cliente` vemos que la ruta por defecto manda los paquetes a la máquina `router`. Pero tenemos que configurar esa máquina para que enrute los paquetes que proveniente del `cliente`, además debemos configurar SNAT para que el `cliente` tenga acceso al exterior. Para ello en la máquina `router`:
 
@@ -12,15 +12,35 @@ Si ejecutamos un `ip r` en el `cliente` vemos que la ruta por defecto manda los 
 2. Añadimos una regla en el cortafuego para realizar el SNAT. Para ello instalamos `iptables`:
 
     ```
-    # apt isntall iptables
+    # apt install iptables
     ```
 
     Y añadimos en el fichero `/etc/network/interface` la regla:
 
     ```
-    post-up iptables -t nat -A POSTROUTING -s 10.0.100.0/24 -o ens3 -j MASQUERADE
+    post-up iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o ens18 -j MASQUERADE
     ```
-    Es decir los paquetes que vengan de la red interna 10.0.100.0/24, y saliendo por la primera interfaz se enmascaran, es decir su dirección de origen se cambian por la dirección de la interfaz de salida. Por último reiniciamos la red para activar la configuración. ?????????????
+    Es decir los paquetes que vengan de la red interna 10.0.0.0/24, y saliendo por la primera interfaz se enmascaran, es decir su dirección de origen se cambian por la dirección de la interfaz de salida. Por último reiniciamos la red para activar la configuración. 
+
+    **Nota: Cambia el nombre de la interfaz de red o cualquier otro datos si en tu escenario es necesario.**
+
+3. Para ejecutar la regla iptable podemos reiniciar la segunda interfaz de red:
+
+```
+# ifdown ens19
+# ifup ens19
+```
+
+Y podemos comprobar que la regla se ha ejecutado:
+
+```
+# iptables -L -n -t nat
+...
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+MASQUERADE  all  --  10.0.0.0/24          0.0.0.0/0 
+```
 
 Ahora podemos comprobar que el `cliente` tiene acceso al exterior:
 
