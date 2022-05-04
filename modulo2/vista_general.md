@@ -34,7 +34,7 @@ podemos ver con distintas vistas:
 * **Storage View**: Solo muestra los objetos de almacenamiento,
   agrupados por nodos.
 * **Pool View**: Muestre máquinas virtuales y contenedores, agrupados
-  por Pools de Recursos.
+  por pools de recursos.
 
 Si nos fijamos en la **Server View** podemos clasificar los objetos
 que tenemos disponibles:
