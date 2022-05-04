@@ -49,8 +49,8 @@ Curso sobre Proxmox VE para el CEP.
     * [Copias de seguridad de máquinas virtuales](modulo5/backup.md)
         * [Actividad 5.1: Clonación de máquinas virtuales (OBLIGATORIA)](modulo5/actividad1.md)
         * [Actividad 5.2: Trabajando con plantillas (OBLIGATORIA)](modulo5/actividad2.md)
-        * [Actividad 5.3: Instantáneas de máquinas virtuales (OBLIGATORIA)](modulo5/actividad3.md)
-        * [Actividad 5.4: Copias de seguridad de máquinas virtuales (OBLIGATORIA)](modulo5/actividad4.md)
+        * [Actividad 5.3: Instantáneas de máquinas virtuales (VOLUNTARIA)](modulo5/actividad3.md)
+        * [Actividad 5.4: Copias de seguridad de máquinas virtuales (VOLUNTARIA)](modulo5/actividad4.md)
 
 6. Trabajando con Linux Containers
     * [Proxmox y LXC](modulo6/introduccion.md)

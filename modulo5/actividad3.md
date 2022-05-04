@@ -34,7 +34,7 @@ Para superar la tarea deberás entregar un documento con los siguientes pantalla
 
 ## ¿ES OBLIGATORIO HACER ESTA ACTIVIDAD PARA SUPERAR EL CURSO? (S/N)
 
-Sí
+No
 
 ## ¿ES UNA ACTIVIDAD INDIVIDUAL O DE GRUPO?
 
