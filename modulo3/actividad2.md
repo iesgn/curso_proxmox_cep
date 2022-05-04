@@ -7,7 +7,7 @@
 En esta actividad vamos a crear una máquina virtual con el sistema operativo Windows. Para ello:
 
 1. Sube una imagen ISO de Windows 10. 
-    * **Nota 1**: Asegurate de instalar la versión Pro para tener posibilidad de acceso remoto.
+    * **Nota 1**: Asegúrate de instalar la versión Pro para tener posibilidad de acceso remoto.
     * **Nota 2**: Si utilizas VirtualBox como sistema de virtualización de Proxmox, tal vez un Windows 10 sea muy lento. Puedes utilizar una versión más antigua como un windows 7, o un Windows Server que puede ser más liviano.
 2. Sube la imagen ISO de los drivers VirtIO.
 3. Crea una nueva máquina virtual en Proxmox, con la configuración que hemos indicado en el contenido del módulo (no olvides coger el tipo de disco duro y la interfaz de red como VirtIO).
