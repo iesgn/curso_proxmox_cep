@@ -16,17 +16,6 @@ Para superar la tarea deberás entregar un documento con los siguientes pantalla
 3. Un pantallazo donde se vea la modificación del fichero.
 4. Un pantallazo donde se muestre la información del fichero después de recuperar el estado de la máquina con el snapshot creado.
 
-### Tarea 4: Backup
-
-1. Crea una copia de seguridad de una máquina
-2. Muestra la lista de copias de seguridad realizadas.
-3. Crea una nueva máquina a partir de la copia de seguridad realizada.
-
-Para superar la tarea deberás entregar un documento con los siguientes pantallazos:
-
-1. Un pantallazo donde se muestre la copia de seguridad creada.
-2. Un pantallazo donde se vea el apartado **Hardware** de la máquina original.
-3. Un pantallazo donde se vea el apartado **Hardware** de la máquina creada a partir de la copia de seguridad.
 
 ## RECURSOS
 
