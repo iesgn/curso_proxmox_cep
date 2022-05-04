@@ -1,6 +1,6 @@
 # Gestionando plantillas de contenedores
 
-Los contenedores LXC se crean a partir de una **plantilla**. Un plantilla es el sistema de ficheros que va a utilizar el contenedor. Tendremos plantillas para las distintas distribuciones de Linux.
+Los contenedores LXC se crean a partir de una **plantilla**. Una plantilla es el sistema de ficheros que va a utilizar el contenedor. Tendremos plantillas para las distintas distribuciones de Linux.
 
 En Proxmox necesitamos descargar las plantillas que vamos a usar para la creación del contenedor LXC. Al crear un contenedor se clonará la plantilla para que el contenedor tenga su sistema de fichero. Este proceso se hace de manera muy rápida.
 
@@ -18,11 +18,11 @@ Tenemos tres formas de obtener plantillas:
 * **Download from URL**: Podemos descargar una plantilla usando una URL.
 * **Templates**: Proxmox nos ofrece un repositorio con un conjunto de plantillas que podemos descargar.
 
-En este curso vamos a usar esta tercera opción. Podemos elegir, por ejemplo, el template de *Ubuntu-22.04-standard* y descargarlo con el botón **Download**.
+En este curso vamos a usar esta tercera opción. Podemos elegir, por ejemplo, el template de *Ubuntu-20.04-standard* y descargarlo con el botón **Download**.
 
 ![img](img/template2.png)
 
-Además tenemos un buscador que nos permite buscar por nombre:
+Además, tenemos un buscador que nos permite buscar por nombre:
 
 ![img](img/template3.png)
 
