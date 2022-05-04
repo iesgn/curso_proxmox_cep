@@ -13,8 +13,8 @@ Un **privilegio** es el derecho a realizar una acción específica. Para simplif
     * `Sys.Audit`: ver el estado/configuración del nodo, la configuración del clúster.
     * `Sys.Modify`: crear/modificar/eliminar los parámetros de red del nodo.
     * `Group.Allocate`: crear/modificar/eliminar grupos.
-    * `Pool.Allocate`: crear/modificar/eliminar un Pool de Recursos.
-    * `Pool.Audit`: ver un Pool de Recursos.
+    * `Pool.Allocate`: crear/modificar/eliminar un pool de recursos.
+    * `Pool.Audit`: ver un pool de recursos.
     * `Realm.Allocate`: crear/modificar/eliminar fuentes de autentificación.
     * `Realm.AllocateUser`: asignar un usuario a una fuente de autentificación..
     * `User.Modify`: crear/modificar/eliminar el acceso y los detalles del usuario.
@@ -69,14 +69,14 @@ Podemos crear nuevos roles para asignar nuevos perfiles de usuarios.
 
 ## Asignación de permisos
 
-Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina virtual/contenedor, fuente de almacenamiento, Pool de Recursos,...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
+Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina virtual/contenedor, fuente de almacenamiento, pool de recursos,...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
 
 Ejemplo de rutas:
 
 * `/vms`: Indica todas las máquinas virtuales y contenedores.
 * `/vms/{vmid}`: Indica una máquina virtual o contenedor con un id determinado.
 * `/storage/{storeid}`: Indica una fuente de almacenamiento con un id determinado.
-* `/pool/{poolname}`: Indica un Pool de Recursos con un nombre determinado.
+* `/pool/{poolname}`: Indica un pool de recursos con un nombre determinado.
 * ...
 
 Como hemos indicado un permiso esta formado por una terna: Usuario/Grupo, Objeto/Ruta y Rol. Por ejemplo, vamos a asignar a los usuarios del *grupo1* permiso de auditor (`PVEAuditor`) para todas las máquinas virtuales o contenedores.
@@ -98,6 +98,6 @@ Y podemos ir viendo los permisos que estamos asignando:
 
 Como has podido comprobar no tenemos ningún conjunto de privilegios que nos permita especificar los permisos sobre las redes internas que hemos creado y sobre los bridge linux que se han creado.
 
-Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además también observamos que no podemos agrupar en un Pool de Recursos los Linux Bridge creados. Esto implica que cualquier usuario que acceda puede usar cualquier Linux Bridge creado.
+Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además también observamos que no podemos agrupar en un pool de recursos los Linux Bridge creados. Esto implica que cualquier usuario que acceda puede usar cualquier Linux Bridge creado.
 
 Aunque se está desarrollando, en las nuevas versiones de desarrollo de Proxmox, la posibilidad de que las redes sean otro recurso al que podemos asignar distintos permisos, en la versión actual no podemos asignar a los bridge creados ningún tipo de permiso. Esto puede ser una limitación desde el punto de vista de la utilización de Proxmox con los alumnos, ya que no se podría asegurar que un alumno use exclusivamente un bridge creado por el administrador.
