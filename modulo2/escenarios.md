@@ -11,7 +11,7 @@ para ofrecer recursos virtualizados a los alumnos de nuestros ciclos,
 tendremos que utilizar máquinas físicas con recursos suficientes:
 
 * CPU: No es crítico, las máquinas virtuales y contenedores utilizarán
-  CPU virtuales para su ejecución.
+  CPU virtuales para su ejecución. Una vCPU se puede entender como un hilo de ejecución, por lo que más cores tenga nuestra CPU física más potencia de computación podremos repartir entre los recursos virtualizados.
 * RAM: Al crear una máquina virtual o un contenedor se irá reservando
   memoria RAM. Por lo tanto, dependiendo del tipo de sistema operativo
   que vayamos a instalar tendremos necesidades distintas.
