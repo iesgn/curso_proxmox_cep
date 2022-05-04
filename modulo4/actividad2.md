@@ -12,7 +12,7 @@ En esta actividad vamos a añadir un nuevo disco a la máquina virtual creada en
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
-1. Un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que hemos añadido un nuevo disco de 1Gb guardado en el almacenamiento `imagenes-discos`.
+1. Un pantallazo donde se vea el apartado **Hardware** de la máquina creada para comprobar que hemos añadido un nuevo disco de 1Gb guardado en el almacenamiento     `imagenes-discos`.
 2. Un pantallazo donde sea vea que el disco está montado en `/mnt`.
 
 
