@@ -4,7 +4,7 @@ De forma similar a lo estudiado en el punto anterior, podríamos conectar un con
 
 ## Añadir una nueva interfaz de red a un contenedor
 
-Si quisiéramos añadir una nueva interfaz a un contenedor LXC, elegimos la opción **Network** del contenedor para ver las interfaces que tiene configurada y pulsar el botón **Add** para añadir una nueva:
+Si quisiéramos añadir una nueva interfaz de red a un contenedor LXC, tendríamos que elegir la opción **Network** del contenedor, para ver las interfaces de red que tiene configurado, y pulsar el botón **Add** para añadir una nueva:
 
 ![img](img/red19.png)
 
