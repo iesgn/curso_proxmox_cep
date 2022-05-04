@@ -34,3 +34,9 @@ Si queremos crear una nueva máquina a partir de dicha copia de seguridad elegir
     ![backup](img/backup6.png)
 
 En las dos formas podremos elegir en que almacenamiento se crea la nueva máquina.
+
+---
+
+Para seguir profundizando:
+
+* [Backup and Restore](https://pve.proxmox.com/wiki/Backup_and_Restore)
