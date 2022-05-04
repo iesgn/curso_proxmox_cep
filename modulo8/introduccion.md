@@ -14,15 +14,15 @@ Cada usuario puede ser miembro de varios **grupos**. Los grupos son la forma pre
 
 ## Gestión de usuarios
 
-Para gestionar usuarios, grupos, permisos, elegimos la opción **Permissions** en el nivel del **Datacenter**:
+Para gestionar usuarios, grupos, permisos,... elegimos la opción **Permissions** en el nivel del **Datacenter**:
 
 ![usuarios](img/usuario2.png)
 
-* *Permissions*: Nos permite gestionar los permisos para limitar las acciones permitidas a usuarios o grupos.
-* *Users*: Para gestionar los usuarios.
-* *API Tokens*: Generar los tokens para el acceso a la API de Proxmox VE. No lo vamos a estudiar en este curso.
-* *Groups*: Gestión de los grupos de usuarios.
-* *Pools*: Gestión de los **Pools de Recursos**. Un pool de recursos es un conjunto de máquinas virtuales, contenedores y fuente de almacenamiento. Profundizaremos en este concepto en los próximos capítulos.
-* *Roles*: Gestiona los **Roles**. Los Roles son **conjuntos de permisos**. También lo estudiaremos más adelante.
-* *Authentification*: Nos permite gestionar las fuentes de autentificación disponibles.
+* **Permissions**: Nos permite gestionar los permisos para limitar las acciones permitidas a usuarios o grupos.
+* **Users**: Para gestionar los usuarios.
+* **API Tokens**: Generar los tokens para el acceso a la API de Proxmox VE. No lo vamos a estudiar en este curso.
+* **Groups**: Gestión de los grupos de usuarios.
+* **Pools**: Gestión de los **Pools de Recursos**. Un pool de recursos es un conjunto de máquinas virtuales, contenedores y fuente de almacenamiento. Profundizaremos en este concepto en los próximos capítulos.
+* **Roles**: Gestiona los **Roles**. Los Roles son **conjuntos de permisos**. También lo estudiaremos más adelante.
+* **Authentification**: Nos permite gestionar las fuentes de autentificación disponibles.
 
