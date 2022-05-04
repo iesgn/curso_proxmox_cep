@@ -8,7 +8,7 @@ Seguimos trabajando con la máquina de la actividad anterior. Vamos a modificar 
 
 1. Redimensiona el disco a 2Gb.
 2. Accede a la máquina y redimensiona el sistema de ficheros como se ha mostrado en el contenido del módulo.
-3. Mueve el contenido del disco al pool `local-lvm`.
+3. Mueve el contenido del disco al almacenamiento `local-lvm`.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
