@@ -5,9 +5,9 @@
 ## TEXTO DE LA ACTIVIDAD
 
 1. Crea un fichero de texto en una máquina con cualquier información.
-2. Crea un sanpshot de la máquina.
+2. Crea un snapshot de la máquina.
 3. Modifica el contenido del fichero creado.
-4. restaura el estado de la máquina con el snapshot creado.
+4. Restaura el estado de la máquina con el snapshot creado.
 
 Para superar la tarea deberás entregar un documento con los siguientes pantallazos:
 
