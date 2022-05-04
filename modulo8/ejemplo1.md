@@ -1,6 +1,6 @@
 # Ejemplo 1: Especificar tipos de usuarios
 
-En este primer ejemplo vamos a signar diferentes roles a distintos grupos para que los distintos usuarios, según al grupo que pertenezcan tengan unos permisos determinados. En este ejemplo no vamos a agrupar los recursos con **Pools de recursos** por lo que todos los usuarios van a trabajar con los mismos recursos (fuentes de almacenamiento, máquinas virtuales y contenedores).
+En este primer ejemplo vamos a signar diferentes roles a distintos grupos para que los distintos usuarios, según al grupo que pertenezcan tengan unos permisos determinados. En este ejemplo no vamos a agrupar los recursos con **Pools de Recursos** por lo que todos los usuarios van a trabajar con los mismos recursos (fuentes de almacenamiento, máquinas virtuales y contenedores).
 
 ## Creación de grupos
 

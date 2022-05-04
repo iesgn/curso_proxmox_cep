@@ -22,7 +22,7 @@ Para gestionar usuarios, grupos, permisos, elegimos la opción **Permissions** e
 * *Users*: Para gestionar los usuarios.
 * *API Tokens*: Generar los tokens para el acceso a la API de Proxmox VE. No lo vamos a estudiar en este curso.
 * *Groups*: Gestión de los grupos de usuarios.
-* *Pools*: Gestión de los **Grupos de Recursos** o **Pools de recursos**. Un grupo de recursos es un conjunto de máquinas virtuales, contenedores y fuente de almacenamiento. Profundizaremos en este concepto en los próximos capítulos.
+* *Pools*: Gestión de los **Pools de Recursos**. Un pool de recursos es un conjunto de máquinas virtuales, contenedores y fuente de almacenamiento. Profundizaremos en este concepto en los próximos capítulos.
 * *Roles*: Gestiona los **Roles**. Los Roles son **conjuntos de permisos**. También lo estudiaremos más adelante.
 * *Authentification*: Nos permite gestionar las fuentes de autentificación disponibles.
 
