@@ -1,6 +1,6 @@
 # Clonación de máquinas virtuales
 
-Lo habitual al crear una máquina virtual es hacerlo a a partir de una imagen ISO. La clonación y las plantillas nos permiten la creación rápida de máquinas virtuales del mismo tipo.
+Lo habitual al crear una máquina virtual es hacerlo a partir de una imagen ISO. La clonación y las plantillas nos permiten la creación rápida de máquinas virtuales del mismo tipo.
 
 Cuando usamos la clonación vamos a crear una nueva máquina virtual independiente del origen (**clonación completa**), en el que el almacenamiento es independiente a la primera.
 

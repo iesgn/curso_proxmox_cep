@@ -4,7 +4,7 @@ Otra manera de crear rápidamente nuevas máquinas virtuales es usar una plantil
 
 Las plantillas son de solo lectura por lo que ya no podremos usar de nuevo la máquina original. Si utilizamos plantillas en lugar de máquinas clonadas, el proceso de obtención de la nueva máquina será mucho más rápido, ya que se podrá utilizar **aprovisionamiento ligero** (a este tipo de clonación se le llama **clonación ligera**) para su creación, es decir, el almacenamiento de la máquina virtual estará vinculada a la plantilla de la que procede, y estaremos ahorrando espacio de almacenamiento.
 
-Es necesario que la máquina virtual que vamos a convertir en una plantilla esté parada, y para convertirla en una plantilla eligiremos la siguiente opción:
+Es necesario que la máquina virtual que vamos a convertir en una plantilla esté parada. Para convertirla en una plantilla elegiremos la siguiente opción:
 
 ![plantilla](img/plantilla1.png)
 
@@ -27,7 +27,7 @@ La clonación ligera nos permite crear nuevas máquinas virtuales de forma muy r
 
 Como en el apartado anterior, las dos máquinas son iguales por lo que tendremos que modificar alguna configuración de la nueva máquina: por ejemplo, el hostname, la configuración de red si es necesario, ...
 
-Por ultimo, indicar que podemos cambiar las características hardware de una plantilla (por ejemplo el usa de RAM). De esta forma las nuevas máquinas creadas a partir de ella tendrán las mismas características que hemos modificado:  
+Por último, indicar que podemos cambiar las características hardware de una plantilla (por ejemplo, el usa de RAM). De esta forma las nuevas máquinas creadas a partir de ella tendrán las mismas características que hemos modificado:  
 
 ![plantilla](img/plantilla5.png)
 
