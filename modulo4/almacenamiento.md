@@ -20,7 +20,7 @@ Hay dos clases de almacenamiento que podemos configurar:
 ## Almacenamiento compartido
 
 Algunas de las **fuentes de almacenamiento** que podemos usar tienen la
-características de poder compartir la información entre distintos
+característica de poder compartir la información entre distintos
 nodos de nuestro clúster Proxmox VE. En el caso que utilicemos estos
 tipos de almacenamiento tendremos a nuestra disposición la
 funcionalidad de **migración en vivo** de máquinas virtuales y
@@ -31,14 +31,14 @@ copia de la imagen del disco entre los nodos.
 
 ## Snapshots
 
-Algunas de los **fuentes de almacenamiento** que podemos usar tienen la
+Algunas de las **fuentes de almacenamiento** que podemos usar tienen la
 característica de poder realizar instantáneas (**snapshots**). De esta
 manera podremos guardar el estado de un disco en un determinado
 momento, y si es necesario podremos volver a ese estado a posteriori.
 
 ## Aprovisionamiento ligero
 
-Todas los **fuentes de almacenamiento** que nos permiten la realización
+Todas las **fuentes de almacenamiento** que nos permiten la realización
 de instantáneas, también nos proporcionan la funcionalidad del
 **aprovisionamiento ligero**. Si utilizamos está característica la
 información guardada en el almacenamiento de una máquina virtual
@@ -52,7 +52,7 @@ caso, solo se escriben 3 GB en el almacenamiento, aunque la máquina
 virtual ve un disco duro de 32 GB.
 
 De esta manera tendremos mucho ahorro en espacio ocupado de
-almacenamiento y sobre todo el almacenamieto realmente usado por las
+almacenamiento y sobre todo el almacenamiento realmente usado por las
 máquinas virtuales será el que se ocupe en Proxmox, no hay reserva
 previa de almacenamiento.
 
