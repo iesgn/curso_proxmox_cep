@@ -27,6 +27,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Características y hardware de las máquinas virtuales](modulo3/caracteristicas.md)
     * [Creación de máquinas virtuales Windows](modulo3/creacion_windows.md)
     * [Instalación de Qemu-guest-agent en las máquinas virtuales](modulo3/agent.md)
+    * [Acceso a las máquinas virtuales desde el exterior](modulo3/acceso.md)
         * [Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)](modulo3/actividad1.md)
         * [Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)](modulo3/actividad2.md)
         * [Actividad 3.3: Instalación de Qemu-guest-agent (VOLUNTARIA)](modulo3/actividad3.md)
