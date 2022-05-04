@@ -26,7 +26,7 @@ Podemos aumentar el tamaño de un disco con la opción *Resize disk*:
 
 ![gestion_disco](img/gestion_disco4.png)
 
-Recuerda que el aumento de tamaño del disco es independiente del aumento del sistema de ficheros, por lo tanto si accedemos a la máquina, podemos comprobar que el disco ahora es de 2Gb:
+Recuerda que el aumento de tamaño del disco es independiente del aumento del sistema de ficheros, por lo tanto, si accedemos a la máquina, podemos comprobar que el disco ahora es de 2Gb:
 
 ```bash
 lsblk
@@ -44,7 +44,7 @@ S.ficheros     Tamaño Usados  Disp Uso% Montado en
 /dev/sdb         974M    24K  907M   1% /mnt
 ```
 
-Como lo habiamos formateado con ext4, tenemos que ejecutar las siguientes instrucciones con el disco desmontado:
+Como lo habíamos formateado con ext4, tenemos que ejecutar las siguientes instrucciones con el disco desmontado:
 
 ```bash
 root@debian:~# umount /mnt 
@@ -61,9 +61,9 @@ Y comprobamos que hemos aumentado el tamaño del sistema de ficheros.
 
 ## Move disk
 
-Podemos copiar el contendio de cualquier disco a otra fuente de almacenamiento disponible. durante esta copiase puede indicar si se elimina el disco origen, o si se deja como disco no usado.
+Podemos copiar el contenido de cualquier disco a otra fuente de almacenamiento disponible. Durante esta copia se puede indicar si se elimina el disco origen, o si se deja como disco no usado.
 
-Nuestro disco adicional estaba guardado en un almacenamiento de tipo *Directory*, lo vamos a mover a una fuente de almacenamiento de tipo *Thin LVM*, por lo tanto la información guardada en un archivo de imagen qcow2, se va a guardar en un volumen LVM. El disco origen no lo vamos a borrar:
+Nuestro disco adicional estaba guardado en un almacenamiento de tipo *Directory*, lo vamos a mover a una fuente de almacenamiento de tipo *Thin LVM*, por lo tanto, la información guardada en un archivo de imagen qcow2, se va a guardar en un volumen LVM. El disco origen no lo vamos a borrar:
 
 ![gestion_disco](img/gestion_disco5.png)
 
