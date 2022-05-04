@@ -9,5 +9,9 @@ Antes de estudiar detenidamente cada una de estos niveles, vamos a introducir un
 
 Tenemos más opciones para implementar un bridge por software, pero la más fácil de usar y la que vamos a usar nosotros en Proxmox VE es **Linux Bridge**.
 
+---
 
+Para seguir profundizando:
+
+* [Network Configuration](https://pve.proxmox.com/wiki/Network_Configuration)
 

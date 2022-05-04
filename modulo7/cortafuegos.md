@@ -90,3 +90,4 @@ Y podemos comprobar que desde una máquina externa podemos acceder por ssh, aunq
 Para seguir profundizando:
 
 * [Firewall](https://pve.proxmox.com/wiki/Firewall)
+* [Proxmox VE Firewall](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_pve_firewall)
