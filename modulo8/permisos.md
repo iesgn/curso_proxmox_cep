@@ -10,33 +10,33 @@ Un **privilegio** es el derecho a realizar una acción específica. Para simplif
     * `Sys.PowerMgmt`: gestión de la energía del nodo (arranque, parada, reinicio, apagado, ...).
     * `Sys.Console`: acceso a la consola del nodo.
     * `Sys.Syslog`: ver el syslog.
-    * `Sys.Audit`: ver el estado/configuración del nodo, la configuración del clÚster.
+    * `Sys.Audit`: ver el estado/configuración del nodo, la configuración del clúster.
     * `Sys.Modify`: crear/modificar/eliminar los parámetros de red del nodo.
     * `Group.Allocate`: crear/modificar/eliminar grupos.
-    * `Pool.Allocate`: crear/modificar/eliminar un pool.
-    * `Pool.Audit`: ver un pool.
+    * `Pool.Allocate`: crear/modificar/eliminar un Pool de Recursos.
+    * `Pool.Audit`: ver un Pool de Recursos.
     * `Realm.Allocate`: crear/modificar/eliminar fuentes de autentificación.
-    * `Realm.AllocateUser`: asignar un usuario a un dominio.
+    * `Realm.AllocateUser`: asignar un usuario a una fuente de autentificación..
     * `User.Modify`: crear/modificar/eliminar el acceso y los detalles del usuario.
 
-* Privilegios relacionados con la máquina virtual:
+* Privilegios relacionados con la máquina virtual o contenedor:
 
-    * `VM.Allocate`: crear/eliminar VM en un servidor.
-    * `VM.Migrate`: migrar la VM a un servidor alternativo en el clúster.
-    * `VM.PowerMgmt`: gestión de la energía (arranque, parada, reinicio, apagado, ...).
-    * `VM.Console`: acceso a la consola de la VM.
-    * `VM.Monitor`: acceso al monitor de la VM (kvm).
-    * `VM.Backup`: copia de seguridad/restauración de VMs.
-    * `VM.Audit`: ver la configuración de la VM.
-    * `VM.Clone`: clonar/copiar una VM.
+    * `VM.Allocate`: crear/eliminar máquinas virtuales/contenedores en un servidor.
+    * `VM.Migrate`: migrar las máquinas virtuales/contenedores a un servidor alternativo en el clúster.
+    * `VM.PowerMgmt`: gestión de la energía (arranque, parada, reinicio, apagado, ...) de una máquina virtual.
+    * `VM.Console`: acceso a la consola de las máquinas virtuales/contenedores.
+    * `VM.Monitor`: acceso al monitor de las máquinas virtuales/contenedores.
+    * `VM.Backup`: copia de seguridad/restauración de máquinas virtuales/contenedores.
+    * `VM.Audit`: ver la configuración de las máquinas virtuales/contenedores.
+    * `VM.Clone`: clonar/copiar máquinas virtuales/contenedores.
     * `VM.Config.Disc`: añadir/modificar/eliminar discos.
     * `VM.Config.CDROM`: expulsar/cambiar CD-ROM.
     * `VM.Config.CPU`: modificar la configuración de la CPU.
     * `VM.Config.Memory`: modificar la configuración de la memoria.
     * `VM.Config.Network`: añadir/modificar/eliminar dispositivos de red.
     * `VM.Config.HWType`: modificar los tipos de hardware emulados.
-    * `VM.Config.Options`: modificar cualquier otra configuración de la VM.
-    * `VM.Snapshot`: crear/borrar instantáneas de la VM.
+    * `VM.Config.Options`: modificar cualquier otra configuración de las máquinas virtuales/contenedores.
+    * `VM.Snapshot`: crear/borrar instantáneas de las máquinas virtuales/contenedores.
 
 * Privilegios relacionados con el almacenamiento:
 
@@ -47,9 +47,9 @@ Un **privilegio** es el derecho a realizar una acción específica. Para simplif
 
 ## Roles
 
-Como se ha indicado los privilegios no se asignan directamente, los **roles** son conjuntos de privilegios que son los que se van a asignar para otorgar los permisos. Los roles predefinidos que tenemos los siguientes:
+Como se ha indicado los privilegios no se asignan directamente. Los **roles** son conjuntos de privilegios que son los que se van a asignar para otorgar los permisos. Los roles predefinidos que tenemos son los siguientes:
 
-* `Administrador`: tiene todos los privilegios.
+* `Administrator`: tiene todos los privilegios.
 * `NoAccess`: no tiene privilegios (se utiliza para prohibir el acceso).
 * `PVEAdmin`: puede realizar la mayoría de las tareas, pero no tiene derechos para modificar la configuración del sistema.
 * `PVEAuditor`: sólo tiene acceso de lectura.
@@ -58,10 +58,10 @@ Como se ha indicado los privilegios no se asignan directamente, los **roles** so
 * `PVEPoolAdmin`: asigna Pools de Recursos.
 * `PVEPoolUser`: ver o utilizar Pools de Recursos.
 * `PVESysAdmin`: ACLs de usuario, auditoría, consola del sistema y registros del sistema.
-* `PVETemplateUser`: ver y clonar plantillas.
+* `PVETemplateUser`: ver y clonar plantillas de contenedores.
 * `PVEUserAdmin`: gestionar usuarios.
-* `PVEVMAdmin`: administrar completamente las VMs.
-* `PVEVMUser`: ver, hacer copias de seguridad, configurar el CD-ROM, la consola de la VM, la gestión de la energía de la VM.
+* `PVEVMAdmin`: administrar completamente las maquinas virtuales/contenedores.
+* `PVEVMUser`: ver, hacer copias de seguridad, configurar el CD-ROM, acceder a la consola, gestionar la energía de las maquinas virtuales/contenedores.
 
 ![usuarios](img/usuario10.png)
 
@@ -73,19 +73,19 @@ Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (
 
 Ejemplo de rutas:
 
-* `/vms`: Indica todas las máquinas virtuales
-* `/vms/{vmid}`: Indica una máquina virtual con un id determinado.
+* `/vms`: Indica todas las máquinas virtuales y contenedores.
+* `/vms/{vmid}`: Indica una máquina virtual o contenedor con un id determinado.
 * `/storage/{storeid}`: Indica una fuente de almacenamiento con un id determinado.
-* `/pool/{poolname}`: Indica un Pool de Recursos con un nombre de terminado.
+* `/pool/{poolname}`: Indica un Pool de Recursos con un nombre determinado.
 * ...
 
-Como hemos indicado un permiso esta formado por una terna: Usuario/Grupo, Objeto/Ruta y Rol. Por ejemplo vamos a signar a los usuarios del *grupo1* permiso de auditor (`PVEAuditor`) para todas las máquinas virtuales.
+Como hemos indicado un permiso esta formado por una terna: Usuario/Grupo, Objeto/Ruta y Rol. Por ejemplo, vamos a asignar a los usuarios del *grupo1* permiso de auditor (`PVEAuditor`) para todas las máquinas virtuales o contenedores.
 
-Lo primero escogemos que vamos a asignar un permiso a un grupo:
+Lo primero escogemos elt tipo de permiso, en este caso un permiso a un grupo:
 
 ![usuarios](img/usuario11.png)
 
-A continuación indicamos el objeto/ruta, el grupo y el rol:
+A continuación, indicamos el objeto/ruta, el grupo y el rol:
 
 ![usuarios](img/usuario11.png)
 
@@ -100,4 +100,4 @@ Como has podido comprobar no tenemos ningún conjunto de privilegios que nos per
 
 Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además también observamos que no podemos agrupar en un Pool de Recursos los Linux Bridge creados. Esto implica que cualquier usuario que acceda puede usar cualquier Linux Bridge creado.
 
-Aunque se están desarrollando, en las nuevas versiones de desarrollo de Proxmox, la posibilidad de que las redes sean otro recurso al que podemos asignar distintos permisos, en la versión actual no podemos asignar a los bridge creados ningún tipo de permiso. Esto puede ser una limitación desde el punto de vista de la utilización de Proxmox con los alumnos, ya que no se podría asegurar que un alumno use exclusivamente un bridge creado por el administrador.
+Aunque se está desarrollando, en las nuevas versiones de desarrollo de Proxmox, la posibilidad de que las redes sean otro recurso al que podemos asignar distintos permisos, en la versión actual no podemos asignar a los bridge creados ningún tipo de permiso. Esto puede ser una limitación desde el punto de vista de la utilización de Proxmox con los alumnos, ya que no se podría asegurar que un alumno use exclusivamente un bridge creado por el administrador.
