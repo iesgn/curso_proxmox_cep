@@ -36,7 +36,7 @@ vayamos creando y modificando ficheros. Es un mecanismo muy eficaz y
 rápido de utilizar almacenamiento de forma óptima y se utiliza
 ampliamente en centros de datos.
 
-Hay muchos tipos de objetos de almacenamiento, su creación y
+Hay muchos tipos de fuentes de almacenamiento, su creación y
 configuración lo veremos en el módulo correspondiente.
 
 ## Redes virtuales
