@@ -1,6 +1,6 @@
 # ACTIVIDAD Nº 1
 
-## TÍTULO DE LA ACTIVIDAD: Foro: ¿Qué experiencia previa tienes sobre virtualización?
+## TÍTULO DE LA ACTIVIDAD: Foro: ¿Qué experiencia previa tienes sobre virtualización? (OBLIGATORIA)
 
 ## TEXTO DE LA ACTIVIDAD
 
