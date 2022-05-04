@@ -78,3 +78,10 @@ Y desde la *Consola* podemos ver el monitor de la máquina para
 comenzar con la instalación:
 
 ![crearVM](img/create_vm_10.png)
+
+---
+
+Para seguir profundizando:
+
+* [Qemu/KVM Virtual Machines](https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines)
+* [Proxmox Doc: 10.2. Virtual Machines Settings](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_virtual_machines_settings)
