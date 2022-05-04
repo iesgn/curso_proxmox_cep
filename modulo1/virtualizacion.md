@@ -38,7 +38,7 @@ Como desventajas podríamos señalar:
 
 El uso de mecanismos de virtualización revolucionó las metodologías que hemos empleado en la enseñanza de las TIC:
 
-* Los alumnos pueden crean infraestructura virtualiza que simula un escenario real.
+* Los alumnos pueden crear infraestructura virtual que simula un escenario real.
 * Podemos instalar diferentes sistemas operativos en una sola máquina.
 * No es necesarios dispositivos físicos para la realización de muchas prácticas.
 * Se pueden usar máquinas virtuales para probar nuevas cosas, con la ventaja que si "rompemos" algo se eliminan y se vuelven a crear.
