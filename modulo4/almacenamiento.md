@@ -91,9 +91,6 @@ distintos tipos:
 En este tema vamos a profundizar en los tipos de almacenamiento más
 sencillos de gestionar: el tipo **Directory** y el tipo **LVM**. 
 
-Para profundizar en los distintos tipos de almacenamiento que podemos usar
-en Proxmox VE: [Proxmox VE Storage](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_storage).
-
 ---
 
 Para seguir profundizando:
