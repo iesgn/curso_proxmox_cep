@@ -1,6 +1,6 @@
 # Introducción al cortafuegos de Proxmox VE
 
-La naturaleza de este curso no nos permite abarcar con profundidad aspectos relacionados con la seguridad de nuestro servidor Proxmox VE, pero si podemos hacer una introducción al cortafuegos que nos ofrece el sistema para asegurar el acceso, tanto al servidor como a las máquinas virtuales y contenedores que gestionemos.
+La naturaleza de este curso no nos permite abarcar con profundidad aspectos relacionados con la seguridad de nuestro servidor Proxmox VE, pero sí podemos hacer una introducción al cortafuegos que nos ofrece el sistema para asegurar el acceso, tanto al servidor como a las máquinas virtuales y contenedores que gestionemos.
 
 ## Activación del cortafuego
 
@@ -14,9 +14,9 @@ Para activar el cortafuegos a nivel del clúster de servidores, tenemos que acti
 
 En este nivel también puedes configurar:
 
-* **Security Group**: conjuntos de reglas de cortafuegos que posteriormente podemos asignar a un cortafuegos de una máquina.
-* **Alias**: que nos permite nombrar direcciones IP para que sea más sencillo crear las reglas de cortafuegos.
-* **IPSec**: que nos permite crear grupos de IP para facilitar la asignación de reglas de cortafuegos a varias IP. 
+* **Security Group**: Conjuntos de reglas de cortafuegos que posteriormente podemos asignar a un cortafuegos de una máquina.
+* **Alias**: Nos permite nombrar direcciones IP para que sea más sencillo crear las reglas de cortafuegos.
+* **IPSec**: Nos permite crear grupos de IP para facilitar la asignación de reglas de cortafuegos a varias IP. 
 
 Estos elementos no lo vamos a usar en este curso.
 
@@ -41,7 +41,7 @@ Vemos las políticas por defecto para esta máquina:
 
 Si quisiéramos un cortafuegos más restrictivo pondríamos las dos políticas por defecto a DROP, es decir, tanto el tráfico de entrada como el de salida estarían bloqueados, y tendríamos que ir creando reglas de cortafuegos para aceptar el tráfico que deseáramos permitir.
 
-Además cómo una máquina o contenedor pueden tener más de una interfaz podemos activar o desactivar el cortafuegos para cada interfaz de red. Por defecto, el cortafuegos está activo en cada interfaz, para comprobarlo vemos las características hardware de las interfaces:
+Además cómo una máquina o contenedor pueden tener más de una interfaz podemos activar o desactivar el cortafuegos para cada interfaz de red. Por defecto, el cortafuegos está activo en cada interfaz de red, para comprobarlo vemos las características hardware de las interfaces:
 
 ![img](img/firewall4.png)
 
@@ -53,7 +53,7 @@ Podemos modificar las características del interfaz de red para desactivar el co
 
 Como hemos visto anteriormente, si habilitamos el cortafuegos para una máquina tendrá permitido el tráfico hacia el exterior (**Output Policy: ACCEPT**) y tendrá denegado el tráfico desde el exterior a la máquina (**Input policy: DROP**).
 
-Partimos de una máquina que tiene un servidor ssh instalado. Está maquina tendrá conectividad al exterior, pero no tendrá conectividad desde el exterior. Vamos a poner dos ejemplos de reglas:
+Partimos de una máquina que tiene un servidor ssh instalado. Está máquina tendrá conectividad al exterior, pero no tendrá conectividad desde el exterior. Vamos a poner dos ejemplos de reglas:
 
 ### Regla para denegar que la máquina haga ping al exterior
 
