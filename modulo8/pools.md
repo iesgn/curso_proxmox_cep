@@ -1,6 +1,6 @@
 # Gestión de Pools de Recursos
 
-Un grupo (o pool) de recursos es un conjunto de máquinas virtuales, contenedores y fuentes de almacenamiento. La podemos usar simplemente para agrupar recursos o para asignarles permisos.
+Un **pool de recursos** es un conjunto de máquinas virtuales, contenedores y fuentes de almacenamiento. La podemos usar simplemente para agrupar recursos o para asignarles permisos.
 
 ## Creación de un Pool de Recursos
 
@@ -12,23 +12,23 @@ Un pool se pueden editar (para cambiar el comentario) y eliminar (un pool sólo 
 
 ## Asignación de recursos a un pool
 
-Para gestionar los Pools de Recursos es aconsejable usar la vista de pools (*Pool View*). Escogemos el pool y en el apartado *Members* podemos añadir los medios de almacenamiento y las máquinas virtuales o contenedores que van a a pertenecer a este pool.
+Para gestionar los pools de recursos es aconsejable usar la vista de pools (*Pool View*). Escogemos el pool y en el apartado *Members* podemos añadir los medios de almacenamiento y las máquinas virtuales o contenedores que van a a pertenecer a este pool.
 
 ![usuarios](img/usuario6.png)
 
-Deberemos añadir los medios de almacenamiento que usan las máquinas virtuales o contenedores que van a formar parte del pool. 
+Debemos añadir los medios de almacenamiento que usan las máquinas virtuales o contenedores que van a formar parte del pool. 
 
 En este ejemplo hemos incluido todos los medios de almacenamiento y una máquina virtual:
 
 ![usuarios](img/usuario7.png)
 
-Una máquina virtual sólo puede pertenecer a un pool en un determinado momento.
+Una máquina virtual o contenedor sólo puede pertenecer a un pool en un determinado momento.
 
 Al crear una máquina virtual o un contenedor podemos indicar al pool de recursos que va a pertenecer:
 
 ![usuarios](img/usuario8.png)
 
-De la misma forma al clonar una máquina o contenedor, también podemos indicar eel pool al que va a pertenecer:
+De la misma forma al clonar una máquina o contenedor, también podemos indicar el pool al que va a pertenecer:
 
 ![usuarios](img/usuario9.png)
 
