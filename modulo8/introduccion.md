@@ -26,3 +26,8 @@ Para gestionar usuarios, grupos, permisos,... elegimos la opción **Permissions*
 * **Roles**: Gestiona los **Roles**. Los Roles son **conjuntos de permisos**. También lo estudiaremos más adelante.
 * **Authentification**: Nos permite gestionar las fuentes de autentificación disponibles.
 
+---
+
+Para seguir profundizando:
+
+* [User Management](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_user_management)
