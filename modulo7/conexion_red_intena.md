@@ -2,15 +2,15 @@
 
 Una vez tenemos creado nuestro bridge **vmbr1**, tenemos dos posibilidades:
 
-* Conectarle una máquina que ya está funcionando. Es decir, añadir una interfaz de red a una máquina ya existente.
+* Conectarle una máquina que ya está funcionando. Es decir, añadir una nueva interfaz de red a una máquina ya existente.
 * Crear una nueva máquina conectada a este bridge.
 
 Para explicar este apartado vamos a construir el siguiente esquema de red:
 
 ![img](img/esquema_red.png)
 
-* La máquina *router* ya está creada y está conectada al bridge **vmbr0**, le vamos a añadir una interfaz conectada la bridge **vmbr1** y lo vamos a configurar con la ip `10.0.0.1`.
-* La máquina *cliente* la vamos a crear conectada al bridge **vmbr1** con la dirección `10.0.0.2`.
+* La máquina *router* ya está creada y está conectada al bridge **vmbr0**, le vamos a añadir una nueva interfaz de red conectada la bridge **vmbr1** y la vamos a configurar con la ip `10.0.0.1/24`.
+* La máquina *cliente* la vamos a crear conectada al bridge **vmbr1** con la dirección `10.0.0.2/24`.
 
 ## Añadir una nueva interfaz de red a una máquina
 
@@ -22,7 +22,7 @@ Elegimos al bridge al que va a estar conectada esta nueva interfaz (recuerda ele
 
 ![img](img/red10.png)
 
-En la red interna a la que hemos conectado la red no existe ningún servidor DHCP por lo que tendremos que hacer una configuración manual del direccionamiento de esta interfaz. La manera de hacer esta configuración dependerá del sistema operativo de la máquina que estamos configurando (en mi caso es una distribución Debian). Podemos comprobar que ya tenemos dos interfaces configuradas:
+En la red interna a la que hemos conectado la red no existe ningún servidor DHCP por lo que tendremos que hacer una configuración manual del direccionamiento de esta interfaz de red. La manera de hacer esta configuración dependerá del sistema operativo de la máquina que estamos configurando (en mi caso es una distribución Debian). Podemos comprobar que ya tenemos dos interfaces configuradas:
 
 ![img](img/red11.png)
 
@@ -37,7 +37,7 @@ Y para terminar la configuración levantamos la interfaz con `ifup` y comprobamo
 
 ## Crear una nueva máquina virtual conectada a la red interna
 
-La máquina *cliente* la vamos a crear conectada directamente al nuevo bridge. Para ello durante la configuración de la creación de la nueva máquina escogemos el nuevo bridge:
+La máquina *cliente* la vamos a crear conectada directamente al nuevo bridge. Para ello durante la la creación de la nueva máquina escogemos el nuevo bridge:
 
 ![img](img/red14.png)
 
@@ -45,7 +45,7 @@ Una vez creada, comprobamos que esta máquina está conectada a **vmbr1**:
 
 ![img](img/red15.png)
 
-De la misma forma que hemos configurado la ip en la máquina *router*, vamos a configurar la ip de esta máquina. Vamos a configurar la ip `10.0.0.2`:
+De la misma forma que hemos configurado la ip en la máquina *router*, vamos a configurar la ip de esta máquina. Vamos a configurar la ip `10.0.0.2/24`:
 
 ![img](img/red16.png)
 
