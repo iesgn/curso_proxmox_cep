@@ -57,7 +57,7 @@ Como se ha indicado los privilegios no se asignan directamente. Los **roles** so
 * `PVEDatastoreUser`: asigna el espacio de copia de seguridad y ve el almacenamiento.
 * `PVEPoolAdmin`: asigna Pools de Recursos.
 * `PVEPoolUser`: ver o utilizar Pools de Recursos.
-* `PVESysAdmin`: ACLs de usuario, auditoría, consola del sistema y registros del sistema.
+* `PVESysAdmin`: permisos de usuario, auditoría, consola del sistema y registros del sistema.
 * `PVETemplateUser`: ver y clonar plantillas de contenedores.
 * `PVEUserAdmin`: gestionar usuarios.
 * `PVEVMAdmin`: administrar completamente las maquinas virtuales/contenedores.
