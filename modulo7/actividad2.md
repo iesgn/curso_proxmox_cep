@@ -11,7 +11,7 @@ En esta actividad vamos a trabajar con el cortafuegos de Proxmox:
 3. Comprueba que no tenemos acceso al servidor web desde el exterior.
 4. Crea una regla de cortafuego de entrada para que sea accesible el puerto 80 del protocolo TCP.
 5. Comprueba que ya tenemos acceso al servidor web desde el exterior.
-6. En la siguiente actividad voluntaria vamos a seguir trabajando con estas máquinas.
+6. En la siguiente actividad voluntaria vamos a seguir trabajando con esta máquina.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
@@ -19,6 +19,7 @@ Para superar la actividad deberás entregar en un fichero comprimido los siguien
 2. Un pantallazo donde se vea la salida del comando `ip a` en la máquina virtual, para comprobar las direcciones IP de las interfaces.
 3. Un pantallazo donde se vea el apartado **Networks** del contenedor que has creado.
 4. Un pantallazo donde se vea la salida del comando `ping` para comprobar la conectividad.
+
 
 ## RECURSOS
 
