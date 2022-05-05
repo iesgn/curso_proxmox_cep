@@ -81,7 +81,7 @@ Ejemplo de rutas:
 
 Como hemos indicado un permiso esta formado por una terna: Usuario/Grupo, Objeto/Ruta y Rol. Por ejemplo, vamos a asignar a los usuarios del *grupo1* permiso de auditor (`PVEAuditor`) para todas las máquinas virtuales o contenedores.
 
-Lo primero escogemos elt tipo de permiso, en este caso un permiso a un grupo:
+Lo primero, escogemos el tipo de permiso, en este caso un permiso a un grupo:
 
 ![usuarios](img/usuario11.png)
 
