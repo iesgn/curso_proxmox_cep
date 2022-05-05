@@ -15,8 +15,8 @@ En esta actividad vamos a trabajar con el cortafuegos de Proxmox:
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
-1. Un pantallazo donde se vea el apartado **Hardware** de la máquina que has creado, para comprobar que el cortafuegos está 
-2. Un pantalalzo donde se vea la salida del comando `ip a` en la máquina virtual, para comprobar las direcciones IP de las interfaces.
+1. Un pantallazo donde se vea el apartado **Hardware** de la máquina que has creado, para comprobar que el cortafuegos está activado.
+2. Un pantallazo donde se vea la salida del comando `ip a` en la máquina virtual, para comprobar las direcciones IP de las interfaces.
 3. Un pantallazo donde se vea el apartado **Networks** del contenedor que has creado.
 4. Un pantallazo donde se vea la salida del comando `ping` para comprobar la conectividad.
 
