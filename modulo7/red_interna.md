@@ -5,7 +5,7 @@ Como hemos estudiado anteriormente, las máquinas virtuales y contenedores conec
 Además, Proxmox VE nos permite crear nuevos **Linux Bridge** donde podremos conectar nuestras máquinas en una red privada. Algunos escenarios donde podríamos usar esta posibilidad podrían ser:
 
 * Varias máquinas conectadas al exterior con una interfaz conectada a **vmbr0** y otra interfaz conectada a otro bridge. Estas máquinas tendrían una conexión entre ellas en una red privada.
-* Un equipo que funcione como router/nat/cortafuegos que este conectado al exterior por **vmbr0** y a otras redes internas donde tenemos diferentes máquinas.
+* Un equipo que funcione como router/nat/cortafuegos que esté conectado al exterior por **vmbr0** y a otras redes internas donde tenemos diferentes máquinas.
 * Un laboratorio de máquinas que no tengan conectividad al exterior y que estén conectadas a una red interna.
 
 ## Creación de un nuevo bridge
