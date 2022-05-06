@@ -19,8 +19,8 @@ Ademas del nombre de usuario y la contraseña, podremos indicar la siguiente inf
 * Nombre
 * Apellido
 * Dirección de correo electrónico
-* Grupo al que pertenece
-* Una fecha de caducidad opcional
+* Grupos a los que pertenece
+* Opcionalmente, una fecha de caducidad
 * Un comentario o nota sobre este usuario
 * Si este usuario está habilitado o deshabilitado
 * ...
