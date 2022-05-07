@@ -12,6 +12,8 @@ Para activar el cortafuegos a nivel del clúster de servidores, tenemos que acti
 
 ![img](img/firewall1.png)
 
+También hemos cambiando la **Output Policy a DROP**.
+
 En este nivel también puedes configurar:
 
 * **Security Group**: Conjuntos de reglas de cortafuegos que posteriormente podemos asignar a un cortafuegos de una máquina.
@@ -41,7 +43,7 @@ Vemos las políticas por defecto para esta máquina:
 
 Si quisiéramos un cortafuegos más restrictivo pondríamos las dos políticas por defecto a DROP, es decir, tanto el tráfico de entrada como el de salida estarían bloqueados, y tendríamos que ir creando reglas de cortafuegos para aceptar el tráfico que deseáramos permitir.
 
-Además cómo una máquina o contenedor pueden tener más de una interfaz podemos activar o desactivar el cortafuegos para cada interfaz de red. Por defecto, el cortafuegos está activo en cada interfaz de red, para comprobarlo vemos las características hardware de las interfaces:
+Además, cómo una máquina o contenedor pueden tener más de una interfaz podemos activar o desactivar el cortafuegos para cada interfaz de red. Por defecto, el cortafuegos está activo en cada interfaz de red, para comprobarlo vemos las características hardware de las interfaces:
 
 ![img](img/firewall4.png)
 
@@ -57,7 +59,7 @@ Partimos de una máquina que tiene un servidor ssh instalado. Está máquina ten
 
 ### Regla para denegar que la máquina haga ping al exterior
 
-Todo el tráfico esta permitido hacía el exterior pero vamos a denegar el ping. Para ello debemos crear una regla de salida para denegar el protocolo ICMP, para ello, a nivel de máquina virtual, vamos a añadir una regla al cortafuego, eligiendo la opción **Firewall - Add**:
+Todo el tráfico está permitido hacía el exterior, pero vamos a denegar el ping. Para ello debemos crear una regla de salida para denegar el protocolo ICMP, para ello, a nivel de máquina virtual, vamos a añadir una regla al cortafuego, eligiendo la opción **Firewall - Add**:
 
 ![img](img/firewall5.png)
 
@@ -77,7 +79,7 @@ Como podemos comprobar hemos creado dos reglas:
 
 ![img](img/firewall8.png)
 
-Podemos comprobar que aunque tiene permitido todo el acceso al exterior hemos bloqueado la posibilidad de que haga ping:
+Podemos comprobar que, aunque tiene permitido todo el acceso al exterior hemos bloqueado la posibilidad de que haga ping:
 
 ![img](img/firewall9.png)
 

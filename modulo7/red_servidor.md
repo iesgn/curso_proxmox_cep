@@ -9,7 +9,7 @@ En este curso hemos instalado Proxmox VE sobre una máquina virtual, y en nuestr
 * **La interfaz del servidor Proxmox (en el ejemplo, enp1s0)**: Corresponde a la interfaz del servidor.
 * **Un Linux Bridge (vmbr0)**: A este bridge está conectado la interfaz de del servidor y ha tomado del router físico un ip por DHCP (en mi caso la `192.168.100.87`). Esta ip corresponde a la IP del servidor y es la que utilizo para acceder a la página web de Proxmox.
 
-Por defecto las máquinas virtuales y contenedores que estamos creando se conectan a este Linux Bridge, por lo tanto tomaran direccionamiento del router físico, en mi caso el direccionamiento será el `192.168.100.0/24`. Por lo tanto todas las máquinas gestionadas por Proxmox serán accesibles desde cualquier ordenador de mi red local.
+Por defecto las máquinas virtuales y contenedores que estamos creando se conectan a este Linux Bridge, y tomarán direccionamiento del router físico, en mi caso el direccionamiento será el `192.168.100.0/24`. Por lo tanto, todas las máquinas gestionadas por Proxmox serán accesibles desde cualquier ordenador de mi red local.
 
 El esquema que tenemos sería el siguiente:
 
@@ -21,7 +21,7 @@ En una instalación real de Proxmox el servidor puede tener más interfaces de r
 
 ## Conexión de las máquinas virtuales/contenedores al bridge vmbr0
 
-Como hemos indicado anteriormente, por defecto, las máquinas virtuales y contenedores que hemos creado en nuestro servidor se conecta al bridge **vmbr0**, por lo tanto se configurarán de forma automática usando el servidor DHCP de nuestra infraestructura, en nuestro caso el del router físico.
+Como hemos indicado anteriormente, por defecto, las máquinas virtuales y contenedores que hemos creado en nuestro servidor se conecta al bridge **vmbr0**, por lo tanto, se configurarán de forma automática usando el servidor DHCP de nuestra infraestructura, en nuestro caso el del router físico.
 
 ![img](img/red4.png)
 

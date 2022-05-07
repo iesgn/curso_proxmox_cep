@@ -1,6 +1,6 @@
 # Gestión de Permisos
 
-Un **privilegio** es el derecho a realizar una acción específica. Para simplificar la gestión, las listas de privilegios se agrupan en **roles**, que luego pueden utilizarse en la **tabla de permisos**. Tenga en cuenta que los privilegios no pueden asignarse directamente a los usuarios y a las rutas sin formar parte de un rol.
+Un **privilegio** es el derecho a realizar una acción específica. Para simplificar la gestión, las listas de privilegios se agrupan en **roles**, que luego pueden utilizarse en la **tabla de permisos**. Tenga en cuenta que los privilegios no pueden asignarse directamente a los usuarios o grupos sin formar parte de un rol.
 
 ## Privilegios
 
@@ -96,8 +96,8 @@ Y podemos ir viendo los permisos que estamos asignando:
 
 ## Permisos y redes
 
-Como has podido comprobar no tenemos ningún conjunto de privilegios que nos permita especificar los permisos sobre las redes internas que hemos creado y sobre los bridge linux que se han creado.
+Como has podido comprobar, no tenemos ningún conjunto de privilegios que nos permita especificar los permisos sobre las redes internas que hemos creado y sobre los bridge linux que se han creado.
 
-Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además también observamos que no podemos agrupar en un pool de recursos los Linux Bridge creados. Esto implica que cualquier usuario que acceda puede usar cualquier Linux Bridge creado.
+Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además también observamos que no podemos agrupar en un pool de recursos los Linux Bridge creados. Esto implica, que cualquier usuario que acceda, puede usar cualquier Linux Bridge creado.
 
 Aunque se está desarrollando, en las nuevas versiones de desarrollo de Proxmox, la posibilidad de que las redes sean otro recurso al que podemos asignar distintos permisos, en la versión actual no podemos asignar a los bridge creados ningún tipo de permiso. Esto puede ser una limitación desde el punto de vista de la utilización de Proxmox con los alumnos, ya que no se podría asegurar que un alumno use exclusivamente un bridge creado por el administrador.
