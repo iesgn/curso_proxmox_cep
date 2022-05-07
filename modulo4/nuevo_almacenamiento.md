@@ -10,7 +10,7 @@ Al añadir el nuevo disco, tendremos que elegir en qué fuente de almacenamiento
 
 En nuestro caso, tenemos disponibles dos fuentes de almacenamiento:
 
-* **local-images**: De tipo *Directory*, la información del disco se guardará en un fichero de imagen.
+* **local-images**: De tipo `Directory`, la información del disco se guardará en un fichero de imagen.
 * **local-lvm**: De tipo `Thin-LVM`, la información del disco se guardará en un volumen LVM.
 
 En nuestro caso vamos a elegir la opción **local-images**, por lo que tendremos que elegir el tipo de fichero de imagen que vamos a usar:
