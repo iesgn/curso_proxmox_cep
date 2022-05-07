@@ -4,12 +4,12 @@ En el ejemplo anterior todos los usuarios trabajaban sobre los mismos recursos. 
 
 Para conseguir este comportamiento vamos a asignar a cada usuario un pool de recursos y le vamos a dar los permisos necesarios para que el usuario sólo pueda gestionar los recursos que pertenecen a su pool de recursos.
 
-Además podríamos tener un grupo de profesores que fueran administradores y que tuvieran acceso a todas las funcionalidades y recursos de los alumnos.
+Además, podríamos tener un grupo de profesores que fueran administradores y que tuvieran acceso a todas las funcionalidades y recursos de los alumnos.
 
 ## Configuración del escenario
 
 1. Vamos a crear un grupo **Profesores** al que le vamos a asignar el rol de `Administrator`.
-2. Para cada usuario que creemos para un alumno, crearemos un pool de recursos. Por ejemplo vamos a crear el usuario `alumno1` y el pool de recursos `Proyecto_de_alumno1`.
+2. Para cada alumno, vamos a crear un usuario y un pool de recursos. Por ejemplo, vamos a crear el usuario `alumno1` y el pool de recursos `Proyecto_de_alumno1`.
 3. A cada alumno le vamos a asignar los roles de `PVEDatastoreUser`, `PVEVMAdmin` y `PVEPoolUSer` para el pool de recursos asociado. De esta manera cada alumno podrá gestionar sus máquinas si están creados en su pool de recursos.
 
 Hemos creado el grupo **Profesores** con el usuario **profesor1**:
