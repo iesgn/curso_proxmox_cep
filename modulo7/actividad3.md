@@ -20,9 +20,9 @@ Si ejecutamos un `ip r` en el `cliente` vemos que la ruta por defecto manda los 
     ```
     post-up iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o ens18 -j MASQUERADE
     ```
-    Es decir los paquetes que vengan de la red interna 10.0.0.0/24, y saliendo por la primera interfaz se enmascaran, es decir su dirección de origen se cambian por la dirección de la interfaz de salida. Por último reiniciamos la red para activar la configuración. 
+    Es decir, los paquetes que vengan de la red interna 10.0.0.0/24, y saliendo por la primera interfaz se enmascaran, es decir su dirección de origen se cambian por la dirección de la interfaz de salida. Por último, reiniciamos la red para activar la configuración. 
 
-    **Nota: Cambia el nombre de la interfaz de red o cualquier otro datos si en tu escenario es necesario.**
+    **Nota: Cambia el nombre de la interfaz de red o cualquier otro dato si en tu escenario es necesario.**
 
 3. Para ejecutar la regla iptable podemos reiniciar la segunda interfaz de red:
 
