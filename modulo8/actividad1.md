@@ -18,7 +18,7 @@ Si has elegido el **Ejemplo 2: Aislamiento de usuarios** entrega:
 
 1. Un pantallazo accediendo con el usuario `alumno1` y donde se vea que ha creado una máquina (no hace falta instalarla) en su pool de recursos.
 2. Un pantallazo accediendo con el usuario `alumno2` y donde se vea que ha creado una máquina (no hace falta instalarla) en su pool de recursos.
-3. Un pantallazo accediendo con el usuario `profesor11` y donde se vean los pools de recursos de los dos usuarios alumnos.
+3. Un pantallazo accediendo con el usuario `profesor1` y donde se vean los pools de recursos de los dos usuarios alumnos.
 
 
 
