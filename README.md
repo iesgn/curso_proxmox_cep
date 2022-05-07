@@ -19,7 +19,7 @@ Curso sobre Proxmox VE para el CEP.
     * [Almacenamiento y redes disponibles](modulo2/almacenamiento_redes.md)
         * [Actividad 2.1: Instalación y acceso a Proxmox VE (OBLIGATORIA)](modulo2/actividad1.md)
 
-3. Instalación de máquinas virtuales
+3. Creación de máquinas virtuales
     * [Gestión de imágenes ISO](modulo3/iso.md)
     * [Dispositivos paravirtualizados](modulo3/paravirtualizados.md)
     * [Creación de máquinas virtuales Linux](modulo3/creacion_linux.md)
