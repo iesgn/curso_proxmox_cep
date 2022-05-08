@@ -16,7 +16,7 @@ Un **privilegio** es el derecho a realizar una acción específica. Para simplif
     * `Pool.Allocate`: crear/modificar/eliminar un pool de recursos.
     * `Pool.Audit`: ver un pool de recursos.
     * `Realm.Allocate`: crear/modificar/eliminar fuentes de autentificación.
-    * `Realm.AllocateUser`: asignar un usuario a una fuente de autentificación..
+    * `Realm.AllocateUser`: asignar un usuario a una fuente de autentificación.
     * `User.Modify`: crear/modificar/eliminar el acceso y los detalles del usuario.
 
 * Privilegios relacionados con la máquina virtual o contenedor:
@@ -60,8 +60,8 @@ Como se ha indicado los privilegios no se asignan directamente. Los **roles** so
 * `PVESysAdmin`: permisos de usuario, auditoría, consola del sistema y registros del sistema.
 * `PVETemplateUser`: ver y clonar plantillas de contenedores.
 * `PVEUserAdmin`: gestionar usuarios.
-* `PVEVMAdmin`: administrar completamente las maquinas virtuales/contenedores.
-* `PVEVMUser`: ver, hacer copias de seguridad, configurar el CD-ROM, acceder a la consola, gestionar la energía de las maquinas virtuales/contenedores.
+* `PVEVMAdmin`: administrar completamente las máquinas virtuales/contenedores.
+* `PVEVMUser`: ver, hacer copias de seguridad, configurar el CD-ROM, acceder a la consola, gestionar la energía de las máquinas virtuales/contenedores.
 
 ![usuarios](img/usuario10.png)
 
@@ -69,7 +69,7 @@ Podemos crear nuevos roles para asignar nuevos perfiles de usuarios.
 
 ## Asignación de permisos
 
-Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina virtual/contenedor, fuente de almacenamiento, pool de recursos,...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
+Los permisos (**roles**) se asignan a un **usuario o grupo** y a un **objeto** (máquina virtual/contenedor, fuente de almacenamiento, pool de recursos, ...). Utilizamos rutas similares a las del sistema de archivos para indicar los objetos. Estas rutas forman un árbol y los permisos de niveles superiores (rutas más cortas) pueden propagarse opcionalmente hacia abajo dentro de esta jerarquía.
 
 Ejemplo de rutas:
 
@@ -79,7 +79,7 @@ Ejemplo de rutas:
 * `/pool/{poolname}`: Indica un pool de recursos con un nombre determinado.
 * ...
 
-Como hemos indicado un permiso esta formado por una terna: Usuario/Grupo, Objeto/Ruta y Rol. Por ejemplo, vamos a asignar a los usuarios del *grupo1* permiso de auditor (`PVEAuditor`) para todas las máquinas virtuales o contenedores.
+Como hemos indicado un permiso está formado por una terna: Usuario/Grupo, Objeto/Ruta y Rol. Por ejemplo, vamos a asignar a los usuarios del *grupo1* permiso de auditor (`PVEAuditor`) para todas las máquinas virtuales o contenedores.
 
 Lo primero, escogemos el tipo de permiso, en este caso un permiso a un grupo:
 
@@ -87,17 +87,17 @@ Lo primero, escogemos el tipo de permiso, en este caso un permiso a un grupo:
 
 A continuación, indicamos el objeto/ruta, el grupo y el rol:
 
-![usuarios](img/usuario11.png)
+![usuarios](img/usuario12.png)
 
 Y podemos ir viendo los permisos que estamos asignando:
 
-![usuarios](img/usuario12.png)
+![usuarios](img/usuario13.png)
 
 
 ## Permisos y redes
 
-Como has podido comprobar, no tenemos ningún conjunto de privilegios que nos permita especificar los permisos sobre las redes internas que hemos creado y sobre los bridge linux que se han creado.
+Como has podido comprobar, no tenemos ningún conjunto de privilegios que nos permita especificar los permisos sobre las redes internas que hemos creado y sobre los linux Bridge que se han creado.
 
-Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además también observamos que no podemos agrupar en un pool de recursos los Linux Bridge creados. Esto implica, que cualquier usuario que acceda, puede usar cualquier Linux Bridge creado.
+Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además, también observamos que no podemos agrupar en un pool de recursos los Linux Bridge creados. Esto implica, que cualquier usuario que acceda, puede usar cualquier Linux Bridge creado.
 
-Aunque se está desarrollando, en las nuevas versiones de desarrollo de Proxmox, la posibilidad de que las redes sean otro recurso al que podemos asignar distintos permisos, en la versión actual no podemos asignar a los bridge creados ningún tipo de permiso. Esto puede ser una limitación desde el punto de vista de la utilización de Proxmox con los alumnos, ya que no se podría asegurar que un alumno use exclusivamente un bridge creado por el administrador.
+Aunque se está desarrollando, en las nuevas versiones de desarrollo de Proxmox, la posibilidad de que las redes sean otro recurso al que podemos asignar distintos permisos. En la versión actual no podemos asignar a los bridge creados ningún tipo de permisos. Esto puede ser una limitación desde el punto de vista de la utilización de Proxmox con los alumnos, ya que no se podría asegurar que un alumno use exclusivamente un bridge creado por el administrador.
