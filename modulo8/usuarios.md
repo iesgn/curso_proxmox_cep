@@ -14,7 +14,7 @@ Al crear un usuario tenemos que escoger la fuente de autentificación (en este e
 
 ![usuarios](img/usuario4.png)
 
-Ademas del nombre de usuario y la contraseña, podremos indicar la siguiente información:
+Además del nombre de usuario y la contraseña, podremos indicar la siguiente información:
 
 * Nombre
 * Apellido
