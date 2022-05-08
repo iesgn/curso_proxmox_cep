@@ -4,15 +4,15 @@ Un **pool de recursos** es un conjunto de máquinas virtuales, contenedores y fu
 
 ## Creación de un Pool de Recursos
 
-Para crear un un pool de recursos solamente es necesario indicar su nombre y opcionalmente un comentario:
+Para crear un pool de recursos solamente es necesario indicar su nombre y opcionalmente un comentario:
 
 ![usuarios](img/usuario5.png)
 
-Un pool se pueden editar (para cambiar el comentario) y eliminar (un pool sólo se puede eliminar cuando no tiene ningún recurso asignado).
+Un pool se puede editar (para cambiar el comentario) y eliminar (un pool sólo se puede eliminar cuando no tiene ningún recurso asignado).
 
 ## Asignación de recursos a un pool
 
-Para gestionar los pools de recursos es aconsejable usar la vista de pools (*Pool View*). Escogemos el pool y en el apartado *Members* podemos añadir los medios de almacenamiento y las máquinas virtuales o contenedores que van a a pertenecer a este pool.
+Para gestionar los pools de recursos es aconsejable usar la vista de pools (*Pool View*). Escogemos el pool y en el apartado *Members* podemos añadir los medios de almacenamiento y las máquinas virtuales o contenedores que van a pertenecer a este pool.
 
 ![usuarios](img/usuario6.png)
 
