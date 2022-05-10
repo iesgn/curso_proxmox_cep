@@ -12,7 +12,7 @@ Para activar el cortafuegos a nivel del clúster de servidores, tenemos que acti
 
 ![img](img/firewall1.png)
 
-También hemos cambiando la **Output Policy a DROP**.
+Aunque no es necesario, para obtener más seguridad en el acceso de los servidores del clúster, podemos cambiar la política para denegar por defecto todo el tráfico de salida, para ello cambiamos la **Output Policy a DROP**.
 
 En este nivel también puedes configurar:
 
