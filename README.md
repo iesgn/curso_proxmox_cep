@@ -37,9 +37,9 @@ De forma más concreta estos objetivos se pueden enumerar en:
 * Conocer y trabajar con las distintas fuentes de almacenamiento que nos ofrece este sistema.
 * Gestionar el ciclo de vida de los contenedores LCX en Proxmox VE.
 * Conocer los aspectos fundamentales de la gestión de redes en Proxmox VE.
-* Introducir los conceptos más importante para la gestión de usuarios.
+* Introducir los conceptos más importantes para la gestión de usuarios.
 
-Finalmente la realización de este curso puede ayudar a los profesores de la familia de Informática a reflexionar sobre la conveniencia de instalar un servidor Proxmox VE en la infraestructura de sus departamentos, para ofrecer los servicios de virtualización a sus alumnos.
+Finalmente, la realización de este curso puede ayudar a los profesores de la familia de Informática a reflexionar sobre la conveniencia de instalar un servidor Proxmox VE en la infraestructura de sus departamentos, para ofrecer los servicios de virtualización a sus alumnos.
 
 ## Contenidos
 
