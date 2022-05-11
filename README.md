@@ -10,17 +10,17 @@ Desde hace varios años se ha ido extendiendo el uso de la virtualización como 
 
 El concepto de virtualización hace referencia a una tecnología que permite la ejecución de varias máquinas virtuales sobre una máquina física con el objetivo de aprovechar al máximo los recursos de un sistema y que su rendimiento sea mayor. Esto nos ofrece la posibilidad de crear instancias con distintos sistemas operativos en un único servidor, utilizando así menos equipos para ejecutar una mayor cantidad de aplicaciones.
 
-Desde el punto de vista educativo, el uso de la virtualización ha cambiado la forma de impartir los contendios de los curriculum de los módulos de los ciclos formativos de la familia de informática. Podemos señalar varias ventajas que nos aporta su uso: los alumnos tienen una plataforma donde crear diferentes escenarios, obtener máquinas de una forma ágil, tener escenarios reproducibles, probar nuevos sistemas operativos, ...
+Desde el punto de vista educativo, el uso de la virtualización ha cambiado la forma de impartir los contenidos de los curriculum de los módulos de los ciclos formativos de la familia de informática. Podemos señalar varias ventajas que nos aporta su uso: los alumnos tienen una plataforma donde crear diferentes escenarios, obtener máquinas de una forma ágil, tener escenarios reproducibles, probar nuevos sistemas operativos, ...
 
-En este curso conoceremos las principales características de Porxmox VE. Esta aplicación nos porporciona la gestión de máquinas virtuales y contenedores de una forma sencilla y centralizada en un servidor o grupo de servidores. De esta manera gestionamos recursos virtualizados en un servidor, con lo que obtenemos la independencia de usar los equipos de los alumnos y nos ofrece un servicio centralizado para la gestión de la virtualización.
+En este curso conoceremos las principales características de Porxmox VE. Esta aplicación nos proporciona la gestión de máquinas virtuales y contenedores de una forma sencilla y centralizada en un servidor o grupo de servidores. De esta manera gestionamos recursos virtualizados en un servidor, con lo que obtenemos la independencia de usar los equipos de los alumnos y nos ofrece un servicio centralizado para la gestión de la virtualización.
 
 ## Destinatarios
 
-El curso va dirigido a docentes que impartan docencia en ciclos pertenecientes a la familia profesional de informática y que tengan conocimientos previos sobre el uso de alguna heramienta de virtualización, instalación de sistemas operativos y gestión básica de la línea de comandos.
+El curso va dirigido a docentes que impartan docencia en ciclos pertenecientes a la familia profesional de informática y que tengan conocimientos previos sobre el uso de alguna herramienta de virtualización, instalación de sistemas operativos y gestión básica de la línea de comandos.
 
 ## Requisitos
 
-Lo ideal para la realización de este curso es el uso de un equipo físico donde se instale el software Proxmox VE. Como somos conscientes que puede ser complicado cumplir este requisito, se utilizará una máquina virtual para la instalación del software (preferiblemnte una máquina virtual gestionada en VirtualBox). Los requisitos recomendables para dicha máquina serían:
+Lo ideal para la realización de este curso es el uso de un equipo físico donde se instale el software Proxmox VE. Como somos conscientes que puede ser complicado cumplir este requisito, se utilizará una máquina virtual para la instalación del software (preferiblemente una máquina virtual gestionada en VirtualBox). Los requisitos recomendables para dicha máquina serían:
 
 * **8 Gb de RAM**
 * **100 Gb de disco duro**
@@ -32,12 +32,12 @@ El principal objetivo de este curso es conocer la herramienta Proxmox VE. Estudi
 
 De forma más concreta estos objetivos se pueden enumerar en:
 
-* Conocer las difrentes técnicas de virtualización que nos ofrece Proxmox VE.
+* Conocer las diferentes técnicas de virtualización que nos ofrece Proxmox VE.
 * Gestionar el ciclo de vida de las máquinas virtuales en Proxmox VE.
 * Conocer y trabajar con las distintas fuentes de almacenamiento que nos ofrece este sistema.
 * Gestionar el ciclo de vida de los contenedores LCX en Proxmox VE.
 * Conocer los aspectos fundamentales de la gestión de redes en Proxmox VE.
-* Introducir los concpetos más importante para la gestión de usuarios.
+* Introducir los conceptos más importante para la gestión de usuarios.
 
 Finalmente la realización de este curso puede ayudar a los profesores de la familia de Informática a reflexionar sobre la conveniencia de instalar un servidor Proxmox VE en la infraestructura de sus departamentos, para ofrecer los servicios de virtualización a sus alumnos.
 
@@ -124,8 +124,7 @@ Finalmente la realización de este curso puede ayudar a los profesores de la fam
 
 ## Agenda
 
-Con objeto que los participantes en el curso puedan planificar sus sesiones de trabajo, a modo orientativo se elabora la siguiente Agenda. En la columna "Actividad" se indicará el nombre de la
-misma. Además, si dicha actividad necesita la revisión del tutor o tutora, se pondrá (T). Bajo la columna "Horas" encontrará el tiempo aproximado que estimamos le llevará realizar cada actividad. La columna "Semana" indica la semana del curso en que debería estar trabajando en la actividad, teniendo en cuenta que se valoran aproximadamente 5-6 horas por semana.
+Con objeto que los participantes en el curso puedan planificar sus sesiones de trabajo, a modo orientativo se elabora la siguiente Agenda. En la columna "Actividad" se indicará el nombre de la misma. Además, si dicha actividad necesita la revisión del tutor o tutora, se pondrá (T). Bajo la columna "Horas" encontrará el tiempo aproximado que estimamos le llevará realizar cada actividad. La columna "Semana" indica la semana del curso en que debería estar trabajando en la actividad, teniendo en cuenta que se valoran aproximadamente 5-6 horas por semana.
 
 | MÓDULO | ACTIVIDAD | HORAS | SEMANA |
 | :----: | :-------- | :---: | :----: |
@@ -155,3 +154,30 @@ misma. Además, si dicha actividad necesita la revisión del tutor o tutora, se 
 | FINAL | Foro: Nos depedimos | 30' | 8ª |
 | FINAL | Cuestionario de valoración del curso (OBLIGATORIA) | 30' | 8ª |
 
+El RESTO DE LAS HORAS HASTA LAS 40 HORAS DEL CURSO DEBEN DEDICARSE A LA LECTURA DE LOS MATERIALES Y AL VISIONADO DE LOS VIDEOTUTORIALES INCLUIDOS.
+
+## Metodología
+
+El curso está pensado como una secuencia lógica para aprender los conceptos fundamentales e introducir los diferentes elementos de Porxmox VE, hasta llegar a dominar la gestión de recursos virtualizados usando un servidor Proxmox. 
+
+Los módulos del curso contarán con al menos los siguiente materiales:
+
+* Materiales en HTML con explicaciones detalladas y directas sobre las distintas operaciones que estemos llevando a cabo.
+* Una colección de vídeos donde se mostrará las distintas operaciones funcionando.
+* Enlaces a materiales adicionales.
+
+Además se celebrará una videoconferencia a mediados del curso para que los alumnos puedan preguntar a los tutores las dudas concretas que vayan surgiendo. Además en esta videoconferencia se hablará de las posibilidades de instalar un servidor Proxmox en los institutos de los distintos participantes.
+
+Podemos distinguir las siguientes partes en el curso:
+
+1. Una primera parte más conceptual en la que veremos los conceptos más teóricos sobre virtualización y la presentación de Proxmox VE como sistema de gestión de la virtualización.
+2. En la segunda parte del curso, que está formado por la mayor parte de módulos, iremos viendo de forma progresiva los diferentes elementos de Proxmox VE y como nos ayudan a gestionar los recursos virtualizados.
+
+En todo momento contarás con la ayuda de un tutor o tutora que te facilitará tu paso por la actividad formativa y se fomentará la participación a través de los foros para compartir dudas y cualquier otra cuestión.
+
+## Licencia
+
+Materiales desarrollados por José Domingo Muñoz Rodríguez para el curso "Introducción a Proxmox VE"
+organizado por la [Consejería de Educación y Deporte de la Junta de Andalucía](https://www.juntadeandalucia.es/educacion/portals/web/ced) y dirigido a profesorado de secundaria de Andalucía.
+
+Toda la documentación es libre y puede compartirse y modificarse bajo las limitaciones de la licencia Creative Commons [BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
