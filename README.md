@@ -28,7 +28,7 @@ Lo ideal para la realización de este curso es el uso de un equipo físico donde
 
 ### Objetivos
 
-El principal objetivo de este curso es conocer la herramienta Proxmox VE. Estudiaremos los aspectos fundamentales que nos frece para la gestión de máquinas virtuales y contenedores.
+El principal objetivo de este curso es conocer la herramienta Proxmox VE. Estudiaremos los aspectos fundamentales que nos ofrece para la gestión de máquinas virtuales y contenedores.
 
 De forma más concreta estos objetivos se pueden enumerar en:
 
@@ -158,7 +158,7 @@ El RESTO DE LAS HORAS HASTA LAS 40 HORAS DEL CURSO DEBEN DEDICARSE A LA LECTURA 
 
 ## Metodología
 
-El curso está pensado como una secuencia lógica para aprender los conceptos fundamentales e introducir los diferentes elementos de Porxmox VE, hasta llegar a dominar la gestión de recursos virtualizados usando un servidor Proxmox. 
+El curso está pensado como una secuencia lógica para aprender los conceptos fundamentales e introducir los diferentes elementos de Proxmox VE, hasta llegar a dominar la gestión de recursos virtualizados usando un servidor Proxmox. 
 
 Los módulos del curso contarán con al menos los siguiente materiales:
 
