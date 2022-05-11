@@ -1,5 +1,45 @@
 # Curso PROXMOX VE
-Curso sobre Proxmox VE para el CEP.
+
+## Título del curso
+
+Introducción a Proxmox VE
+
+## Descripción
+
+Desde hace varios años se ha ido extendiendo el uso de la virtualización como técnica que nos permite aumentar el rendimiento de los equipos informáticos. De esta manera el trabajo con máquinas virtuales, y más recientemente el uso de contenedores, han facilitado la gestión de las aplicaciones y servicios ofrecidos por un equipo informático.
+
+El concepto de virtualización hace referencia a una tecnología que permite la ejecución de varias máquinas virtuales sobre una máquina física con el objetivo de aprovechar al máximo los recursos de un sistema y que su rendimiento sea mayor. Esto nos ofrece la posibilidad de crear instancias con distintos sistemas operativos en un único servidor, utilizando así menos equipos para ejecutar una mayor cantidad de aplicaciones.
+
+Desde el punto de vista educativo, el uso de la virtualización ha cambiado la forma de impartir los contendios de los curriculum de los módulos de los ciclos formativos de la familia de informática. Podemos señalar varias ventajas que nos aporta su uso: los alumnos tienen una plataforma donde crear diferentes escenarios, obtener máquinas de una forma ágil, tener escenarios reproducibles, probar nuevos sistemas operativos, ...
+
+En este curso conoceremos las principales características de Porxmox VE. Esta aplicación nos porporciona la gestión de máquinas virtuales y contenedores de una forma sencilla y centralizada en un servidor o grupo de servidores. De esta manera gestionamos recursos virtualizados en un servidor, con lo que obtenemos la independencia de usar los equipos de los alumnos y nos ofrece un servicio centralizado para la gestión de la virtualización.
+
+## Destinatarios
+
+El curso va dirigido a docentes que impartan docencia en ciclos pertenecientes a la familia profesional de informática y que tengan conocimientos previos sobre el uso de alguna heramienta de virtualización, instalación de sistemas operativos y gestión básica de la línea de comandos.
+
+## Requisitos
+
+Lo ideal para la realización de este curso es el uso de un equipo físico donde se instale el software Proxmox VE. Como somos conscientes que puede ser complicado cumplir este requisito, se utilizará una máquina virtual para la instalación del software (preferiblemnte una máquina virtual gestionada en VirtualBox). Los requisitos recomendables para dicha máquina serían:
+
+* **8 Gb de RAM**
+* **100 Gb de disco duro**
+* **4 núcleos de CPU**
+
+### Objetivos
+
+El principal objetivo de este curso es conocer la herramienta Proxmox VE. Estudiaremos los aspectos fundamentales que nos frece para la gestión de máquinas virtuales y contenedores.
+
+De forma más concreta estos objetivos se pueden enumerar en:
+
+* Conocer las difrentes técnicas de virtualización que nos ofrece Proxmox VE.
+* Gestionar el ciclo de vida de las máquinas virtuales en Proxmox VE.
+* Conocer y trabajar con las distintas fuentes de almacenamiento que nos ofrece este sistema.
+* Gestionar el ciclo de vida de los contenedores LCX en Proxmox VE.
+* Conocer los aspectos fundamentales de la gestión de redes en Proxmox VE.
+* Introducir los concpetos más importante para la gestión de usuarios.
+
+Finalmente la realización de este curso puede ayudar a los profesores de la familia de Informática a reflexionar sobre la conveniencia de instalar un servidor Proxmox VE en la infraestructura de sus departamentos, para ofrecer los servicios de virtualización a sus alumnos.
 
 ## Contenidos
 
@@ -81,4 +121,37 @@ Curso sobre Proxmox VE para el CEP.
     * [Ejemplo 1: Especificar tipos de usuarios](modulo8/ejemplo1.md)
     * [Ejemplo 2: Aislamiento de usuarios](modulo8/ejemplo2.md)
         * [Actividad 8.1: Gestión de usuarios (OBLIGATORIA)](modulo8/actividad1.md)
-       
+
+## Agenda
+
+Con objeto que los participantes en el curso puedan planificar sus sesiones de trabajo, a modo orientativo se elabora la siguiente Agenda. En la columna "Actividad" se indicará el nombre de la
+misma. Además, si dicha actividad necesita la revisión del tutor o tutora, se pondrá (T). Bajo la columna "Horas" encontrará el tiempo aproximado que estimamos le llevará realizar cada actividad. La columna "Semana" indica la semana del curso en que debería estar trabajando en la actividad, teniendo en cuenta que se valoran aproximadamente 5-6 horas por semana.
+
+| MÓDULO | ACTIVIDAD | HORAS | SEMANA |
+| :----: | :-------- | :---: | :----: |
+| INICIO | 0.1. Guía del curso | 30' | 1ª |
+| INICIO | 0.2. Ayuda para conocer el Aula Virtual | 1 h | 1ª |
+| INICIO | 0.3. Nos presentamos (T) | 30' | 1ª |
+| MOD 1 | 1.1: Foro: ¿Qué experiencia previa tienes sobre virtualización? (T) | 30' | 1ª |
+| MOD 2 | 2.1: Instalación y acceso a Proxmox VE (T) | 1 h | 2ª |
+| MOD 3 | 3.1: Creación de una máquina virtual Linux (T) | 1 h | 3ª |
+| MOD 3 | 3.2: Creación de una máquina virtual Windows (T) | 1 h | 3ª |
+| MOD 3 | 3.3: Instalación de Qemu-guest-agent (VOLUNTARIA) | 1 h | 3ª |
+| MOD 3 | 3.4: Instalación de servicios en una máquina virtual (VOLUNTARIA) | 1 h | 3ª |
+| MOD 4 | 4.1: Creación de una fuente de almacenamiento para trabajar con imágenes de discos (T) | 1 h | 4ª |
+| MOD 4 | 4.2: Añadir nuevos discos a una máquina virtual (T) | 1 h | 4ª |
+| MOD 4 | 4.3: Gestión de discos (VOLUNTARIA) | 1 h | 4ª |
+| MOD 5 | 5.1: Clonación de máquinas virtuales (T) | 1 h | 5ª |
+| MOD 5 | 5.2: Trabajando con plantillas (T) | 1 h | 5ª |
+| MOD 5 | 5.3: Snapshots de máquinas virtuales (VOLUNTARIA) | 1 h | 5ª |
+| MOD 5 | 5.4: Copias de seguridad de máquinas virtuales (VOLUNTARIA) | 1 h | 5ª |
+| MOD 6 | 6.1: Creación de un contenedor LXC (T) | 1 h | 6ª |
+| MOD 6 | 6.2: Añadir almacenamiento a un contenedor LXC (T) | 1 h | 6ª |
+| MOD 7 | 7.1: Creación de un red interna (T) | 1 h | 7ª |
+| MOD 7 | 7.2: Trabajando con el cortafuegos (T) | 1 h | 7ª |
+| MOD 7 | 7.3: Configuración de un router (VOLUNTARIA) | 1 h | 7ª |
+| MOD 8 | 8.1: Gestión de usuarios (T) | 1 h | 8ª |
+| FINAL | Foro de Reflexión. ¿Utilizarías Proxmox VE en tu instituto? (OBLIGATORIA) (T) | 30' | 8ª |
+| FINAL | Foro: Nos depedimos | 30' | 8ª |
+| FINAL | Cuestionario de valoración del curso (OBLIGATORIA) | 30' | 8ª |
+
