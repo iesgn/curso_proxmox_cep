@@ -12,7 +12,7 @@ El concepto de virtualización hace referencia a una tecnología que permite la 
 
 Desde el punto de vista educativo, el uso de la virtualización ha cambiado la forma de impartir los contenidos de los curriculum de los módulos de los ciclos formativos de la familia de informática. Podemos señalar varias ventajas que nos aporta su uso: los alumnos tienen una plataforma donde crear diferentes escenarios, obtener máquinas de una forma ágil, tener escenarios reproducibles, probar nuevos sistemas operativos, ...
 
-En este curso conoceremos las principales características de Porxmox VE. Esta aplicación nos proporciona la gestión de máquinas virtuales y contenedores de una forma sencilla y centralizada en un servidor o grupo de servidores. De esta manera gestionamos recursos virtualizados en un servidor, con lo que obtenemos la independencia de usar los equipos de los alumnos y nos ofrece un servicio centralizado para la gestión de la virtualización.
+En este curso conoceremos las principales características de Proxmox VE. Esta aplicación nos proporciona la gestión de máquinas virtuales y contenedores de una forma sencilla y centralizada en un servidor o grupo de servidores. De esta manera gestionamos recursos virtualizados en un servidor, con lo que obtenemos la independencia de usar los equipos de los alumnos y nos ofrece un servicio centralizado para la gestión de la virtualización.
 
 ## Destinatarios
 
