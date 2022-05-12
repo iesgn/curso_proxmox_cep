@@ -4,7 +4,7 @@ Una vez que hemos creado las máquinas en Proxmox podemos acceder a ellas utiliz
 
 ## Acceso por ssh a las máquinas Linux
 
-El protocolo más habitual para trabajar con máquinas Linux es ssh. Podemos instalar el servidor ssh durante la instalación del sistema operativo. si no hemos hecho podríamos instalarlo en distribuciones Debian/Ubuntu ejecutando:
+El protocolo más habitual para trabajar con máquinas Linux es ssh. Podemos instalar el servidor ssh durante la instalación del sistema operativo. Si no lo hemos hecho, podríamos instalarlo en distribuciones Debian/Ubuntu ejecutando:
 
     apt install ssh
 
@@ -35,11 +35,11 @@ Normalmente para acceder a las máquinas Windows usamos el protocolo RDP (Remote
 
 En este ejemplo voy a usar el cliente Remmina.
 
-Hay que indicar que las versiones más sencillas como Windows 10 Home no tienen la posibilidad del acceso remoto, por lo tanto vamos a utilizar una versión Windows 10 Pro. Lo primero que tenemos que hacer es configurar Windows para permitir el acceso remoto. Para ello elegimos Inicio > Configuración  > Sistema > Escritorio remoto y activa Habilitar escritorio remoto.
+Hay que indicar que las versiones más sencillas como Windows 10 Home no tienen la posibilidad del acceso remoto, por lo tanto, vamos a utilizar una versión Windows 10 Pro. Lo primero que tenemos que hacer es configurar Windows para permitir el acceso remoto. Para ello elegimos Inicio > Configuración  > Sistema > Escritorio remoto y activa Habilitar escritorio remoto.
 
 ![acceso](img/acceso1.png)
 
-A continuación configuramos el cliente remmina con una nueva conexión, indicando la ip de la máquina, el usuario y la contraseña y la resolución de pantalla:
+A continuación, configuramos el cliente remmina con una nueva conexión, indicando la ip de la máquina, el usuario y la contraseña y la resolución de pantalla:
 
 ![acceso](img/acceso2.png)
 
