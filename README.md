@@ -130,7 +130,7 @@ Con objeto que los participantes en el curso puedan planificar sus sesiones de t
 | :----: | :-------- | :---: | :----: |
 | INICIO | 0.1. Guía del curso | 30' | 1ª |
 | INICIO | 0.2. Ayuda para conocer el Aula Virtual | 1 h | 1ª |
-| INICIO | 0.3. Nos presentamos (T) | 30' | 1ª |
+| INICIO | 0.3. Nos presentamos (T) (OBLIGATORIA) | 30' | 1ª |
 | MOD 1 | 1.1: Foro: ¿Qué experiencia previa tienes sobre virtualización? (T) | 30' | 1ª |
 | MOD 2 | 2.1: Instalación y acceso a Proxmox VE (T) | 1 h | 2ª |
 | MOD 3 | 3.1: Creación de una máquina virtual Linux (T) | 1 h | 3ª |
