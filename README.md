@@ -160,13 +160,13 @@ El RESTO DE LAS HORAS HASTA LAS 40 HORAS DEL CURSO DEBEN DEDICARSE A LA LECTURA 
 
 El curso está pensado como una secuencia lógica para aprender los conceptos fundamentales e introducir los diferentes elementos de Proxmox VE, hasta llegar a dominar la gestión de recursos virtualizados usando un servidor Proxmox. 
 
-Los módulos del curso contarán con al menos los siguiente materiales:
+Los módulos del curso contarán con al menos los siguientes materiales:
 
 * Materiales en HTML con explicaciones detalladas y directas sobre las distintas operaciones que estemos llevando a cabo.
 * Una colección de vídeos donde se mostrará las distintas operaciones funcionando.
 * Enlaces a materiales adicionales.
 
-Además se celebrará una videoconferencia a mediados del curso para que los alumnos puedan preguntar a los tutores las dudas concretas que vayan surgiendo. Además en esta videoconferencia se hablará de las posibilidades de instalar un servidor Proxmox en los institutos de los distintos participantes.
+Además, se celebrará una videoconferencia a mediados del curso para que los alumnos puedan preguntar a los tutores las dudas concretas que vayan surgiendo. También se hablará de las posibilidades de instalar un servidor Proxmox en los institutos de los distintos participantes.
 
 Podemos distinguir las siguientes partes en el curso:
 
@@ -178,6 +178,6 @@ En todo momento contarás con la ayuda de un tutor o tutora que te facilitará t
 ## Licencia
 
 Materiales desarrollados por José Domingo Muñoz Rodríguez para el curso "Introducción a Proxmox VE"
-organizado por la [Consejería de Educación y Deporte de la Junta de Andalucía](https://www.juntadeandalucia.es/educacion/portals/web/ced) y dirigido a profesorado de secundaria de Andalucía.
+organizado por la [Consejería de Educación y Deporte de la Junta de Andalucía](https://www.juntadeandalucia.es/educacion/portals/web/ced) y dirigido a profesorado de secundaria y Formación Profesional de Andalucía.
 
 Toda la documentación es libre y puede compartirse y modificarse bajo las limitaciones de la licencia Creative Commons [BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
