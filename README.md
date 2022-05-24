@@ -4,7 +4,7 @@
 
 Introducción a Proxmox VE
 
-![logo](logo.jpg)
+![logo](logo.png)
 
 ## Descripción
 
