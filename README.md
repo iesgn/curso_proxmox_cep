@@ -4,6 +4,8 @@
 
 Introducción a Proxmox VE
 
+![logo](logo.jpg)
+
 ## Descripción
 
 Desde hace varios años se ha ido extendiendo el uso de la virtualización como técnica que nos permite aumentar el rendimiento de los equipos informáticos. De esta manera el trabajo con máquinas virtuales, y más recientemente el uso de contenedores, han facilitado la gestión de las aplicaciones y servicios ofrecidos por un equipo informático.
