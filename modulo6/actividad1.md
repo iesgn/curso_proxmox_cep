@@ -10,7 +10,6 @@ En esta actividad vamos a crear nuestro primer contenedor LXC. Para ello:
 2. Crea un nuevo contenedor LXC en Proxmox a partir de la plantilla descargada. 
 3. Configura la interfaz de red por DHCP.
 4. Una vez creado el contenedor accede desde una consola de Proxmox VE.
-5. En la siguiente actividad voluntaria vamos a seguir trabajando con el contenedor.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
