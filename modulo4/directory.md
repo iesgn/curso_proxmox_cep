@@ -48,7 +48,7 @@ Sin embargo, vamos a aprender a crear otra fuente de almacenamiento donde vamos 
 Los discos de imágenes de las máquinas virtuales se pueden guardar en dos tipos de ficheros de imágenes:
 
 * **raw**: El formato raw es una imagen binaria sencilla de la imagen del disco. Se ocupa todo el espacio que hayamos indicado al crearla. El acceso es más eficiente.
-* **qcow2**: El formato QEMU copy-on-write. Al crearse sólo se ocupa el espacio que se está ocupando con los datos, el fichero irá creciendo cuando escribamos en el él. Acepta snapshots y aprovisionamiento ligero. Es menos eficiente en cuanto al acceso. 
+* **qcow2**: El formato QEMU copy-on-write. Al crearse sólo se ocupa el espacio que se está ocupando con los datos, el fichero irá creciendo cuando escribamos en él. Acepta snapshots y aprovisionamiento ligero. Es menos eficiente en cuanto al acceso. 
 * **vmdk**: Un formato de archivo abierto, creado por VMware.
 
 Para crear la nueva fuente, elegimos *Datacenter->Storage->Add->Directory*:
