@@ -158,8 +158,6 @@ Con objeto que los participantes en el curso puedan planificar sus sesiones de t
 | FINAL | Foro: Nos depedimos | 30' | 8ª |
 | FINAL | Cuestionario de valoración del curso (OBLIGATORIA) | 30' | 8ª |
 
-El RESTO DE LAS HORAS HASTA LAS 40 HORAS DEL CURSO DEBEN DEDICARSE A LA LECTURA DE LOS MATERIALES Y AL VISIONADO DE LOS VIDEOTUTORIALES INCLUIDOS.
-
 ## Metodología
 
 El curso está pensado como una secuencia lógica para aprender los conceptos fundamentales e introducir los diferentes elementos de Proxmox VE, hasta llegar a dominar la gestión de recursos virtualizados usando un servidor Proxmox. 
