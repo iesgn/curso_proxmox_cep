@@ -126,7 +126,7 @@ Finalmente, la realización de este curso puede ayudar a los profesores de la fa
 
 ## Agenda
 
-Con objeto que los participantes en el curso puedan planificar sus sesiones de trabajo, a modo orientativo se elabora la siguiente Agenda. En la columna "Actividad" se indicará el nombre de la misma. Además, si dicha actividad necesita la revisión del tutor o tutora, se pondrá  Bajo la columna "Horas" encontrará el tiempo aproximado que estimamos le llevará realizar cada actividad. La columna "Semana" indica la semana del curso en que debería estar trabajando en la actividad, teniendo en cuenta que se valoran aproximadamente 5-6 horas por semana.
+Con objeto que los participantes en el curso puedan planificar sus sesiones de trabajo, a modo orientativo se elabora la siguiente Agenda.
 
 | MÓDULO | ACTIVIDAD | HORAS | SEMANA |
 | :----: | :-------- | :---: | :----: |
