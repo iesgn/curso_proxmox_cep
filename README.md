@@ -126,33 +126,35 @@ Finalmente, la realización de este curso puede ayudar a los profesores de la fa
 
 ## Agenda
 
-Con objeto que los participantes en el curso puedan planificar sus sesiones de trabajo, a modo orientativo se elabora la siguiente Agenda. En la columna "Actividad" se indicará el nombre de la misma. Además, si dicha actividad necesita la revisión del tutor o tutora, se pondrá (T). Bajo la columna "Horas" encontrará el tiempo aproximado que estimamos le llevará realizar cada actividad. La columna "Semana" indica la semana del curso en que debería estar trabajando en la actividad, teniendo en cuenta que se valoran aproximadamente 5-6 horas por semana.
+Con objeto que los participantes en el curso puedan planificar sus sesiones de trabajo, a modo orientativo se elabora la siguiente Agenda. En la columna "Actividad" se indicará el nombre de la misma. Además, si dicha actividad necesita la revisión del tutor o tutora, se pondrá  Bajo la columna "Horas" encontrará el tiempo aproximado que estimamos le llevará realizar cada actividad. La columna "Semana" indica la semana del curso en que debería estar trabajando en la actividad, teniendo en cuenta que se valoran aproximadamente 5-6 horas por semana.
 
 | MÓDULO | ACTIVIDAD | HORAS | SEMANA |
 | :----: | :-------- | :---: | :----: |
 | INICIO | 0.1. Guía del curso | 30' | 1ª |
 | INICIO | 0.2. Ayuda para conocer el Aula Virtual | 1 h | 1ª |
-| INICIO | 0.3. Nos presentamos (T) (OBLIGATORIA) | 30' | 1ª |
-| MOD 1 | 1.1: Foro: ¿Qué experiencia previa tienes sobre virtualización? (T) | 30' | 1ª |
-| MOD 2 | 2.1: Instalación y acceso a Proxmox VE (T) | 1 h | 2ª |
-| MOD 3 | 3.1: Creación de una máquina virtual Linux (T) | 1 h | 3ª |
-| MOD 3 | 3.2: Creación de una máquina virtual Windows (T) | 1 h | 3ª |
-| MOD 3 | 3.3: Instalación de Qemu-guest-agent (VOLUNTARIA) | 1 h | 3ª |
-| MOD 3 | 3.4: Instalación de servicios en una máquina virtual (VOLUNTARIA) | 1 h | 3ª |
-| MOD 4 | 4.1: Creación de una fuente de almacenamiento para trabajar con imágenes de discos (T) | 1 h | 4ª |
-| MOD 4 | 4.2: Añadir nuevos discos a una máquina virtual (T) | 1 h | 4ª |
-| MOD 4 | 4.3: Gestión de discos (VOLUNTARIA) | 1 h | 4ª |
-| MOD 5 | 5.1: Clonación de máquinas virtuales (T) | 1 h | 5ª |
-| MOD 5 | 5.2: Trabajando con plantillas (T) | 1 h | 5ª |
-| MOD 5 | 5.3: Snapshots de máquinas virtuales (VOLUNTARIA) | 1 h | 5ª |
-| MOD 5 | 5.4: Copias de seguridad de máquinas virtuales (VOLUNTARIA) | 1 h | 5ª |
-| MOD 6 | 6.1: Creación de un contenedor LXC (T) | 1 h | 6ª |
-| MOD 6 | 6.2: Añadir almacenamiento a un contenedor LXC (T) | 1 h | 6ª |
-| MOD 7 | 7.1: Creación de un red interna (T) | 1 h | 7ª |
-| MOD 7 | 7.2: Trabajando con el cortafuegos (T) | 1 h | 7ª |
-| MOD 7 | 7.3: Configuración de un router (VOLUNTARIA) | 1 h | 7ª |
-| MOD 8 | 8.1: Gestión de usuarios (T) | 1 h | 8ª |
-| FINAL | Foro de Reflexión. ¿Utilizarías Proxmox VE en tu instituto? (OBLIGATORIA) (T) | 30' | 8ª |
+| INICIO | 0.3. Nos presentamos (OBLIGATORIA) | 30' | 1ª |
+| MOD 1 | 1.1. Introducción a la virtualización con Proxmox VE | 2 h | 1ª |
+| MOD 1 | 1.1: Actividad 1.1: ¿Qué experiencia previa tienes sobre virtualización? | 30' | 1ª |
+| MOD 2 | 2.1: Instalación de Proxmox VE | 2 h | 2ª |
+| MOD 2 | Actividad 2.1: Instalación y acceso a Proxmox VE (OBLIGATORIA) | 2 h | 2ª |
+| MOD 3 | 3.1: Creación de máquinas virtuales | 3 h | 3ª |
+| MOD 3 | Actividad 3.1: Creación de una máquina virtual Linux (OBLIGATORIA)| 1 h | 3ª |
+| MOD 3 | Actividad 3.2: Creación de una máquina virtual Windows (OBLIGATORIA)| 1 h | 3ª |
+| MOD 4 | 4.1: Gestionando el almacenamiento | 3 h | 4ª |
+| MOD 4 | Actividad 4.1: Creación de una fuente de almacenamiento para trabajar con imágenes de discos (OBLIGATORIA)| 1 h | 4ª |
+| MOD 4 | Actividad 4.2: Añadir nuevos discos a una máquina virtual (OBLIGATORIA)| 1 h | 4ª |
+| MOD 5 | 5.1: Clonación, instantáneas y copias de seguridad | 3 h | 5ª |
+| MOD 5 | Actividad 5.1: Clonación de máquinas virtuales (OBLIGATORIA)| 1 h | 5ª |
+| MOD 5 | Actividad 5.2: Trabajando con plantillas (OBLIGATORIA)| 1 h | 5ª |
+| MOD 6 | 6.1: Trabajando con Linux Containers | 3 h | 6ª |
+| MOD 6 | Actividad 6.1: Creación de un contenedor LXC (OBLIGATORIA)| 1 h | 6ª |
+| MOD 6 | Actividad 6.2: Añadir almacenamiento a un contenedor LXC (OBLIGATORIA)| 1 h | 6ª |
+| MOD 7 | 7.1: Introducción a las redes en Proxmox| 3 h | 7ª |
+| MOD 7 | Actividad 7.1: Creación de un red interna (OBLIGATORIA)| 1 h | 7ª |
+| MOD 7 | Actividad 7.2: Trabajando con el cortafuegos (OBLIGATORIA)| 1 h | 7ª |
+| MOD 8 | 8.1: Gestión de usuarios | 3 h | 8ª |
+| MOD 8 | Actividad 8.1: Gestión de usuarios (OBLIGATORIA)| 2 h | 8ª |
+| FINAL | Foro de Reflexión. ¿Utilizarías Proxmox VE en tu instituto? (OBLIGATORIA) | 30' | 8ª |
 | FINAL | Foro: Nos depedimos | 30' | 8ª |
 | FINAL | Cuestionario de valoración del curso (OBLIGATORIA) | 30' | 8ª |
 
