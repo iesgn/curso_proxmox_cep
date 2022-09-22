@@ -168,8 +168,6 @@ Los módulos del curso contarán con al menos los siguientes materiales:
 * Una colección de vídeos donde se mostrará las distintas operaciones funcionando.
 * Enlaces a materiales adicionales.
 
-Además, se celebrará una videoconferencia a mediados del curso para que los alumnos puedan preguntar a los tutores las dudas concretas que vayan surgiendo. También se hablará de las posibilidades de instalar un servidor Proxmox en los institutos de los distintos participantes.
-
 Podemos distinguir las siguientes partes en el curso:
 
 1. Una primera parte más conceptual en la que veremos los conceptos más teóricos sobre virtualización y la presentación de Proxmox VE como sistema de gestión de la virtualización.
