@@ -45,4 +45,4 @@ El uso de mecanismos de virtualización revolucionó las metodologías que hemos
 * ...
 
 
-
+* [Vídeo: ¿Qué es la virtualiación](https://youtu.be/tyRWin8TZKM)
