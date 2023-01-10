@@ -26,3 +26,5 @@ En la creación del bridge tendremos que configurar los siguientes parámetros:
 Una vez creado o modificado algún elemento de la red de Proxmox VE debemos aplicar los cambios para que verdaderamente se produzca el cambio de configuración:
 
 ![img](img/red8.png)
+
+* [Vídeo: Configuración de una red interna](https://youtu.be/LjUUSj4SjC8)

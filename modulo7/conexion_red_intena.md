@@ -56,3 +56,5 @@ Y comprobamos que hay conectividad con la otra máquina:
 ## Conclusiones
 
 La creación de diferentes Linux Bridge nos posibilita la construcción de escenarios complejos de red. Además, tenemos que tener en cuenta que añadir o eliminar una interfaz de red se puede realizar en "caliente" sobre una máquina que esté funcionando. Del mismo modo, podemos modificar una interfaz de red ya existente para cambiar el bridge al que está conectada.
+
+* [Vídeo: Conexión de una máquina virtual a la red interna](https://youtu.be/Mvg9WsYFYnU)

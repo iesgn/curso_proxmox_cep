@@ -17,3 +17,5 @@ Podemos nombrar la nueva interfaz de red y el bridge al que se conectará, indic
 En el caso de la creación de un contenedor LXC podemos configurar la interfaz de red conectada al nuevo bridge, indicando directamente el direccionamiento estático:
 
 ![img](img/red18.png)
+
+* [Vídeo: Conexión de un contenedor LXC a la red interna](https://youtu.be/5WRbJC_2xH0)

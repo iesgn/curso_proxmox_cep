@@ -30,3 +30,5 @@ Y podemos comprobar que ha tomado una ip en el direccionamiento que reparte nues
 ![img](img/red5.png)
 
 Por lo que podemos acceder a ella desde cualquier equipo conectada a nuestra red local.
+
+* [Vídeo: Configuración de la red del servidor Proxmox VE](https://youtu.be/SlFlWYywE0Y)

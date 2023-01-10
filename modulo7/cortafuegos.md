@@ -93,3 +93,7 @@ Para seguir profundizando:
 
 * [Firewall](https://pve.proxmox.com/wiki/Firewall)
 * [Proxmox VE Firewall](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_pve_firewall)
+
+---
+
+* [Vídeo: Introducción al cortafuegos de Proxmox VE](https://youtu.be/3Q7Q5HAOAdo)
