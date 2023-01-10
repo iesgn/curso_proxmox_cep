@@ -46,3 +46,5 @@ Para eliminar un contenedor LXC tenemos que pararlo y escoger la opción
 ![img](img/gestion3.png)
 
 Para eliminarla se nos pedirá el identificador del contenedor para la confirmación.
+
+* [Vídeo: Gestión de contenedores Linux](https://youtu.be/vCNeGYBfMZI)

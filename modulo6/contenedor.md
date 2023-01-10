@@ -59,3 +59,5 @@ Una vez que se ha creado el contenedor, podemos iniciarlo:
 Y acceder a él por medio de la consola:
 
 ![img](img/lxc10.png)
+
+* [Vídeo: Creación de contenedores Linux](https://youtu.be/VkanQG31Cjk)

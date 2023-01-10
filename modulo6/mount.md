@@ -13,3 +13,5 @@ A continuación, elegimos la fuente de almacenamiento donde vamos a crear el vol
 Y comprobamos que se ha montado el volumen en el directorio indicado:
 
 ![mount](img/mount3.png)
+
+* [Vídeo: Añadir almacenamiento a un contenedor LXC](https://youtu.be/a9dVQRLZN-s)
