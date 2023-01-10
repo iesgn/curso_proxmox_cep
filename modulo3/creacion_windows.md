@@ -87,3 +87,5 @@ Una vez que hemos creado la máquina windows nos damos cuenta de que no tenemos 
     ![create windows](img/create_win_9.png)
 
 Para más información: [Windows VirtIO Drivers](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers).
+
+* [Vídeo: Creación de máquinas virtuales Windows](https://youtu.be/N_2n2x4lo2U)

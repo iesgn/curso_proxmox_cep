@@ -39,3 +39,5 @@ Podemos obtener información de la IP que se asignado a la máquina:
 ![agent](img/agent4.png)
 
 Para más información: [Qemu-guest-agent](https://pve.proxmox.com/wiki/Qemu-guest-agent)
+
+* [Vídeo: Instalación de Qemu-guest-agent en las máquinas virtuales](https://youtu.be/a6J7wPTiyPw)

@@ -47,4 +47,4 @@ Y ya podemos conectar para acceder a la máquina:
 
 ![acceso](img/acceso3.png)
 
-
+* [Vídeo: Acceso a las máquinas virtuales desde el exterior](https://youtu.be/fWxsb4694iI)

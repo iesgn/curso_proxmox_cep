@@ -85,3 +85,7 @@ Para seguir profundizando:
 
 * [Qemu/KVM Virtual Machines](https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines)
 * [Virtual Machines Settings](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_virtual_machines_settings)
+
+---
+
+* [Vídeo: Creación de máquinas virtuales Linux](https://youtu.be/uh-Mm2MQ3sM)

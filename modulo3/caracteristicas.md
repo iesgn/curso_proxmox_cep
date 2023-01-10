@@ -30,3 +30,5 @@ Iremos añadiendo nuevos dispositivos a nuestras máquinas en módulos posterior
 Finalmente, las opciones sobre el almacenamiento las estudiaremos en el módulo dedicado al almacenamiento:
 
 ![hardware](img/hardware3.png)   
+
+* [Vídeo: Características y hardware de las máquinas virtuales](https://youtu.be/87UVoyz_ALk)

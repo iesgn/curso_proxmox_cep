@@ -63,3 +63,5 @@ Para eliminar una máquina virtual tenemos que pararla, y escoger la opción
 
 Para eliminarla se nos pedirá el identificador de la máquina virtual
 para la confirmación.
+
+* [Vídeo: Gestión de máquinas virtuales](https://youtu.be/6tG5vDyeeKo)
