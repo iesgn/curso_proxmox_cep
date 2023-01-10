@@ -32,3 +32,5 @@ Un sistema de virtualización como Proxmox VE puede ser muy adecuado para las en
 * Si una máquina física de un alumno se estropea podrá seguir usando los recursos virtualizados sin problemas, porque se están ejecutando en un servidor o en un clúster de servidores.
 * Los profesores tenemos acceso a las máquinas de los alumnos (¡Para corregir viene muy bien!).
 * Los alumnos usan un sistema de virtualización ampliamente implantado en muchas empresas.
+
+* [Vídeo: Introducción a Proxmox VE](https://youtu.be/1sucblZa9Es)

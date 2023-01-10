@@ -36,3 +36,5 @@ Podemos hacer la siguiente clasificación de contenedores:
 * **Contenedores de Aplicación**: Se suelen usar para el despliegue de aplicaciones web Ejemplo: Docker, Podman, ...
 
 ![img](img/virt_ligera.png)
+
+* [Vídeo: Tipos de virtualización](https://youtu.be/PsLFX6JZcl0)
