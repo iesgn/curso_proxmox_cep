@@ -64,6 +64,6 @@ tmpfs            199M      0  199M   0% /run/user/1000
 /dev/sdb         974M    24K  907M   1% /mnt
 ```
 
-
+* [Vídeo: Añadir nuevos discos a una máquina virtual](https://youtu.be/hOZpZhkjlUE)
 
 

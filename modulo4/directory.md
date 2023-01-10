@@ -78,3 +78,4 @@ vm-101-disk-0.qcow2
 
 **Nota: La fuente de almacenamiento de tipo *Directory* la hemos creado sobre el disco de la máquina donde tenemos instalado Proxmox VE, por lo tanto,  su capacidad será la que tiene este disco. En circunstancias reales, la fuente de tipo *Directory* la podríamos crear sobre un dispositivo de bloque (disco, raid, ...) añadido al nodo Proxmox VE.**
 
+* [Vídeo: ](https://youtu.be/eXDjL2FJX_o)

@@ -71,5 +71,5 @@ Comprobamos que ahora tenemos un disco guardado en la fuente de almacenamiento *
 
 ![gestion_disco](img/gestion_disco6.png)
 
-
+* [Vídeo: Gestión de los discos de una máquina virtual](https://youtu.be/lMNAJI4B81U)
 
