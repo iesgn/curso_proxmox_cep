@@ -40,3 +40,7 @@ En las dos formas podremos elegir en que almacenamiento se crea la nueva máquin
 Para seguir profundizando:
 
 * [Backup and Restore](https://pve.proxmox.com/wiki/Backup_and_Restore)
+
+---
+
+* [Vídeo: Copias de seguridad de máquinas virtuales](https://youtu.be/V-7xGQ72xbs)

@@ -20,4 +20,4 @@ Puede ser muy interesante tomar instantáneas periódicamente a una máquina vir
 
 En un ámbito educativo, como son nuestros ciclos formativos de Formación Profesional, el uso de esta característica puede ser muy útil para el alumno, ya que puede experimentar distintas soluciones y si tienen algún problema, puede volver al estado original y no tener que eliminar la máquina.
 
-
+* [Vídeo: Snapshots de máquinas virtuales](https://youtu.be/OpOj6tYw4L4)

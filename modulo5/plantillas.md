@@ -31,5 +31,5 @@ Por último, indicar que podemos cambiar las características hardware de una pl
 
 ![plantilla](img/plantilla5.png)
 
-
+* [Vídeo: Convirtiendo máquinas virtuales en plantillas](https://youtu.be/vJkuuPzMxGY)
 

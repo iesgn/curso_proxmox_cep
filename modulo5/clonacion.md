@@ -18,4 +18,4 @@ Elegimos el ID, el nombre de la nueva máquina y la fuente de almacenamiento don
 
 Las dos máquinas son iguales por lo que tendremos que modificar alguna configuración de la nueva máquina: por ejemplo, el hostname, la configuración de red si es necesario, ...
 
-
+* [Vídeo: Clonación de máquinas virtuales](https://youtu.be/evFdEc3ChjE)
