@@ -73,3 +73,7 @@ tareas que estamos realizando.
 Para seguir profundizando:
 
 * [Graphical User Interface](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_gui)
+
+---
+
+* [Vídeo: Vista general de Proxmox VE](https://youtu.be/y34kRt9S9dM)

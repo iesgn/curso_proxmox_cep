@@ -26,3 +26,5 @@ El usuario que indicamos es `root` y la contraseña la que hemos
 indicado durante la instalación. El dominio (*Realm*) será *Linux PAM
 standard authentication*, ya que el usuario `root` es un usuario del
 sistema en Proxmox.
+
+* [Vídeo: Acceso a la GUI de Proxmox VE](https://youtu.be/3LeA5wcP-38)

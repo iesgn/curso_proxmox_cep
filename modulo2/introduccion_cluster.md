@@ -54,3 +54,7 @@ aparecen las opciones propias de ese nodo, veamos algunas de ellas:
 * **Firewall**: Podemos configurar el cortafuego del nodo.
 * **Disks**: Obtenemos información sobre los discos del nodo.
 * ...
+
+---
+
+* [Vídeo: Introducción al clúster Proxmox VE](https://youtu.be/6hXuu00aWCo)

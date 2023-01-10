@@ -67,3 +67,5 @@ Estas configuraciones son recomendadas para aumentar el rendimiento de la máqui
 * Del mismo modo, el tipo de la interfaz de red será **virtio-net**:
 
 ![img](img/virtualbox6.png)
+
+* [Vídeo: Preparando un laboratorio para testear Proxmox VE](https://youtu.be/DVTuTRJcTGY)

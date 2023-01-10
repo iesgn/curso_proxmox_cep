@@ -50,3 +50,5 @@ Para profundizar en aspectos más concretos de la instalación de
 Proxmox:
 
 * [Installing Proxmox VE](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_installation)
+
+* [Vídeo: Instalación de Proxmox VE](https://youtu.be/ZsgVP2S8AxY)

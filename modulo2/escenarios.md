@@ -80,3 +80,4 @@ nodos del clúster.
 Es recomendable tener una red aislada (verde) que conecte los nodos
 del clúster para la gestión interna del mismo.
 
+* [Vídeo: Escenarios para la instalación de Proxmox VE](https://youtu.be/bLdBEpH1Sfw)

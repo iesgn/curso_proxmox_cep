@@ -60,3 +60,5 @@ durante la instalación.
 
 Evidentemente, podremos crear más redes. Su creación y configuración
 lo estudiaremos en el módulo correspondiente del curso.
+
+* [Vídeo: Almacenamiento y redes disponibles](https://youtu.be/eznn-ycu5dw)
