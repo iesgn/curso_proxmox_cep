@@ -31,3 +31,7 @@ Para gestionar usuarios, grupos, permisos, ... elegimos la opción **Permissions
 Para seguir profundizando:
 
 * [User Management](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_user_management)
+
+---
+
+* [Vídeo: Introducción a la gestión de usuarios](https://youtu.be/czZvV2l0pUs)

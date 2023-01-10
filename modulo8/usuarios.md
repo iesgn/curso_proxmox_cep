@@ -27,3 +27,4 @@ Además del nombre de usuario y la contraseña, podremos indicar la siguiente in
 
 Los usuarios se pueden modificar, borrar, podemos cambiar su contraseña, ...
 
+* [Vídeo: Gestión de Usuarios y Grupos](https://youtu.be/_xIAOjzFjcs)

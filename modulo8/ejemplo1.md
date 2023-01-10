@@ -28,3 +28,5 @@ Y asignamos los permisos:
 3. Finalmente, si accedemos con el `user3` (auditor), observamos que sólo tenemos la posibilidad de ver información, por ejemplo el botón de crear máquinas virtuales o contenedores aparece deshabilitado:
 
     ![usuarios](img/usuario17.png)
+
+* [Vídeo: Ejemplo 1: Especificar tipos de usuarios](https://youtu.be/WKBUaICS8B8)

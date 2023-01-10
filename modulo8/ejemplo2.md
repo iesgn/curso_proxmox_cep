@@ -45,3 +45,5 @@ Y por último asignamos los permisos:
 3. Si accede el usuario `profesor1` podrá gestionar todas las máquinas de todos los usuarios:
 
 ![usuarios](img/usuario25.png)
+
+* [Vídeo: Ejemplo 2: Aislamiento de usuarios](https://youtu.be/Fr5GO_DSXTo)

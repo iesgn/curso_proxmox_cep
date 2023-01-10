@@ -32,4 +32,4 @@ De la misma forma al clonar una máquina o contenedor, también podemos indicar 
 
 ![usuarios](img/usuario9.png)
 
-
+* [Vídeo: Gestión de Pools de Recursos](https://youtu.be/OWe0zhlHJkk)
