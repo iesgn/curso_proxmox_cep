@@ -10,7 +10,7 @@ Esto nos permite ejecutar más de un sistema virtual, y múltiples sistemas oper
 * Laboratorio de pruebas.
 * Virtualización de arquitecturas de las que no se dispone.
 * Creación de clúster de máquinas y sistemas distribuidos.
-* Herramientas de aprendizajes
+* Herramientas de aprendizaje
 
 ## Ventajas e inconvenientes de la virtualización
 
@@ -40,9 +40,9 @@ El uso de mecanismos de virtualización revolucionó las metodologías que hemos
 
 * Los alumnos pueden crear infraestructura virtual que simula un escenario real.
 * Podemos instalar diferentes sistemas operativos en una sola máquina.
-* No es necesarios dispositivos físicos para la realización de muchas prácticas.
+* No son necesarios dispositivos físicos para la realización de muchas prácticas.
 * Se pueden usar máquinas virtuales para probar nuevas cosas, con la ventaja que si "rompemos" algo se eliminan y se vuelven a crear.
 * ...
 
 
-* [Vídeo: ¿Qué es la virtualiación](https://youtu.be/tyRWin8TZKM)
+* [Vídeo: ¿Qué es la virtualización?](https://youtu.be/tyRWin8TZKM)

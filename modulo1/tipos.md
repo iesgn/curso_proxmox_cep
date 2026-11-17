@@ -4,7 +4,7 @@ En el punto anterior aprendimos que un **Hipervisor** es el software que nos per
 
 ## Emulación
 
-El hipervisor imita o suplanta vía software una arquitectura al completo (procesador, memoria, conjunto de instrucciones, comunicaciones...). De esta forma puede hacer creer a los programas y sistemas operativos diseñados para una arquitectura concreta que son ejecutados sobre ella. La emulación suele ofrecer un rendimiento bastante bajo debido a que hay que realizar un proceso completo de traducción. Ejemplo: QEMU, Microsoft Virtual PC, Wine, ...
+El hipervisor imita o suplanta vía software una arquitectura al completo (procesador, memoria, conjunto de instrucciones, comunicaciones...). De esta forma puede hacer creer a los programas y sistemas operativos diseñados para una arquitectura concreta que son ejecutados sobre ella. La emulación suele ofrecer un rendimiento bastante bajo debido a que hay que realizar un proceso completo de traducción. Ejemplo: QEMU, Wine, ...
 
 ![img](img/emulacion.png)
 
@@ -16,7 +16,7 @@ El hipervisor simula un hardware suficiente para permitir que un sistema operati
 
     ![img](img/virt_hw.png)
 
-* **Virtualización completa**: En este tipo se usan **hipervisores de tipo 2**. Este software se instala sobre el sistema operativo del host, pero no controla directamente el hardware físico. Ofrecen menos rendimiento que la virtualización por hardware. Ejemplos: VMware Workstation, Parallels Desktop, VirtualBox, VMware Player, ...
+* **Virtualización completa**: En este tipo se usan **hipervisores de tipo 2**. Este software se instala sobre el sistema operativo del host, pero no controla directamente el hardware físico. Ofrecen menos rendimiento que la virtualización por hardware. Ejemplos: VMware Workstation Pro, Parallels Desktop, VirtualBox, ...
 
     ![img](img/virt_completa.png)
 

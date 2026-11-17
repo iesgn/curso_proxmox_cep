@@ -9,7 +9,7 @@ Participar en el foro: **¿Qué experiencia previa tienes sobre virtualización?
 1. ¿Qué sistema de virtualización utilizas con tus alumnos? ¿En qué módulos utilizas la virtualización?
 2. ¿Qué ventajas te aporta la virtualización a la hora de impartir tus materias? ¿Y desventajas?
 3. A priori, y sin haber realizado este curso. ¿Qué ventajas piensas que puede aportar el uso de Proxmox VE a tu trabajo como docente?
-4. Quizás ya lo estéis usando en vuestro instituto, pero si no es así, ¿existe planes en vuestro departamento para instalar un servidor Proxmox y dar servicio a los alumnos?
+4. Quizás ya lo estéis usando en vuestro instituto, pero si no es así, ¿existen planes en vuestro departamento para instalar un servidor Proxmox y dar servicio a los alumnos?
 
 
 ## RECURSOS
@@ -50,4 +50,4 @@ No
 
 ## TIEMPO ESTIMADO PARA REALIZAR LA ACTIVIDAD
 
-1 hora
+30 minutos

@@ -2,6 +2,8 @@
 
 **Proxmox Virtual Environment**, o **Proxmox VE** es un entorno de virtualización de servidores de código abierto. Es una distribución de GNU/Linux basada en Debian que permite el despliegue y la gestión de máquinas virtuales y contenedores.
 
+En este curso vamos a trabajar con **Proxmox VE 9**, basado en **Debian 13 (Trixie)**.
+
 ## Virtualización con Proxmox VE
 
 La versión actual de Proxmox VE nos permite gestionar los siguientes recursos virtualizados:
