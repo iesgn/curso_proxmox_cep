@@ -9,13 +9,14 @@ encontramos un panel de control que está dividido en cuatro partes:
 
 En la parte superior izquierda, lo primero que se ve es el logotipo de
 Proxmox. Junto a él se encuentra la versión actual de Proxmox VE. En
-la barra de búsqueda cercana puede buscar objetos específicos (VM,
+la barra de búsqueda situada en el centro podemos buscar objetos específicos (VM,
 contenedores, nodos, ...). A veces, esto es más rápido que seleccionar
 un objeto en el árbol de recursos.
 
 A la derecha nos encontramos varios botones:
 
-* **Documentation / Help**: nos muestran la documentación de Proxmox VE.
+* **Documentation**: nos muestra la documentación de Proxmox VE. Además, en cada
+  apartado encontraremos un botón **Help** con la ayuda correspondiente.
 * **Create VM**: Abre el asistente para crear una máquina virtual.
 * **Create CT**: Abre el asistente de creación de contenedores.
 * **Usuario** identificado en la sesión: Nos permite modificar la
@@ -31,10 +32,10 @@ podemos ver con distintas vistas:
 * **Server View**: Muestra todos los objetos, agrupados por nodos (servidores del clúster). Es
   la vista por defecto.
 * **Folder View**: Muestra todos los objetos, agrupados por tipo.
-* **Storage View**: Solo muestra los objetos de almacenamiento,
-  agrupados por nodos.
-* **Pool View**: Muestre máquinas virtuales y contenedores, agrupados
+* **Pool View**: Muestra máquinas virtuales y contenedores, agrupados
   por pools de recursos.
+* **Tag View**: Muestra máquinas virtuales y contenedores, agrupados
+  por etiquetas (*tags*).
 
 Si nos fijamos en la **Server View** podemos clasificar los objetos
 que tenemos disponibles:
@@ -47,6 +48,8 @@ Proxmox VE que estamos gestionando. Está formado por:
 * **Contenedores Linux**.
 * **Almacenamiento**: Tenemos las distintas fuentes de almacenamiento
   que tenemos disponibles.
+* **Zonas SDN**: Representan las redes definidas en el nodo. Por defecto
+  tenemos la zona `localnetwork`, que agrupa los bridges locales del nodo.
 * **Pools**: Podemos agrupar los distintos objetos en pools para
   facilitar su gestión.
 

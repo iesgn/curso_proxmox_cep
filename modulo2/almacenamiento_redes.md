@@ -17,6 +17,8 @@ almacenamiento se podrán guardar:
 * Ficheros de copia de seguridad.
 * Imágenes ISO.
 * Plantillas de contenedores.
+* Ficheros para importar (*Import*): imágenes de discos o máquinas
+  virtuales (por ejemplo, ficheros OVA) que podemos importar en Proxmox.
 
 Al ser tipo *Directory* esta información se guardará en un directorio
 del nodo, en concreto se guardará en `/var/lib/vz`.
@@ -45,7 +47,9 @@ configuración lo veremos en el módulo correspondiente.
 
 Por defecto, al instalar Proxmox VE, tenemos configurada una red pública:
 
-* `enp1s0`: Es la interfaz física del nodo.
+* `nic0`: Es la interfaz física del nodo. Como vimos en la instalación,
+  Proxmox fija el nombre de las interfaces de red (`nic0`, `nic1`, ...),
+  aunque también podemos ver su nombre alternativo (*Alternative Names*).
 * `vmbr0`: Es un *Linux Bridge* al que está conectado el nodo. En este
   bridge se conectarán por defecto las máquinas virtuales y
   contenedores que vamos a crear, que tomarán direccionamiento del
@@ -54,7 +58,7 @@ Por defecto, al instalar Proxmox VE, tenemos configurada una red pública:
   accesibles desde cualquier equipo de la red local.
 
 En mi caso, la red que tengo configurada tendrá direccionamiento
-`192.168.100.0/24` y la puerta de acceso es la `192.168.100.1`, pero
+`192.168.122.0/24` y la puerta de acceso es la `192.168.122.1`, pero
 en general se corresponderá a la red local a la que se conectó Proxmox
 durante la instalación.
 

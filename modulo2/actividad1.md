@@ -6,14 +6,15 @@
 
 Vamos a instalar el sistema de virtualización Proxmox VE, para ello sigue los siguientes pasos:
 
-1. Descarga la imagen de ISO de Proxmox VE 7.
+1. Descarga la imagen de ISO de Proxmox VE 9.
 2. Elige un hipervisor de máquinas virtuales y configura una máquina virtual con las características recomendadas que se han presentado en el contenido del tema. Recuerda que también puedes usar una máquina física para la realización del curso con recursos suficientes.
 3. Realiza la instalación como se ha explicado en el contenido del tema.
 
 Para superar la actividad deberás entregar en un fichero comprimido los siguientes pantallazos:
 
-1. Si has utilizado una máquina virtual para la instalación, pantallazos donde se vean las características de la máquina que has creado. Si has escogido la opción de usar una máquina física, un documento donde expliques las características de la máquina que has usado.
-2. Un pantallazo donde se compruebe que se ha accedido a Proxmox VE desde un navegador web y se ha logueado con el usuario `root` de forma correcta.
+1. Si has utilizado una máquina virtual para la instalación, pantallazos donde se vean las características de la máquina que has creado (incluyendo la virtualización anidada activada). Si has escogido la opción de usar una máquina física, un documento donde expliques las características de la máquina que has usado.
+2. Si has utilizado VirtualBox, un pantallazo de la ventana de la máquina virtual con Proxmox VE funcionando donde se vea la barra de estado inferior. Comprueba que **no aparece el icono de la tortuga verde**, que indicaría que VirtualBox se está ejecutando sobre Hyper-V y que la virtualización anidada no funcionará (revisa el apartado *Si usas Windows como sistema anfitrión*).
+3. Un pantallazo donde se compruebe que se ha accedido a Proxmox VE desde un navegador web y se ha logueado con el usuario `root` de forma correcta.
 
 
 ## RECURSOS

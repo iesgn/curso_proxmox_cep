@@ -23,6 +23,7 @@ opciones del clúster en el panel lateral, veamos algunas de ellas:
   máquinas virtuales, contenedores, almacenamiento, ...
 * **Summary**: Ofrece una breve descripción general del estado del
   clúster y el uso de recursos.
+* **Notes**: Podemos escribir comentarios usando Markdown.
 * **Clúster**: Proporciona la funcionalidad y la información
   necesarias para crear o unirse a un clúster. Con un solo nodo
   todavía no tenemos la funcionalidad de clúster. No vamos a estudiarla en este curso.
@@ -30,12 +31,14 @@ opciones del clúster en el panel lateral, veamos algunas de ellas:
 * **Storage**: Nos permite gestionar el almacenamiento del clúster.
 * **Backup**: Nos proporciona la posibilidad de crear copias de
   seguridad de los recursos de nuestro clúster.
-* **Replication**: Cuando tenemos más de dos nodos podemos administrar
+* **Replication**: Cuando tenemos más de un nodo podemos administrar
   tareas de replicación de máquinas y contenedores en este apartado.
 * **Permissions**: Podemos administrar usuarios, grupos, permisos,
   roles, ... a nivel del clúster.
 * **HA**: Si tenemos más de un nodo podemos administrar los recursos
   que van a estar en alta disponibilidad.
+* **SDN**: Nos permite gestionar las redes definidas por software (*Software-Defined Networking*): zonas, redes virtuales (VNets), ...
+* **Notifications**: Podemos configurar cómo y a quién se envían las notificaciones del sistema (por ejemplo, por correo electrónico).
 * ...
 
 ## Nodos
