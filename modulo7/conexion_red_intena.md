@@ -18,15 +18,15 @@ La máquina *router* ya está funcionando y tiene una interfaz de red conectada 
 
 ![img](img/red9.png)
 
-Elegimos al bridge al que va a estar conectada esta nueva interfaz (recuerda elegir el **driver VirtIO**):
+Elegimos el bridge al que va a estar conectada esta nueva interfaz (**Bridge**) y comprobamos que el modelo de tarjeta (**Model**) es **VirtIO (paravirtualized)**, que es el que se propone por defecto:
 
 ![img](img/red10.png)
 
-En la red interna a la que hemos conectado la máquina no existe ningún servidor DHCP por lo que tendremos que hacer una configuración manual del direccionamiento de esta interfaz de red. La manera de hacer esta configuración dependerá del sistema operativo de la máquina que estamos configurando (en mi caso es una distribución Debian). Podemos comprobar que ya tenemos dos interfaces configuradas:
+En la red interna a la que hemos conectado la máquina no existe ningún servidor DHCP por lo que tendremos que hacer una configuración manual del direccionamiento de esta interfaz de red. La manera de hacer esta configuración dependerá del sistema operativo de la máquina que estamos configurando (en mi caso es una distribución Debian 13). Podemos comprobar que ya tenemos dos interfaces, aunque la nueva todavía no está configurada (estado `DOWN`):
 
 ![img](img/red11.png)
 
-La nueva interfaz se llama `ens19` y es la que tenemos que configurar. Para ello modificamos el fichero `/etc/network/interfaces` y añadimos el siguiente contenido:
+La nueva interfaz se llama `ens19` y es la que tenemos que configurar. Para ello modificamos el fichero `/etc/network/interfaces` y añadimos al final el siguiente contenido:
 
 ![img](img/red12.png)
 
@@ -45,7 +45,7 @@ Una vez creada, comprobamos que esta máquina está conectada a **vmbr1**:
 
 ![img](img/red15.png)
 
-De la misma forma que hemos configurado la ip en la máquina *router*, vamos a configurar la ip de esta máquina. Vamos a configurar la ip `10.0.0.2/24`:
+De la misma forma que hemos configurado la ip en la máquina *router*, vamos a configurar la ip de esta máquina. En este caso, su única interfaz es `ens18` y la configuramos con la ip `10.0.0.2/24`:
 
 ![img](img/red16.png)
 

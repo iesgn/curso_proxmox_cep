@@ -8,31 +8,33 @@ El cortafuegos hay que activarlo a tres niveles:
 
 ### A nivel de Datacenter
 
-Para activar el cortafuegos a nivel del clúster de servidores, tenemos que activar en la opción **Datacenter - Firewall - Options**:
+Por defecto, el cortafuegos está desactivado a nivel de Datacenter. Para activar el cortafuegos a nivel del clúster de servidores, tenemos que activarlo en la opción **Datacenter - Firewall - Options**, seleccionando la opción **Firewall** y pulsando el botón **Edit**:
 
 ![img](img/firewall1.png)
 
-Aunque no es necesario, para obtener más seguridad en el acceso de los servidores del clúster, podemos cambiar la política para denegar por defecto todo el tráfico de salida, para ello cambiamos la **Output Policy a DROP**.
+Aunque no es necesario, para obtener más seguridad en el acceso de los servidores del clúster, podemos cambiar la política para denegar por defecto todo el tráfico de salida, para ello cambiamos la **Output Policy a DROP**. La opción **Forward Policy** se aplica al tráfico que el servidor reenvía y solo se tiene en cuenta con el nuevo cortafuegos basado en *nftables*.
 
 En este nivel también puedes configurar:
 
 * **Security Group**: Conjuntos de reglas de cortafuegos que posteriormente podemos asignar a un cortafuegos de una máquina.
 * **Alias**: Nos permite nombrar direcciones IP para que sea más sencillo crear las reglas de cortafuegos.
-* **IPSec**: Nos permite crear grupos de IP para facilitar la asignación de reglas de cortafuegos a varias IP. 
+* **IPSet**: Nos permite crear grupos de IP para facilitar la asignación de reglas de cortafuegos a varias IP.
 
 Estos elementos no lo vamos a usar en este curso.
 
 ### A nivel de Servidor
 
-En este caso volvemos a activar el cortafuegos eligiendo el nombre del nodo, en mi caso la opción **pve - Firewall - Options**:
+A nivel de servidor el cortafuegos ya viene activado por defecto. Podemos comprobarlo eligiendo el nombre del nodo, en mi caso la opción **pve - Firewall - Options**:
 
 ![img](img/firewall2.png)
 
-Al activar el cortafuegos a nivel del servidor, se utilizan las políticas de entrada y salida por defecto que se habían configurado en el nivel de Datacenter: todo el tráfico (de entrada y de salida bloqueado, pero se mantienen abierto el puerto 8006 (para acceder a la página web) y el 22 (para el acceso por ssh al servidor).
+Al activar el cortafuegos a nivel del servidor, se utilizan las políticas de entrada y salida por defecto que se habían configurado en el nivel de Datacenter: el tráfico de entrada está bloqueado, pero desde la red local del servidor se mantienen abiertos el puerto 8006 (para acceder a la página web), el 22 (para el acceso por ssh al servidor) y los puertos que usan las consolas de las máquinas (del 5900 al 5999 y el 3128).
+
+En esta pantalla también encontramos la opción **nftables (tech preview)**, que activa un nuevo cortafuegos basado en *nftables*. Todavía es una funcionalidad en pruebas, así que la dejamos desactivada.
 
 ### Nivel de máquina/contenedor
 
-Para activar el cortafuegos para una máquina/contenedor nos vamos a la opción **Firewall - Options** del recurso:
+Por defecto, el cortafuegos está desactivado en cada máquina y contenedor. Para activarlo nos vamos a la opción **Firewall - Options** del recurso y activamos la opción **Firewall**:
 
 ![img](img/firewall3.png)
 
@@ -43,7 +45,7 @@ Vemos las políticas por defecto para esta máquina:
 
 Si quisiéramos un cortafuegos más restrictivo pondríamos las dos políticas por defecto a DROP, es decir, tanto el tráfico de entrada como el de salida estarían bloqueados, y tendríamos que ir creando reglas de cortafuegos para aceptar el tráfico que deseáramos permitir.
 
-Además, cómo una máquina o contenedor pueden tener más de una interfaz podemos activar o desactivar el cortafuegos para cada interfaz de red. Por defecto, el cortafuegos está activo en cada interfaz de red, para comprobarlo vemos las características hardware de las interfaces:
+Además, como una máquina o contenedor pueden tener más de una interfaz podemos activar o desactivar el cortafuegos para cada interfaz de red. Por defecto, el cortafuegos está activo en cada interfaz de red, para comprobarlo vemos las características hardware de las interfaces:
 
 ![img](img/firewall4.png)
 
@@ -55,11 +57,11 @@ Podemos modificar las características del interfaz de red para desactivar el co
 
 Como hemos visto anteriormente, si habilitamos el cortafuegos para una máquina tendrá permitido el tráfico hacia el exterior (**Output Policy: ACCEPT**) y tendrá denegado el tráfico desde el exterior a la máquina (**Input policy: DROP**).
 
-Partimos de una máquina que tiene un servidor ssh instalado. Está máquina tendrá conectividad al exterior, pero no tendrá conectividad desde el exterior. Vamos a poner dos ejemplos de reglas:
+Partimos de una máquina que tiene un servidor ssh instalado (en nuestro caso, la máquina *router*). Esta máquina tendrá conectividad al exterior, pero no tendrá conectividad desde el exterior. Vamos a poner dos ejemplos de reglas:
 
 ### Regla para denegar que la máquina haga ping al exterior
 
-Todo el tráfico está permitido hacía el exterior, pero vamos a denegar el ping. Para ello debemos crear una regla de salida para denegar el protocolo ICMP, para ello, a nivel de máquina virtual, vamos a añadir una regla al cortafuego, eligiendo la opción **Firewall - Add**:
+Todo el tráfico está permitido hacia el exterior, pero vamos a denegar el ping. Para ello debemos crear una regla de salida para denegar el protocolo ICMP, para ello, a nivel de máquina virtual, vamos a añadir una regla al cortafuego, eligiendo la opción **Firewall - Add**:
 
 ![img](img/firewall5.png)
 
@@ -69,7 +71,7 @@ Ahora creamos la regla de cortafuegos, indicando si es de entrada o salida (en n
 
 ## Regla para permitir el acceso por ssh a la máquina
 
-En esta ocasión tenemos que crear una regla que permita (acción **ACCEPT**) la entrada (dirección **in**) por el puerto de destino 22 del protocolo TCP. En esta ocasión no vamos a elegir el servicio de la lista de **Macro**, lo vamos a indicar directamente. Quedaría:
+En esta ocasión tenemos que crear una regla que permita (acción **ACCEPT**) la entrada (dirección **in**) por el puerto de destino 22 (**Dest. port**) del protocolo TCP. En esta ocasión no vamos a elegir el servicio de la lista de **Macro**, lo vamos a indicar directamente. Quedaría:
 
 ![img](img/firewall7.png)
 
@@ -83,7 +85,7 @@ Podemos comprobar que, aunque tiene permitido todo el acceso al exterior hemos b
 
 ![img](img/firewall9.png)
 
-Y podemos comprobar que desde una máquina externa podemos acceder por ssh, aunque todo el tráfico desde el exterior estaba bloqueado:
+Y podemos comprobar que desde una máquina externa (en el ejemplo, el contenedor LXC que creamos en el módulo anterior) podemos acceder por ssh, aunque todo el tráfico desde el exterior estaba bloqueado:
 
 ![img](img/firewall10.png)
 
