@@ -10,7 +10,8 @@ Además, podríamos tener un grupo de profesores que fueran administradores y qu
 
 1. Vamos a crear un grupo **Profesores** al que le vamos a asignar el rol de `Administrator`.
 2. Para cada alumno, vamos a crear un usuario y un pool de recursos. Por ejemplo, vamos a crear el usuario `alumno1` y el pool de recursos `Proyecto_de_alumno1`.
-3. A cada alumno le vamos a asignar los roles de `PVEDatastoreUser`, `PVEVMAdmin` y `PVEPoolUSer` para el pool de recursos asociado. De esta manera cada alumno podrá gestionar sus máquinas si están creados en su pool de recursos.
+3. A cada alumno le vamos a asignar los roles de `PVEDatastoreUser`, `PVEVMAdmin` y `PVEPoolUser` para el pool de recursos asociado. De esta manera cada alumno podrá gestionar sus máquinas si están creados en su pool de recursos.
+4. Para que los alumnos puedan conectar sus máquinas a la red, también les vamos a asignar el rol `PVESDNUser` sobre `/sdn/zones/localnetwork` (la zona que contiene los Linux Bridge del nodo, como `vmbr0`).
 
 Hemos creado el grupo **Profesores** con el usuario **profesor1**:
 
@@ -28,13 +29,17 @@ Para que los usuarios puedan crear máquinas virtuales en sus pools de recursos 
 
 ![usuarios](img/usuario21.png)
 
-Y por último asignamos los permisos:
+Los permisos sobre la red los asignamos seleccionando **localnetwork** en el árbol de recursos y eligiendo **Permissions - Add - User Permission** (como vimos en el apartado anterior):
+
+![usuarios](img/usuario27.png)
+
+Y por último comprobamos los permisos que hemos asignado:
 
 ![usuarios](img/usuario22.png)
 
 ## Prueba de funcionamiento
 
-1. Accedemos con el usuario `alumno1` y comprobamos que sólo ve el pool de recursos `Proyecto_de_alumno1`. Este usuario sólo tiene permiso para crear máquinas dentro de este pool de recursos. Podemos probar a crear una máquina en su Pool de Recurso:
+1. Accedemos con el usuario `alumno1` (eligiendo la fuente de autentificación *Proxmox VE Authentication Server*) y comprobamos que sólo ve el pool de recursos `Proyecto_de_alumno1`. Este usuario sólo tiene permiso para crear máquinas dentro de este pool de recursos (en la pestaña **General** del asistente tiene que elegir el **Resource Pool**). Podemos probar a crear una máquina en su Pool de Recurso:
 
 ![usuarios](img/usuario23.png)
 

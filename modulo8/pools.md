@@ -12,7 +12,7 @@ Un pool se puede editar (para cambiar el comentario) y eliminar (un pool sólo s
 
 ## Asignación de recursos a un pool
 
-Para gestionar los pools de recursos es aconsejable usar la vista de pools (*Pool View*). Escogemos el pool y en el apartado *Members* podemos añadir los medios de almacenamiento y las máquinas virtuales o contenedores que van a pertenecer a este pool.
+Para gestionar los pools de recursos es aconsejable usar la vista de pools (*Pool View*). Para cambiar de vista, usamos el desplegable que hay encima del árbol de recursos (por defecto *Server View*) y elegimos *Pool View*. Escogemos el pool y en el apartado *Members* podemos añadir (**Add**) los medios de almacenamiento (**Storage**) y las máquinas virtuales o contenedores (**Virtual Machine**) que van a pertenecer a este pool.
 
 ![usuarios](img/usuario6.png)
 
@@ -24,7 +24,7 @@ En este ejemplo hemos incluido todos los medios de almacenamiento y una máquina
 
 Una máquina virtual o contenedor sólo puede pertenecer a un pool en un determinado momento.
 
-Al crear una máquina virtual o un contenedor podemos indicar al pool de recursos que va a pertenecer:
+Al crear una máquina virtual o un contenedor podemos indicar al pool de recursos que va a pertenecer (**Resource Pool**):
 
 ![usuarios](img/usuario8.png)
 

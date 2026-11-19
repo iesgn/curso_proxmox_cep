@@ -12,6 +12,7 @@ Un **privilegio** es el derecho a realizar una acción específica. Para simplif
     * `Sys.Syslog`: ver el syslog.
     * `Sys.Audit`: ver el estado/configuración del nodo, la configuración del clúster.
     * `Sys.Modify`: crear/modificar/eliminar los parámetros de red del nodo.
+    * `Sys.Incoming`: permitir la recepción de datos desde otros clústeres (experimental).
     * `Group.Allocate`: crear/modificar/eliminar grupos.
     * `Pool.Allocate`: crear/modificar/eliminar un pool de recursos.
     * `Pool.Audit`: ver un pool de recursos.
@@ -19,24 +20,40 @@ Un **privilegio** es el derecho a realizar una acción específica. Para simplif
     * `Realm.AllocateUser`: asignar un usuario a una fuente de autentificación.
     * `User.Modify`: crear/modificar/eliminar el acceso y los detalles del usuario.
 
+* Privilegios relacionados con las redes (SDN) y los mapeos de recursos:
+
+    * `SDN.Allocate`: gestionar la configuración del SDN.
+    * `SDN.Audit`: ver la configuración del SDN.
+    * `SDN.Use`: usar las redes virtuales (VNets) y los bridges locales del nodo, es decir, poder conectar a ellos las tarjetas de red de las máquinas virtuales y contenedores.
+    * `Mapping.Audit`: ver los mapeos de recursos (dispositivos del servidor que se pueden asignar a las máquinas).
+    * `Mapping.Modify`: crear/modificar/eliminar mapeos de recursos.
+    * `Mapping.Use`: usar un mapeo de recursos en una máquina virtual.
+
 * Privilegios relacionados con la máquina virtual o contenedor:
 
     * `VM.Allocate`: crear/eliminar máquinas virtuales/contenedores en un servidor.
     * `VM.Migrate`: migrar las máquinas virtuales/contenedores a un servidor alternativo en el clúster.
     * `VM.PowerMgmt`: gestión de la energía (arranque, parada, reinicio, apagado, ...) de una máquina virtual.
     * `VM.Console`: acceso a la consola de las máquinas virtuales/contenedores.
-    * `VM.Monitor`: acceso al monitor de las máquinas virtuales/contenedores.
     * `VM.Backup`: copia de seguridad/restauración de máquinas virtuales/contenedores.
     * `VM.Audit`: ver la configuración de las máquinas virtuales/contenedores.
     * `VM.Clone`: clonar/copiar máquinas virtuales/contenedores.
-    * `VM.Config.Disc`: añadir/modificar/eliminar discos.
+    * `VM.Config.Disk`: añadir/modificar/eliminar discos.
     * `VM.Config.CDROM`: expulsar/cambiar CD-ROM.
     * `VM.Config.CPU`: modificar la configuración de la CPU.
     * `VM.Config.Memory`: modificar la configuración de la memoria.
     * `VM.Config.Network`: añadir/modificar/eliminar dispositivos de red.
     * `VM.Config.HWType`: modificar los tipos de hardware emulados.
     * `VM.Config.Options`: modificar cualquier otra configuración de las máquinas virtuales/contenedores.
+    * `VM.Config.Cloudinit`: modificar los parámetros de Cloud-Init.
     * `VM.Snapshot`: crear/borrar instantáneas de las máquinas virtuales/contenedores.
+    * `VM.Snapshot.Rollback`: volver a una instantánea de una máquina virtual.
+    * `VM.Replicate`: configurar y ejecutar la replicación de una máquina virtual.
+    * `VM.GuestAgent.Audit`: ejecutar comandos informativos del agente QEMU.
+    * `VM.GuestAgent.FileRead`: leer ficheros de la máquina virtual mediante el agente QEMU.
+    * `VM.GuestAgent.FileWrite`: escribir ficheros en la máquina virtual mediante el agente QEMU.
+    * `VM.GuestAgent.FileSystemMgmt`: congelar/descongelar/optimizar (*trim*) los sistemas de ficheros mediante el agente QEMU.
+    * `VM.GuestAgent.Unrestricted`: ejecutar cualquier comando del agente QEMU.
 
 * Privilegios relacionados con el almacenamiento:
 
@@ -55,9 +72,13 @@ Como se ha indicado los privilegios no se asignan directamente. Los **roles** so
 * `PVEAuditor`: sólo tiene acceso de lectura.
 * `PVEDatastoreAdmin`: crea y asigna el espacio y las plantillas de las copias de seguridad.
 * `PVEDatastoreUser`: asigna el espacio de copia de seguridad y ve el almacenamiento.
+* `PVEMappingAdmin`: gestionar los mapeos de recursos.
+* `PVEMappingUser`: ver y utilizar los mapeos de recursos.
 * `PVEPoolAdmin`: asigna Pools de Recursos.
 * `PVEPoolUser`: ver o utilizar Pools de Recursos.
-* `PVESysAdmin`: permisos de usuario, auditoría, consola del sistema y registros del sistema.
+* `PVESDNAdmin`: gestionar la configuración del SDN.
+* `PVESDNUser`: usar las redes virtuales y los bridges (poder conectar máquinas a ellos).
+* `PVESysAdmin`: auditoría, consola del sistema y registros del sistema.
 * `PVETemplateUser`: ver y clonar plantillas de contenedores.
 * `PVEUserAdmin`: gestionar usuarios.
 * `PVEVMAdmin`: administrar completamente las máquinas virtuales/contenedores.
@@ -77,6 +98,9 @@ Ejemplo de rutas:
 * `/vms/{vmid}`: Indica una máquina virtual o contenedor con un id determinado.
 * `/storage/{storeid}`: Indica una fuente de almacenamiento con un id determinado.
 * `/pool/{poolname}`: Indica un pool de recursos con un nombre determinado.
+* `/sdn/zones/localnetwork`: Indica los bridges del nodo (`vmbr0`, `vmbr1`, ...), que vimos en el módulo anterior dentro de la zona `localnetwork`.
+* `/sdn/zones/localnetwork/{bridge}`: Indica un bridge concreto, por ejemplo `/sdn/zones/localnetwork/vmbr1`.
+* `/sdn/zones/{zona}/{vnet}`: Indica una red virtual (VNet) de una zona del SDN.
 * ...
 
 Como hemos indicado un permiso está formado por una terna: Usuario/Grupo, Objeto/Ruta y Rol. Por ejemplo, vamos a asignar a los usuarios del *grupo1* permiso de auditor (`PVEAuditor`) para todas las máquinas virtuales o contenedores.
@@ -96,10 +120,20 @@ Y podemos ir viendo los permisos que estamos asignando:
 
 ## Permisos y redes
 
-Como has podido comprobar, no tenemos ningún conjunto de privilegios que nos permita especificar los permisos sobre las redes internas que hemos creado y sobre los linux Bridge que se han creado.
+Las redes también se controlan con permisos. El privilegio **SDN.Use** es el que permite a un usuario conectar una máquina virtual o un contenedor a una red, tanto a un Linux Bridge del nodo (como `vmbr0` o el `vmbr1` que creamos en el módulo anterior) como a una VNet del SDN. Está incluido en los roles `PVESDNUser`, `PVESDNAdmin`, `PVEAdmin` y `Administrator`. El permiso se asigna sobre una ruta, que puede ser:
 
-Es más, sólo puede crear nuevos Linux Bridge, que nos posibilitan la opción de conectar nuestros recursos virtualizados a redes internas, el usuario `root`. Además, también observamos que no podemos agrupar en un pool de recursos los Linux Bridge creados. Esto implica, que cualquier usuario que acceda, puede usar cualquier Linux Bridge creado.
+* `/sdn/zones/localnetwork`: todos los bridges del nodo.
+* `/sdn/zones/localnetwork/vmbr1`: un bridge concreto. Así podemos conseguir que un usuario sólo pueda usar un bridge determinado.
+* `/sdn/zones/{zona}/{vnet}`: una VNet de una zona del SDN.
 
-Aunque se está desarrollando, en las nuevas versiones de desarrollo de Proxmox, la posibilidad de que las redes sean otro recurso al que podemos asignar distintos permisos. En la versión actual no podemos asignar a los bridge creados ningún tipo de permisos. Esto puede ser una limitación desde el punto de vista de la utilización de Proxmox con los alumnos, ya que no se podría asegurar que un alumno use exclusivamente un bridge creado por el administrador.
+Si un usuario no tiene el permiso **SDN.Use** sobre ningún bridge, no podrá conectar sus máquinas a ninguna red: al crear una máquina virtual, el campo **Bridge** de la pestaña **Network** aparece vacío y no se puede continuar con el asistente (la única opción sería marcar *No network device*).
+
+![usuarios](img/usuario26.png)
+
+Por lo tanto, además de los permisos sobre las máquinas virtuales y las fuentes de almacenamiento, tendremos que dar a nuestros usuarios el rol `PVESDNUser` sobre las redes que queremos que utilicen. Podemos hacerlo desde **Datacenter - Permissions** o, de forma más sencilla, seleccionando **localnetwork** en el árbol de recursos y eligiendo la opción **Permissions - Add - User Permission** (o **Group Permission**):
+
+![usuarios](img/usuario27.png)
+
+De esta forma podemos asegurar que un alumno sólo utilice las redes que ha creado el administrador. Recuerda que los Linux Bridge no se pueden agrupar en un pool de recursos, por lo que los permisos sobre las redes se asignan siempre con estas rutas. Además, para crear nuevos Linux Bridge hace falta el privilegio `Sys.Modify`, que sólo tiene el rol `Administrator`.
 
 * [Vídeo: Gestión de Permisos](https://youtu.be/hodVVKQ6Y_4)
