@@ -9,15 +9,21 @@ Tenemos varias opciones para gestionar nuestras máquinas virtuales:
 * **Start**: Iniciamos la ejecución de una máquina virtual.
 * **Pause**: Pausa la ejecución de la máquina virtual. Podremos
   reanudar la ejecución con la opción **Resume**.
-* **Hibernate**: Se guarda el estado de la máquina en memoria y se
-  para. La próxima vez que iniciemos la máquina se recuperará el
-  estado anterior de la máquina.
+* **Hibernate**: Se guarda el estado de la máquina (el contenido de su
+  memoria) en disco y se para. La próxima vez que iniciemos la máquina
+  se recuperará el estado anterior de la máquina.
 * **Shutdown**: Se termina la ejecución de la máquina de forma
   ordenada.
 * **Stop**: Se termina inmediatamente la ejecución de la máquina.
+* **Reboot**: Se reinicia la máquina de forma ordenada.
+* **Reset**: Se reinicia inmediatamente la máquina, como si
+  pulsáramos el botón de reinicio de un equipo físico.
 * **Clone**: Nos permite clonar la máquina.
 * **Convert to template**: Nos permite crear una plantilla a partir de
   la máquina para crear nuevas máquinas. Estas dos últimas opciones la
+  estudiaremos en un módulo posterior.
+* **Take Snapshot** y **Backup now**: Nos permiten crear una
+  instantánea o una copia de seguridad de la máquina. También las
   estudiaremos en un módulo posterior.
 * **Console**: Nos permite acceder a una consola para trabajar con la
   máquina.
@@ -29,11 +35,11 @@ opciones sobre la máquina:
 
 ![gestion](img/gestion2.png)
 
-* **Sumary**: Resumen y monitorización de la máquina elegida.
+* **Summary**: Resumen y monitorización de la máquina elegida.
 * **Console**: Nos permite acceder a una consola para trabajar con la máquina.
 * **Hardware**: Nos permite ver y cambiar la configuración
   hardware. Lo estudiaremos en el siguiente apartado.
-* **Cloud-init**: Cloud-init nos permite hacer una configuración
+* **Cloud-Init**: Cloud-init nos permite hacer una configuración
   automática de la máquina. No lo vamos a estudiar en este curso.
 * **Options**: Nos permite modificar opciones de la máquina
   virtual. Lo estudiaremos en el siguiente apartado.
@@ -45,12 +51,12 @@ opciones sobre la máquina:
   estudiaremos en un módulo posterior.
 * **Replication** Nos permite gestionar las réplicas de la máquina
   entre distintos nodos del clúster de Proxmox VE. No lo estudiaremos en este curso.
-* **Snapshot**: Nos permite crear un snapshot de la máquina para
+* **Snapshots**: Nos permite crear un snapshot de la máquina para
   recuperar posteriormente su estado. Lo estudiaremos en un módulo
   posterior.
 * **Firewall**: Nos permite gestionar el cortafuego de la máquina
   virtual. Lo estudiaremos en un módulo posterior.
-* **Permisssions**: Nos permite especificar los distintos permisos que
+* **Permissions**: Nos permite especificar los distintos permisos que
   tienes los usuarios o grupos sobre la máquina. Lo estudiaremos en un
   módulo posterior.
 

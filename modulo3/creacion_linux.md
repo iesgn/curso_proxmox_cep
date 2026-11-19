@@ -22,25 +22,34 @@ Indicamos el nodo donde se va a crear la máquina, su ID y su nombre.
 
 Elegimos la ISO que vamos a utilizar para realizar la instalación. La
 ISO la escogeremos del medio de almacenamiento *local*. También
-seleccionamos el tipo de sistema operativo y la versión.
+seleccionamos el tipo de sistema operativo (*Linux*) y la versión (por
+defecto, *7.x - 2.6 Kernel*, válida para cualquier distribución
+actual).
 
 ![crearVM](img/create_vm_3.png)
 
 ### Configuración del sistema
 
-Elegimos la tarjeta gráfica y el controlador *VirtIO SCSI*, dejamos
-los valores por defecto.
+Dejamos los valores por defecto: tarjeta gráfica *Default*, máquina
+*i440fx*, BIOS *SeaBIOS* y controlador de discos *VirtIO SCSI
+single*. Además, marcamos la opción **Qemu Agent**, que estudiaremos
+en un apartado posterior.
 
 ![crearVM](img/create_vm_4.png)
 
 ### Selección del disco
 
 En este apartado seleccionamos la configuración del disco raíz de la
-máquina que vamos a crear. Los valores de BUS/Device y Cache la
-dejamos por defecto. Por ahora sólo podemos escoger un medio de
-almacenamiento para almacenar el disco: *local-pve*, es decir, el
-disco de la máquina se guardará en un volumen lógico. También
-indicaremos el tamaño del disco.
+máquina que vamos a crear. Los valores de BUS/Device, Cache e *IO
+thread* los dejamos por defecto. Por ahora sólo podemos escoger un
+medio de almacenamiento para almacenar el disco: *local-lvm*, es
+decir, el disco de la máquina se guardará en un volumen lógico. También
+indicaremos el tamaño del disco (por defecto, 32 GiB).
+
+A la izquierda aparece la lista de discos de la máquina: con el botón
+**Add** podemos añadir más discos y con **Import** podemos crear un
+disco a partir de una imagen ya existente. Por ahora nos quedamos con
+un solo disco.
 
 ![crearVM](img/create_vm_5.png)
 
@@ -51,26 +60,30 @@ PC donde puede conectar una CPU. Esta CPU puede contener uno o varios
 núcleos (Cores), que son unidades de procesamiento
 independientes. Podemos elegir el número de Sockets y Cores de la CPU
 de nuestra máquina. Además, podemos emular distintos tipos de CPU, por
-el momento elegimos la opción por defecto.
+el momento elegimos la opción por defecto (*x86-64-v2-AES*).
 
 ![crearVM](img/create_vm_6.png)
 
 ### Configuración de la memoria
 
 Indicamos la cantidad de memoria que tendrá nuestra máquina virtual
-(en MiB no MB (!)).
+(en MiB no MB (!)). Por defecto se asignan 2048 MiB; para una máquina
+Linux sin entorno gráfico es suficiente con 1024 MiB.
 
 ![crearVM](img/create_vm_7.png)
 
 ### Configuración de red
 
-En un principio nuestra máquina estará conectada al bridge externo `vmbr0` por lo que tomará una dirección IP del servidor DHCP de tu red local. No configuramos VLAN. El modelo de la tarjeta (*VirtIO*) y la dirección MAC lo dejamos con las opciones predeterminadas.
+En un principio nuestra máquina estará conectada al bridge externo `vmbr0` por lo que tomará una dirección IP del servidor DHCP de tu red local. No configuramos VLAN. El modelo de la tarjeta (*VirtIO*), la dirección MAC y la opción *Firewall* los dejamos con las opciones predeterminadas.
 
 ![crearVM](img/create_vm_8.png)
 
 ### Comienza la instalación
 
-Se ha creado la máquina  virtual, la iniciamos:
+En la última pantalla (*Confirm*) se muestra un resumen de la
+configuración. Si marcamos la opción *Start after created*, la máquina
+se iniciará al terminar el asistente. Si no, una vez creada la
+máquina virtual, la iniciamos:
 
 ![crearVM](img/create_vm_9.png)
 
