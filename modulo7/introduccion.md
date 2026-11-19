@@ -11,7 +11,7 @@ Antes de estudiar detenidamente cada una de estos niveles, vamos a introducir un
 
 En Proxmox VE 9 tenemos dos herramientas para crear las redes a las que se conectan las máquinas virtuales y los contenedores:
 
-* **La configuración de red de cada nodo**, en la opción **System - Network** del nodo. Es la forma "clásica": en cada servidor creamos los bridges (**Linux Bridge**) y, si hace falta, otros elementos como la agregación de enlaces (**Linux Bond**) o las VLAN (**Linux VLAN**). Esta configuración se guarda en el fichero `/etc/network/interfaces` del servidor. **Es la que vamos a usar en este curso.**
+* **La configuración de red de cada nodo**, en la opción **System - Network** del nodo. Es la forma más sencilla: en cada servidor creamos los bridges (**Linux Bridge**) y, si hace falta, otros elementos como la agregación de enlaces (**Linux Bond**) o las VLAN (**Linux VLAN**). Esta configuración se guarda en el fichero `/etc/network/interfaces` del servidor. **Es la que vamos a usar en este curso.**
 * **SDN** (*Software-Defined Networking*, redes definidas por software), en la opción **Datacenter - SDN**. Viene instalado por defecto desde Proxmox VE 8.1. Nos permite definir las redes virtuales para todo el clúster desde un único sitio, y Proxmox se encarga de crearlas en cada nodo.
 
 Los conceptos básicos del SDN son:
@@ -39,7 +39,7 @@ También aparece en la opción **Datacenter - SDN**, que muestra el estado de to
 
 ![img](img/sdn2.png)
 
-En resumen, **localnetwork** son los Linux Bridge de siempre vistos desde el SDN. Si creamos zonas en **Datacenter - SDN**, aparecerán en el árbol junto a ella.
+En resumen, **localnetwork** son los Linux Bridge del nodo vistos desde el SDN. Si creamos zonas en **Datacenter - SDN**, aparecerán en el árbol junto a ella.
 
 ## ¿Qué vamos a usar en este curso?
 
