@@ -38,9 +38,9 @@ momento, y si es necesario podremos volver a ese estado a posteriori.
 
 ## Aprovisionamiento ligero
 
-Todas las **fuentes de almacenamiento** que nos permiten la realización
+Casi todas las **fuentes de almacenamiento** que nos permiten la realización
 de instantáneas, también nos proporcionan la funcionalidad del
-**aprovisionamiento ligero**. Si utilizamos está característica la
+**aprovisionamiento ligero** (la excepción son las instantáneas en LVM que se explican más abajo). Si utilizamos esta característica la
 información guardada en el almacenamiento de una máquina virtual
 estará formada por una imagen base y sólo se guardará los cambios que
 se van produciendo en esa máquina.
@@ -66,13 +66,16 @@ previa de almacenamiento.
 |NFS|Sist. Ficheros|Si|No (Si, con ficheros qcow2)|
 |CIFS|Sist. Ficheros|Si|No (Si, con ficheros qcow2)|
 |Proxmox Backup|Sist. Ficheros / Disp. Bloque|Si|No|
-|GlusterFS|Sist. Ficheros|Si|No (Si, con ficheros qcow2)|
 |CephFS|Sist. Ficheros|Si|Si|
-|LVM|Disp. Bloque|No (Si, usando iSCSI)|No|
+|LVM|Disp. Bloque|No (Si, usando iSCSI)|No (Instantáneas sí, como cadena de volúmenes\*)|
 |LVM-thin|Disp. Bloque|No|Si|
 |iSCSI|Disp. Bloque|Si|No|
 |Ceph/RBD|Disp. Bloque|Si|Si|
 |ZFS over iSCSI|Disp. Bloque|Si|Si|
+
+\* **Novedad de Proxmox VE 9**: las instantáneas como **cadena de volúmenes** (*snapshots as volume chains*). Cada instantánea guarda el estado del disco en un volumen y los cambios posteriores se escriben en un volumen nuevo, que se apoya en el anterior. Se activa con la opción **Allow Snapshots as Volume-Chain** al crear un almacenamiento de tipo LVM, Directory, NFS o CIFS. En LVM permite hacer instantáneas, pero sin aprovisionamiento ligero: cada volumen ocupa todo su tamaño. En la versión 9.2 todavía es una *technology preview* (una funcionalidad en pruebas).
+
+**Nota:** Proxmox VE 9 ya no admite el almacenamiento de tipo **GlusterFS**.
 
 ## ¿Qué podemos guardar en las distintas fuentes de almacenamiento?
 
@@ -83,8 +86,9 @@ distintos tipos:
 * **Containers**: Sistema de ficheros de los contenedores Linux.
 * **ISO image**: Imágenes ISO.
 * **Container template**: Plantillas de contenedores.
-* **VZDump backup files**: Ficheros de copia de seguridad.
-* ...
+* **Backup**: Ficheros de copia de seguridad.
+* **Snippets**: Ficheros auxiliares, por ejemplo, scripts que se ejecutan en distintos momentos del ciclo de vida de una máquina virtual o contenedor.
+* **Import**: Imágenes de discos y ficheros OVA que podemos importar para crear nuevas máquinas virtuales.
 
 ## Conclusión
 

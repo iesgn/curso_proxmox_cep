@@ -1,6 +1,6 @@
 # Añadir nuevos discos a una máquina virtual
 
-En el apartado *Hardware* de cualquier máquina virtual podemos añadirle nuevos discos duros:
+En el apartado *Hardware* de cualquier máquina virtual podemos añadirle nuevos discos duros con la opción **Add → Hard Disk** (la opción **Import Hard Disk** sirve para añadir un disco a partir de una imagen que ya tengamos):
 
 ![new_disco](img/new_disco.png)
 
@@ -11,7 +11,7 @@ Al añadir el nuevo disco, tendremos que elegir en qué fuente de almacenamiento
 En nuestro caso, tenemos disponibles dos fuentes de almacenamiento:
 
 * **local-images**: De tipo `Directory`, la información del disco se guardará en un fichero de imagen.
-* **local-lvm**: De tipo `Thin-LVM`, la información del disco se guardará en un volumen LVM.
+* **local-lvm**: De tipo `LVM-Thin`, la información del disco se guardará en un volumen LVM.
 
 En nuestro caso vamos a elegir la opción **local-images**, por lo que tendremos que elegir el tipo de fichero de imagen que vamos a usar:
 
@@ -26,16 +26,17 @@ Al añadir comprobamos que la máquina tiene dos discos:
 Si accedemos a la máquina virtual (podemos hacerlo desde la terminal de Proxmox, opción `Shell` o accediendo a la máquina por ssh), podemos comprobar que tenemos un nuevo disco:
 
 ```bash
-ssh jose@192.168.100.88
+ssh usuario@192.168.122.22
 ...
-jose@debian:~$ sudo su -
+usuario@debian:~$ su -
 root@debian:~# lsblk
-NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
 sda      8:0    0   32G  0 disk 
 ├─sda1   8:1    0   31G  0 part /
 ├─sda2   8:2    0    1K  0 part 
-└─sda5   8:5    0  975M  0 part [SWAP]
+└─sda5   8:5    0 1022M  0 part [SWAP]
 sdb      8:16   0    1G  0 disk 
+sr0     11:0    1  756M  1 rom  
 ```
 
 Podemos formatear el disco:
@@ -55,13 +56,14 @@ Podemos ver las características del disco montado:
 ```bash
 root@debian:~# df -h
 S.ficheros     Tamaño Usados  Disp Uso% Montado en
-udev             976M      0  976M   0% /dev
-tmpfs            199M   436K  198M   1% /run
-/dev/sda1         31G   1,1G   28G   4% /
-tmpfs            992M      0  992M   0% /dev/shm
+udev             456M      0  456M   0% /dev
+tmpfs             97M   472K   97M   1% /run
+/dev/sda1         31G   1,2G   28G   5% /
+tmpfs            484M      0  484M   0% /dev/shm
 tmpfs            5,0M      0  5,0M   0% /run/lock
-tmpfs            199M      0  199M   0% /run/user/1000
-/dev/sdb         974M    24K  907M   1% /mnt
+tmpfs            484M      0  484M   0% /tmp
+tmpfs             97M   8,0K   97M   1% /run/user/1000
+/dev/sdb         974M   280K  906M   1% /mnt
 ```
 
 * [Vídeo: Añadir nuevos discos a una máquina virtual](https://youtu.be/hOZpZhkjlUE)
